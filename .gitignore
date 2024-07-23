@@ -1,5 +1,6 @@
 data
 data_test
+data_val
 data_train
 model_save
 smallcap
