@@ -1,0 +1,17 @@
+{"time":"2024-06-30T22:30:31.602971893+09:00","level":"INFO","msg":"using version","core version":"0.17.3"}
+{"time":"2024-06-30T22:30:31.602983062+09:00","level":"INFO","msg":"created symlink","path":"/home/yunkwan/project/radarclip/wandb/run-20240630_223031-lvqk71ee/logs/debug-core.log"}
+{"time":"2024-06-30T22:30:31.605914375+09:00","level":"INFO","msg":"created new stream","id":"lvqk71ee"}
+{"time":"2024-06-30T22:30:31.605947177+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"lvqk71ee"}}
+{"time":"2024-06-30T22:30:31.605978121+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"lvqk71ee"}}
+{"time":"2024-06-30T22:30:31.605951032+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"lvqk71ee"}}
+{"time":"2024-06-30T22:30:31.88442534+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-06-30T22:30:31.925395668+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-06-30T22:30:41.04119594+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-06-30T22:30:41.041949588+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-06-30T22:30:41.256039431+09:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-06-30T22:30:41.256050386+09:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-06-30T22:30:41.256053835+09:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-06-30T22:30:42.120985357+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"lvqk71ee"}}
+{"time":"2024-06-30T22:30:42.121032047+09:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"lvqk71ee"}}
+{"time":"2024-06-30T22:30:42.121087953+09:00","level":"INFO","msg":"closed stream","id":"lvqk71ee"}
+{"time":"2024-06-30T22:30:42.121117549+09:00","level":"ERROR","msg":"context done, not handling record","record":{"RecordType":{"Request":{"RequestType":{"InternalMessages":{}}}},"control":{"local":true,"mailbox_slot":"5gqjfcynz9pi","connection_id":"127.0.0.1:59024"},"_info":{"stream_id":"lvqk71ee"}}}

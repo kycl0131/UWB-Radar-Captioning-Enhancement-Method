@@ -1,0 +1,101 @@
+{
+    "os": "Linux-6.5.0-28-generic-x86_64-with-glibc2.35",
+    "python": "3.9.19",
+    "heartbeatAt": "2024-06-10T13:31:55.129697",
+    "startedAt": "2024-06-10T13:31:48.462403",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "host": "rfad",
+    "username": "yunkwan",
+    "executable": "/home/yunkwan/anaconda3/envs/smallcap/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3.7951666666666672,
+        "min": 800.0,
+        "max": 4600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4.407,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4.342,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4.341,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4.457,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4.405,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4.315,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4.31,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4.497,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4.377,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4.491,
+            "min": 800.0,
+            "max": 4600.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 478.46307373046875,
+            "used": 55.91869354248047
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4080",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4080",
+            "memory_total": 17171480576
+        }
+    ],
+    "memory": {
+        "total": 31.27035140991211
+    }
+}

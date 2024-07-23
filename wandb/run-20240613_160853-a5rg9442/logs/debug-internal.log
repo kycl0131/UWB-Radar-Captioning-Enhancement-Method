@@ -1,0 +1,341 @@
+2024-06-13 16:09:01,112 INFO    StreamThr :1243723 [internal.py:wandb_internal():85] W&B internal server running at pid: 1243723, started at: 2024-06-13 16:09:01.112090
+2024-06-13 16:09:01,113 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: status
+2024-06-13 16:09:01,114 INFO    WriterThread:1243723 [datastore.py:open_for_write():87] open: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/run-a5rg9442.wandb
+2024-06-13 16:09:01,114 DEBUG   SenderThread:1243723 [sender.py:send():378] send: header
+2024-06-13 16:09:01,114 DEBUG   SenderThread:1243723 [sender.py:send():378] send: run
+2024-06-13 16:09:01,603 INFO    SenderThread:1243723 [dir_watcher.py:__init__():211] watching files in: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files
+2024-06-13 16:09:01,603 INFO    SenderThread:1243723 [sender.py:_start_run_threads():1123] run started: a5rg9442 with start time 1718262540.264051
+2024-06-13 16:09:01,613 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: check_version
+2024-06-13 16:09:01,614 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: check_version
+2024-06-13 16:09:01,685 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: run_start
+2024-06-13 16:09:01,686 DEBUG   HandlerThread:1243723 [system_info.py:__init__():26] System info init
+2024-06-13 16:09:01,686 DEBUG   HandlerThread:1243723 [system_info.py:__init__():41] System info init done
+2024-06-13 16:09:01,686 INFO    HandlerThread:1243723 [system_monitor.py:start():194] Starting system monitor
+2024-06-13 16:09:01,686 INFO    SystemMonitor:1243723 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-13 16:09:01,686 INFO    HandlerThread:1243723 [system_monitor.py:probe():214] Collecting system info
+2024-06-13 16:09:01,687 INFO    SystemMonitor:1243723 [interfaces.py:start():188] Started cpu monitoring
+2024-06-13 16:09:01,687 INFO    SystemMonitor:1243723 [interfaces.py:start():188] Started disk monitoring
+2024-06-13 16:09:01,687 INFO    SystemMonitor:1243723 [interfaces.py:start():188] Started gpu monitoring
+2024-06-13 16:09:01,688 INFO    SystemMonitor:1243723 [interfaces.py:start():188] Started memory monitoring
+2024-06-13 16:09:01,688 INFO    SystemMonitor:1243723 [interfaces.py:start():188] Started network monitoring
+2024-06-13 16:09:01,694 DEBUG   HandlerThread:1243723 [system_info.py:probe():150] Probing system
+2024-06-13 16:09:01,694 DEBUG   HandlerThread:1243723 [gitlib.py:_init_repo():56] git repository is invalid
+2024-06-13 16:09:01,694 DEBUG   HandlerThread:1243723 [system_info.py:probe():198] Probing system done
+2024-06-13 16:09:01,694 DEBUG   HandlerThread:1243723 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-28-generic-x86_64-with-glibc2.35', 'python': '3.9.19', 'heartbeatAt': '2024-06-13T07:09:01.694120', 'startedAt': '2024-06-13T07:08:53.389682', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'rfad', 'username': 'yunkwan', 'executable': '/home/yunkwan/anaconda3/envs/smallcap/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3.453583333333334, 'min': 800.0, 'max': 4600.0}, 'cpu_freq_per_core': [{'current': 4.399, 'min': 800.0, 'max': 4600.0}, {'current': 4.304, 'min': 800.0, 'max': 4600.0}, {'current': 4.313, 'min': 800.0, 'max': 4600.0}, {'current': 4.303, 'min': 800.0, 'max': 4600.0}, {'current': 0.8, 'min': 800.0, 'max': 4600.0}, {'current': 0.8, 'min': 800.0, 'max': 4600.0}, {'current': 4.397, 'min': 800.0, 'max': 4600.0}, {'current': 4.413, 'min': 800.0, 'max': 4600.0}, {'current': 4.298, 'min': 800.0, 'max': 4600.0}, {'current': 4.299, 'min': 800.0, 'max': 4600.0}, {'current': 4.299, 'min': 800.0, 'max': 4600.0}, {'current': 4.3, 'min': 800.0, 'max': 4600.0}], 'disk': {'/': {'total': 478.46307373046875, 'used': 55.93842315673828}}, 'gpu': 'NVIDIA GeForce RTX 4080', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4080', 'memory_total': 17171480576}], 'memory': {'total': 31.27035140991211}}
+2024-06-13 16:09:01,694 INFO    HandlerThread:1243723 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-13 16:09:01,694 INFO    HandlerThread:1243723 [system_monitor.py:probe():227] Publishing system info
+2024-06-13 16:09:01,694 DEBUG   HandlerThread:1243723 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-06-13 16:09:02,605 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/conda-environment.yaml
+2024-06-13 16:09:04,217 DEBUG   HandlerThread:1243723 [system_info.py:_save_conda():222] Saving conda packages done
+2024-06-13 16:09:04,217 INFO    HandlerThread:1243723 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-13 16:09:04,218 DEBUG   SenderThread:1243723 [sender.py:send():378] send: files
+2024-06-13 16:09:04,218 INFO    SenderThread:1243723 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-06-13 16:09:04,297 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: python_packages
+2024-06-13 16:09:04,297 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: python_packages
+2024-06-13 16:09:04,298 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 16:09:04,298 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 16:09:04,604 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/conda-environment.yaml
+2024-06-13 16:09:04,605 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/requirements.txt
+2024-06-13 16:09:04,605 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/wandb-metadata.json
+2024-06-13 16:09:04,612 DEBUG   SenderThread:1243723 [sender.py:send():378] send: telemetry
+2024-06-13 16:09:04,949 INFO    wandb-upload_0:1243723 [upload_job.py:push():130] Uploaded file /tmp/tmp01ijajdcwandb/18a2a1yj-wandb-metadata.json
+2024-06-13 16:09:05,605 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:06,189 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 16:09:07,605 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:07,984 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 16:09:07,984 DEBUG   SenderThread:1243723 [sender.py:send():378] send: history
+2024-06-13 16:09:07,985 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 16:09:07,985 INFO    SenderThread:1243723 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 16:09:08,605 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/wandb-summary.json
+2024-06-13 16:09:08,958 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 16:09:08,959 DEBUG   SenderThread:1243723 [sender.py:send():378] send: history
+2024-06-13 16:09:08,959 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 16:09:08,959 INFO    SenderThread:1243723 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 16:09:09,606 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/wandb-summary.json
+2024-06-13 16:09:09,606 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:11,202 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 16:09:11,606 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:12,592 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 16:09:12,592 DEBUG   SenderThread:1243723 [sender.py:send():378] send: history
+2024-06-13 16:09:12,592 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 16:09:12,592 INFO    SenderThread:1243723 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 16:09:12,607 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/wandb-summary.json
+2024-06-13 16:09:13,494 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 16:09:13,495 DEBUG   SenderThread:1243723 [sender.py:send():378] send: history
+2024-06-13 16:09:13,495 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 16:09:13,495 INFO    SenderThread:1243723 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 16:09:13,607 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/wandb-summary.json
+2024-06-13 16:09:13,607 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:15,607 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:16,207 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 16:09:17,152 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 16:09:17,152 DEBUG   SenderThread:1243723 [sender.py:send():378] send: history
+2024-06-13 16:09:17,152 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 16:09:17,157 INFO    SenderThread:1243723 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 16:09:17,608 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/wandb-summary.json
+2024-06-13 16:09:17,608 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:18,131 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 16:09:18,132 DEBUG   SenderThread:1243723 [sender.py:send():378] send: history
+2024-06-13 16:09:18,132 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 16:09:18,132 INFO    SenderThread:1243723 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 16:09:18,609 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/wandb-summary.json
+2024-06-13 16:09:19,303 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 16:09:19,303 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 16:09:19,609 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:21,212 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 16:09:21,610 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:21,778 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 16:09:21,778 DEBUG   SenderThread:1243723 [sender.py:send():378] send: history
+2024-06-13 16:09:21,778 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 16:09:21,779 INFO    SenderThread:1243723 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 16:09:22,610 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/wandb-summary.json
+2024-06-13 16:09:22,779 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 16:09:22,780 DEBUG   SenderThread:1243723 [sender.py:send():378] send: history
+2024-06-13 16:09:22,780 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 16:09:22,780 INFO    SenderThread:1243723 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 16:09:23,610 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/wandb-summary.json
+2024-06-13 16:09:23,611 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:25,611 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:26,279 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 16:09:26,430 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 16:09:26,430 DEBUG   SenderThread:1243723 [sender.py:send():378] send: history
+2024-06-13 16:09:26,431 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 16:09:26,431 INFO    SenderThread:1243723 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 16:09:26,611 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/wandb-summary.json
+2024-06-13 16:09:27,400 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 16:09:27,401 DEBUG   SenderThread:1243723 [sender.py:send():378] send: history
+2024-06-13 16:09:27,401 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 16:09:27,401 INFO    SenderThread:1243723 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 16:09:27,611 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/wandb-summary.json
+2024-06-13 16:09:27,612 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:29,612 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:31,036 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 16:09:31,036 DEBUG   SenderThread:1243723 [sender.py:send():378] send: history
+2024-06-13 16:09:31,037 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 16:09:31,037 INFO    SenderThread:1243723 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 16:09:31,613 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/wandb-summary.json
+2024-06-13 16:09:31,613 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:31,992 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 16:09:31,993 DEBUG   SenderThread:1243723 [sender.py:send():378] send: history
+2024-06-13 16:09:31,997 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 16:09:32,196 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 16:09:32,196 INFO    SenderThread:1243723 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 16:09:32,613 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/config.yaml
+2024-06-13 16:09:32,613 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/wandb-summary.json
+2024-06-13 16:09:33,613 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:34,302 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 16:09:34,303 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 16:09:35,614 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:35,640 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 16:09:35,640 DEBUG   SenderThread:1243723 [sender.py:send():378] send: history
+2024-06-13 16:09:35,640 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 16:09:35,641 INFO    SenderThread:1243723 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 16:09:36,553 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 16:09:36,554 DEBUG   SenderThread:1243723 [sender.py:send():378] send: history
+2024-06-13 16:09:36,554 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 16:09:36,554 INFO    SenderThread:1243723 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 16:09:36,614 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/wandb-summary.json
+2024-06-13 16:09:37,216 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 16:09:37,614 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:39,615 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:40,191 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 16:09:40,192 DEBUG   SenderThread:1243723 [sender.py:send():378] send: history
+2024-06-13 16:09:40,192 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 16:09:40,192 INFO    SenderThread:1243723 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 16:09:40,615 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/wandb-summary.json
+2024-06-13 16:09:41,132 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 16:09:41,133 DEBUG   SenderThread:1243723 [sender.py:send():378] send: history
+2024-06-13 16:09:41,133 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 16:09:41,134 INFO    SenderThread:1243723 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 16:09:41,615 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/wandb-summary.json
+2024-06-13 16:09:41,616 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:42,291 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 16:09:43,616 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:44,859 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 16:09:44,859 DEBUG   SenderThread:1243723 [sender.py:send():378] send: history
+2024-06-13 16:09:44,859 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 16:09:44,860 INFO    SenderThread:1243723 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 16:09:45,617 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/wandb-summary.json
+2024-06-13 16:09:45,617 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:45,797 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 16:09:45,798 DEBUG   SenderThread:1243723 [sender.py:send():378] send: history
+2024-06-13 16:09:45,798 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 16:09:45,799 INFO    SenderThread:1243723 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 16:09:46,617 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/wandb-summary.json
+2024-06-13 16:09:47,352 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 16:09:47,617 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:49,302 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 16:09:49,303 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 16:09:49,455 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 16:09:49,529 DEBUG   SenderThread:1243723 [sender.py:send():378] send: history
+2024-06-13 16:09:49,529 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 16:09:49,529 INFO    SenderThread:1243723 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 16:09:49,618 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/wandb-summary.json
+2024-06-13 16:09:49,618 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:50,368 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 16:09:50,369 DEBUG   SenderThread:1243723 [sender.py:send():378] send: history
+2024-06-13 16:09:50,369 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 16:09:50,369 INFO    SenderThread:1243723 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 16:09:50,618 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/wandb-summary.json
+2024-06-13 16:09:51,619 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:52,371 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 16:09:53,619 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:53,946 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 16:09:53,947 DEBUG   SenderThread:1243723 [sender.py:send():378] send: history
+2024-06-13 16:09:53,947 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 16:09:53,947 INFO    SenderThread:1243723 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 16:09:54,619 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/wandb-summary.json
+2024-06-13 16:09:54,874 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 16:09:54,875 DEBUG   SenderThread:1243723 [sender.py:send():378] send: history
+2024-06-13 16:09:54,875 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 16:09:54,875 INFO    SenderThread:1243723 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 16:09:55,620 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/wandb-summary.json
+2024-06-13 16:09:55,620 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:57,451 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 16:09:57,620 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:58,431 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 16:09:58,431 DEBUG   SenderThread:1243723 [sender.py:send():378] send: history
+2024-06-13 16:09:58,431 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 16:09:58,432 INFO    SenderThread:1243723 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 16:09:58,621 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/wandb-summary.json
+2024-06-13 16:09:59,392 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 16:09:59,394 DEBUG   SenderThread:1243723 [sender.py:send():378] send: history
+2024-06-13 16:09:59,394 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 16:09:59,394 INFO    SenderThread:1243723 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 16:09:59,395 DEBUG   SenderThread:1243723 [sender.py:send():378] send: telemetry
+2024-06-13 16:09:59,395 DEBUG   SenderThread:1243723 [sender.py:send():378] send: exit
+2024-06-13 16:09:59,395 INFO    SenderThread:1243723 [sender.py:send_exit():585] handling exit code: 0
+2024-06-13 16:09:59,395 INFO    SenderThread:1243723 [sender.py:send_exit():587] handling runtime: 57
+2024-06-13 16:09:59,403 INFO    SenderThread:1243723 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 16:09:59,403 INFO    SenderThread:1243723 [sender.py:send_exit():593] send defer
+2024-06-13 16:09:59,403 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 16:09:59,403 INFO    HandlerThread:1243723 [handler.py:handle_request_defer():184] handle defer: 0
+2024-06-13 16:09:59,403 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: defer
+2024-06-13 16:09:59,404 INFO    SenderThread:1243723 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-06-13 16:09:59,404 INFO    SenderThread:1243723 [sender.py:transition_state():613] send defer: 1
+2024-06-13 16:09:59,404 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 16:09:59,404 INFO    HandlerThread:1243723 [handler.py:handle_request_defer():184] handle defer: 1
+2024-06-13 16:09:59,404 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: defer
+2024-06-13 16:09:59,404 INFO    SenderThread:1243723 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-06-13 16:09:59,404 INFO    SenderThread:1243723 [sender.py:transition_state():613] send defer: 2
+2024-06-13 16:09:59,404 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 16:09:59,404 INFO    HandlerThread:1243723 [handler.py:handle_request_defer():184] handle defer: 2
+2024-06-13 16:09:59,404 INFO    HandlerThread:1243723 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-13 16:09:59,404 DEBUG   SystemMonitor:1243723 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-13 16:09:59,405 INFO    HandlerThread:1243723 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-13 16:09:59,405 DEBUG   SystemMonitor:1243723 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-13 16:09:59,405 DEBUG   SystemMonitor:1243723 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-13 16:09:59,405 INFO    HandlerThread:1243723 [interfaces.py:finish():200] Joined disk monitor
+2024-06-13 16:09:59,445 INFO    HandlerThread:1243723 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-13 16:09:59,445 INFO    HandlerThread:1243723 [interfaces.py:finish():200] Joined memory monitor
+2024-06-13 16:09:59,445 INFO    HandlerThread:1243723 [interfaces.py:finish():200] Joined network monitor
+2024-06-13 16:09:59,445 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: defer
+2024-06-13 16:09:59,445 INFO    SenderThread:1243723 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-06-13 16:09:59,445 INFO    SenderThread:1243723 [sender.py:transition_state():613] send defer: 3
+2024-06-13 16:09:59,445 DEBUG   SenderThread:1243723 [sender.py:send():378] send: stats
+2024-06-13 16:09:59,445 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 16:09:59,446 INFO    HandlerThread:1243723 [handler.py:handle_request_defer():184] handle defer: 3
+2024-06-13 16:09:59,446 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: defer
+2024-06-13 16:09:59,446 INFO    SenderThread:1243723 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-06-13 16:09:59,446 INFO    SenderThread:1243723 [sender.py:transition_state():613] send defer: 4
+2024-06-13 16:09:59,446 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 16:09:59,446 INFO    HandlerThread:1243723 [handler.py:handle_request_defer():184] handle defer: 4
+2024-06-13 16:09:59,446 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: defer
+2024-06-13 16:09:59,446 INFO    SenderThread:1243723 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-06-13 16:09:59,446 INFO    SenderThread:1243723 [sender.py:transition_state():613] send defer: 5
+2024-06-13 16:09:59,446 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 16:09:59,446 INFO    HandlerThread:1243723 [handler.py:handle_request_defer():184] handle defer: 5
+2024-06-13 16:09:59,447 DEBUG   SenderThread:1243723 [sender.py:send():378] send: summary
+2024-06-13 16:09:59,447 INFO    SenderThread:1243723 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 16:09:59,447 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: defer
+2024-06-13 16:09:59,447 INFO    SenderThread:1243723 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-06-13 16:09:59,447 INFO    SenderThread:1243723 [sender.py:transition_state():613] send defer: 6
+2024-06-13 16:09:59,447 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 16:09:59,447 INFO    HandlerThread:1243723 [handler.py:handle_request_defer():184] handle defer: 6
+2024-06-13 16:09:59,447 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: defer
+2024-06-13 16:09:59,447 INFO    SenderThread:1243723 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-06-13 16:09:59,450 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 16:09:59,621 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/wandb-summary.json
+2024-06-13 16:09:59,621 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:09:59,669 INFO    SenderThread:1243723 [sender.py:transition_state():613] send defer: 7
+2024-06-13 16:09:59,669 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 16:09:59,669 INFO    HandlerThread:1243723 [handler.py:handle_request_defer():184] handle defer: 7
+2024-06-13 16:09:59,669 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: defer
+2024-06-13 16:09:59,669 INFO    SenderThread:1243723 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-06-13 16:10:00,394 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-13 16:10:00,621 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/config.yaml
+2024-06-13 16:10:01,018 INFO    SenderThread:1243723 [sender.py:transition_state():613] send defer: 8
+2024-06-13 16:10:01,019 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: poll_exit
+2024-06-13 16:10:01,019 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 16:10:01,019 INFO    HandlerThread:1243723 [handler.py:handle_request_defer():184] handle defer: 8
+2024-06-13 16:10:01,019 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: defer
+2024-06-13 16:10:01,019 INFO    SenderThread:1243723 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-06-13 16:10:01,020 INFO    SenderThread:1243723 [job_builder.py:build():432] Attempting to build job artifact
+2024-06-13 16:10:01,020 INFO    SenderThread:1243723 [job_builder.py:_get_source_type():576] no source found
+2024-06-13 16:10:01,020 INFO    SenderThread:1243723 [sender.py:transition_state():613] send defer: 9
+2024-06-13 16:10:01,020 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 16:10:01,020 INFO    HandlerThread:1243723 [handler.py:handle_request_defer():184] handle defer: 9
+2024-06-13 16:10:01,020 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: defer
+2024-06-13 16:10:01,020 INFO    SenderThread:1243723 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-06-13 16:10:01,020 INFO    SenderThread:1243723 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-06-13 16:10:01,394 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-13 16:10:01,622 INFO    Thread-24 :1243723 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:10:01,622 INFO    SenderThread:1243723 [dir_watcher.py:finish():388] scan: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files
+2024-06-13 16:10:01,622 INFO    SenderThread:1243723 [dir_watcher.py:finish():402] scan save: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/requirements.txt requirements.txt
+2024-06-13 16:10:01,622 INFO    SenderThread:1243723 [dir_watcher.py:finish():402] scan save: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/wandb-metadata.json wandb-metadata.json
+2024-06-13 16:10:01,622 INFO    SenderThread:1243723 [dir_watcher.py:finish():402] scan save: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/config.yaml config.yaml
+2024-06-13 16:10:01,622 INFO    SenderThread:1243723 [dir_watcher.py:finish():402] scan save: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/wandb-summary.json wandb-summary.json
+2024-06-13 16:10:01,622 INFO    SenderThread:1243723 [dir_watcher.py:finish():402] scan save: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/conda-environment.yaml conda-environment.yaml
+2024-06-13 16:10:01,622 INFO    SenderThread:1243723 [dir_watcher.py:finish():402] scan save: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log output.log
+2024-06-13 16:10:01,622 INFO    SenderThread:1243723 [sender.py:transition_state():613] send defer: 10
+2024-06-13 16:10:01,623 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: poll_exit
+2024-06-13 16:10:01,623 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 16:10:01,623 INFO    HandlerThread:1243723 [handler.py:handle_request_defer():184] handle defer: 10
+2024-06-13 16:10:01,623 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: defer
+2024-06-13 16:10:01,623 INFO    SenderThread:1243723 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-06-13 16:10:01,623 INFO    SenderThread:1243723 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-13 16:10:02,110 INFO    wandb-upload_2:1243723 [upload_job.py:push():130] Uploaded file /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/config.yaml
+2024-06-13 16:10:02,176 INFO    wandb-upload_1:1243723 [upload_job.py:push():130] Uploaded file /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/requirements.txt
+2024-06-13 16:10:02,185 INFO    wandb-upload_3:1243723 [upload_job.py:push():130] Uploaded file /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/conda-environment.yaml
+2024-06-13 16:10:02,212 INFO    wandb-upload_0:1243723 [upload_job.py:push():130] Uploaded file /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/wandb-summary.json
+2024-06-13 16:10:02,272 INFO    wandb-upload_4:1243723 [upload_job.py:push():130] Uploaded file /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/files/output.log
+2024-06-13 16:10:02,397 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-13 16:10:02,397 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: poll_exit
+2024-06-13 16:10:02,473 INFO    Thread-23 :1243723 [sender.py:transition_state():613] send defer: 11
+2024-06-13 16:10:02,473 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 16:10:02,473 INFO    HandlerThread:1243723 [handler.py:handle_request_defer():184] handle defer: 11
+2024-06-13 16:10:02,473 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: defer
+2024-06-13 16:10:02,473 INFO    SenderThread:1243723 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-06-13 16:10:02,474 INFO    SenderThread:1243723 [file_pusher.py:join():175] waiting for file pusher
+2024-06-13 16:10:02,474 INFO    SenderThread:1243723 [sender.py:transition_state():613] send defer: 12
+2024-06-13 16:10:02,474 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 16:10:02,474 INFO    HandlerThread:1243723 [handler.py:handle_request_defer():184] handle defer: 12
+2024-06-13 16:10:02,474 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: defer
+2024-06-13 16:10:02,474 INFO    SenderThread:1243723 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-06-13 16:10:02,474 INFO    SenderThread:1243723 [file_stream.py:finish():601] file stream finish called
+2024-06-13 16:10:03,378 INFO    SenderThread:1243723 [file_stream.py:finish():605] file stream finish is done
+2024-06-13 16:10:03,378 INFO    SenderThread:1243723 [sender.py:transition_state():613] send defer: 13
+2024-06-13 16:10:03,378 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 16:10:03,378 INFO    HandlerThread:1243723 [handler.py:handle_request_defer():184] handle defer: 13
+2024-06-13 16:10:03,378 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: defer
+2024-06-13 16:10:03,378 INFO    SenderThread:1243723 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-06-13 16:10:03,378 INFO    SenderThread:1243723 [sender.py:transition_state():613] send defer: 14
+2024-06-13 16:10:03,378 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 16:10:03,379 INFO    HandlerThread:1243723 [handler.py:handle_request_defer():184] handle defer: 14
+2024-06-13 16:10:03,379 DEBUG   SenderThread:1243723 [sender.py:send():378] send: final
+2024-06-13 16:10:03,379 DEBUG   SenderThread:1243723 [sender.py:send():378] send: footer
+2024-06-13 16:10:03,379 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: defer
+2024-06-13 16:10:03,379 INFO    SenderThread:1243723 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-06-13 16:10:03,380 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-13 16:10:03,380 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: poll_exit
+2024-06-13 16:10:03,381 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 16:10:03,381 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: server_info
+2024-06-13 16:10:03,382 DEBUG   SenderThread:1243723 [sender.py:send_request():405] send_request: server_info
+2024-06-13 16:10:03,425 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: get_summary
+2024-06-13 16:10:03,425 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: sampled_history
+2024-06-13 16:10:03,569 DEBUG   HandlerThread:1243723 [handler.py:handle_request():158] handle_request: shutdown
+2024-06-13 16:10:03,569 INFO    HandlerThread:1243723 [handler.py:finish():882] shutting down handler
+2024-06-13 16:10:04,382 INFO    WriterThread:1243723 [datastore.py:close():296] close: /home/yunkwan/project/radarclip/wandb/run-20240613_160853-a5rg9442/run-a5rg9442.wandb
+2024-06-13 16:10:04,569 INFO    SenderThread:1243723 [sender.py:finish():1545] shutting down sender
+2024-06-13 16:10:04,569 INFO    SenderThread:1243723 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-13 16:10:04,569 INFO    SenderThread:1243723 [file_pusher.py:join():175] waiting for file pusher

@@ -1,0 +1,15 @@
+Epoch 1/1000: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:32<00:00,  1.02it/s, loss=0.569]
+Epoch 1/1000, Train Loss: 0.5690, Train_acc: 0.7502, Val Loss: 2.8475 , Val_acc: 0.3805
+Epoch 2/1000: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:28<00:00,  1.06it/s, loss=0.223]
+Epoch 2/1000, Train Loss: 0.2230, Train_acc: 0.9175, Val Loss: 1.7204 , Val_acc: 0.5227
+Epoch 3/1000: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:24<00:00,  1.12it/s, loss=0.139]
+Epoch 3/1000, Train Loss: 0.1389, Train_acc: 0.9491, Val Loss: 2.1623 , Val_acc: 0.5357
+Epoch 4/1000:  62%|██████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                                 | 58/94 [00:55<00:34,  1.04it/s, loss=0.0847]
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 384, in <module>
+    main(args.train_3, args.epochs, args.batch_size, args.test_mode)
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 371, in main
+    train_model(encoder_search_resnet1D_3, train_loader, val_loader, criterion, optimizer,warmup_scheduler,cosine_scheduler, num_epochs=num_epochs,filter = LearnableLogFilter_3)
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 183, in train_model
+    running_loss += loss.item() * images.size(0)
+KeyboardInterrupt

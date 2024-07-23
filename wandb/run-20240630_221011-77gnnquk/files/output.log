@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 285, in <module>
+    main(args.train_1024, args.train_768, args.epochs, args.batch_size)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 267, in main
+    model = AutoModel.from_pretrained("Yova/SmallCap7M")
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py", line 446, in from_pretrained
+    return model_class.from_pretrained(pretrained_model_name_or_path, *model_args, config=config, **kwargs)
+  File "/home/yunkwan/project/radarclip/smallcap/src/vision_encoder_decoder.py", line 263, in from_pretrained
+    return super().from_pretrained(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/transformers/modeling_utils.py", line 2106, in from_pretrained
+    model = cls(config, *model_args, **model_kwargs)
+  File "/home/yunkwan/project/radarclip/smallcap/src/vision_encoder_decoder.py", line 224, in __init__
+    self.encoder_radar.load_state_dict(torch.load(self.model_save_path_encoder_search_resnet1D_768))
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/serialization.py", line 997, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/serialization.py", line 444, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/serialization.py", line 425, in __init__
+    super().__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/yunkwan/project/radarclip/model_save/encoder_search_resnet1D_768.pth'

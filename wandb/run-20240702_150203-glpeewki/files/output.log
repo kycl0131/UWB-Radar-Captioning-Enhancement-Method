@@ -1,0 +1,9 @@
+Epoch 1/10:   0%|                                                                                                                                                          | 0/12 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 360, in <module>
+    main(args.train_1024, args.train_768, args.epochs, args.batch_size)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 318, in main
+    train_model(encoder_search_resnet1D_1024, retrieval_model, train_loader, val_loader, criterion, optimizer, prepro_image_features_1024, num_epochs=num_epochs,filter = LearnableLogFilter_1024)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 215, in train_model
+    radars = radars.to(device).float()
+AttributeError: 'numpy.ndarray' object has no attribute 'to'

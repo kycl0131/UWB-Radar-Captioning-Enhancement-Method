@@ -1,0 +1,22 @@
+
+Epoch 1/100:   0%|          | 0/4 [00:00<?, ?it/s]
+torch.Size([3, 448, 448])
+torch.Size([3, 448, 448])
+torch.Size([32, 3, 448, 448])
+torch.Size([3, 448, 448])
+torch.Size([3, 448, 448])
+torch.Size([3, 448, 448])
+torch.Size([32, 3, 448, 448])
+torch.Size([3, 448, 448])
+torch.Size([3, 448, 448])
+torch.Size([3, 448, 448])
+torch.Size([3, 448, 448])
+torch.Size([3, 448, 448])
+torch.Size([3, 448, 448])
+torch.Size([32, 3, 448, 448])
+torch.Size([32, 3, 448, 448])
+/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/conv.py:456: UserWarning: Plan failed with an OutOfMemoryError: CUDA out of memory. Tried to allocate 128.00 MiB. GPU  (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:924.)
+  return F.conv2d(input, weight, bias, self.stride,
+/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/conv.py:456: UserWarning: Plan failed with an OutOfMemoryError: CUDA out of memory. Tried to allocate 100.00 MiB. GPU  (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:924.)
+  return F.conv2d(input, weight, bias, self.stride,
+/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/conv.py:456: UserWarning: Plan failed with an OutOfMemoryError: CUDA out of memory. Tried to allocate 198.00 MiB. GPU  (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:924.)

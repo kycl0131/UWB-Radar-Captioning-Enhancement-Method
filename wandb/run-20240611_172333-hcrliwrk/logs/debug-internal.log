@@ -1,0 +1,1229 @@
+2024-06-11 17:23:33,391 INFO    StreamThr :1051410 [internal.py:wandb_internal():85] W&B internal server running at pid: 1051410, started at: 2024-06-11 17:23:33.391166
+2024-06-11 17:23:33,392 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status
+2024-06-11 17:23:33,396 INFO    WriterThread:1051410 [datastore.py:open_for_write():87] open: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/run-hcrliwrk.wandb
+2024-06-11 17:23:33,396 DEBUG   SenderThread:1051410 [sender.py:send():378] send: header
+2024-06-11 17:23:33,397 DEBUG   SenderThread:1051410 [sender.py:send():378] send: run
+2024-06-11 17:23:33,850 INFO    SenderThread:1051410 [dir_watcher.py:__init__():211] watching files in: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files
+2024-06-11 17:23:33,850 INFO    SenderThread:1051410 [sender.py:_start_run_threads():1123] run started: hcrliwrk with start time 1718094213.390788
+2024-06-11 17:23:33,856 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: check_version
+2024-06-11 17:23:33,856 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: check_version
+2024-06-11 17:23:33,933 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: run_start
+2024-06-11 17:23:33,934 DEBUG   HandlerThread:1051410 [system_info.py:__init__():26] System info init
+2024-06-11 17:23:33,934 DEBUG   HandlerThread:1051410 [system_info.py:__init__():41] System info init done
+2024-06-11 17:23:33,934 INFO    HandlerThread:1051410 [system_monitor.py:start():194] Starting system monitor
+2024-06-11 17:23:33,934 INFO    SystemMonitor:1051410 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-11 17:23:33,934 INFO    HandlerThread:1051410 [system_monitor.py:probe():214] Collecting system info
+2024-06-11 17:23:33,934 INFO    SystemMonitor:1051410 [interfaces.py:start():188] Started cpu monitoring
+2024-06-11 17:23:33,935 INFO    SystemMonitor:1051410 [interfaces.py:start():188] Started disk monitoring
+2024-06-11 17:23:33,936 INFO    SystemMonitor:1051410 [interfaces.py:start():188] Started gpu monitoring
+2024-06-11 17:23:33,936 INFO    SystemMonitor:1051410 [interfaces.py:start():188] Started memory monitoring
+2024-06-11 17:23:33,936 INFO    SystemMonitor:1051410 [interfaces.py:start():188] Started network monitoring
+2024-06-11 17:23:33,943 DEBUG   HandlerThread:1051410 [system_info.py:probe():150] Probing system
+2024-06-11 17:23:33,944 DEBUG   HandlerThread:1051410 [gitlib.py:_init_repo():56] git repository is invalid
+2024-06-11 17:23:33,944 DEBUG   HandlerThread:1051410 [system_info.py:probe():198] Probing system done
+2024-06-11 17:23:33,944 DEBUG   HandlerThread:1051410 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-28-generic-x86_64-with-glibc2.35', 'python': '3.9.19', 'heartbeatAt': '2024-06-11T08:23:33.943812', 'startedAt': '2024-06-11T08:23:33.387054', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'rfad', 'username': 'yunkwan', 'executable': '/home/yunkwan/anaconda3/envs/smallcap/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3.4828333333333332, 'min': 800.0, 'max': 4600.0}, 'cpu_freq_per_core': [{'current': 0.8, 'min': 800.0, 'max': 4600.0}, {'current': 4.299, 'min': 800.0, 'max': 4600.0}, {'current': 4.297, 'min': 800.0, 'max': 4600.0}, {'current': 4.299, 'min': 800.0, 'max': 4600.0}, {'current': 0.8, 'min': 800.0, 'max': 4600.0}, {'current': 0.8, 'min': 800.0, 'max': 4600.0}, {'current': 4.3, 'min': 800.0, 'max': 4600.0}, {'current': 4.407, 'min': 800.0, 'max': 4600.0}, {'current': 4.48, 'min': 800.0, 'max': 4600.0}, {'current': 4.3, 'min': 800.0, 'max': 4600.0}, {'current': 4.299, 'min': 800.0, 'max': 4600.0}, {'current': 4.299, 'min': 800.0, 'max': 4600.0}], 'disk': {'/': {'total': 478.46307373046875, 'used': 55.9223747253418}}, 'gpu': 'NVIDIA GeForce RTX 4080', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4080', 'memory_total': 17171480576}], 'memory': {'total': 31.27035140991211}}
+2024-06-11 17:23:33,944 INFO    HandlerThread:1051410 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-11 17:23:33,944 INFO    HandlerThread:1051410 [system_monitor.py:probe():227] Publishing system info
+2024-06-11 17:23:33,944 DEBUG   HandlerThread:1051410 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-06-11 17:23:34,851 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/conda-environment.yaml
+2024-06-11 17:23:36,467 DEBUG   HandlerThread:1051410 [system_info.py:_save_conda():222] Saving conda packages done
+2024-06-11 17:23:36,468 INFO    HandlerThread:1051410 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-11 17:23:36,469 DEBUG   SenderThread:1051410 [sender.py:send():378] send: files
+2024-06-11 17:23:36,469 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-06-11 17:23:36,551 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: python_packages
+2024-06-11 17:23:36,551 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: python_packages
+2024-06-11 17:23:36,551 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:23:36,551 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:23:36,851 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/conda-environment.yaml
+2024-06-11 17:23:36,851 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-metadata.json
+2024-06-11 17:23:36,851 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/requirements.txt
+2024-06-11 17:23:36,852 DEBUG   SenderThread:1051410 [sender.py:send():378] send: telemetry
+2024-06-11 17:23:37,177 INFO    wandb-upload_0:1051410 [upload_job.py:push():130] Uploaded file /tmp/tmp22dbgm45wandb/xahdzhfy-wandb-metadata.json
+2024-06-11 17:23:37,851 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:23:38,531 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:23:39,852 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:23:41,852 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:23:43,853 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:23:43,858 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:23:45,853 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:23:47,854 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:23:48,911 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:23:49,854 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:23:51,551 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:23:51,552 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:23:51,855 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:23:53,855 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:23:53,911 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:23:55,856 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:23:57,856 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:23:58,925 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:23:59,857 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:24:01,857 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:24:03,858 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:24:03,941 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:24:04,858 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/config.yaml
+2024-06-11 17:24:05,858 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:24:06,551 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:24:06,552 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:24:07,859 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:24:09,234 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:24:09,859 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:24:10,844 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:24:10,845 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:24:10,845 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:24:10,846 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:24:10,859 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:24:11,860 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:24:13,860 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:24:14,847 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:24:19,541 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:24:19,542 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:24:19,543 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:24:19,544 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:24:19,862 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:24:19,898 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:24:21,551 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:24:21,552 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:24:21,862 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:24:23,863 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:24:25,320 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:24:25,863 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:24:27,864 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:24:29,864 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:24:30,411 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:24:31,865 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:24:33,866 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:24:33,936 DEBUG   SystemMonitor:1051410 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-11 17:24:33,937 DEBUG   SenderThread:1051410 [sender.py:send():378] send: stats
+2024-06-11 17:24:35,525 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:24:35,866 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:24:36,552 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:24:36,552 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:24:37,867 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:24:39,867 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:24:40,549 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:24:41,868 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:24:43,869 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:24:45,869 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:24:45,936 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:24:47,870 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:24:49,870 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:24:50,985 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:24:51,552 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:24:51,552 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:24:51,729 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:24:51,841 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:24:51,841 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:24:51,842 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:24:51,871 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:24:51,871 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:24:53,871 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:24:56,843 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:24:59,214 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:24:59,215 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:24:59,215 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:24:59,215 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:24:59,873 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:25:01,851 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:25:01,873 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:25:03,874 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:25:03,938 DEBUG   SenderThread:1051410 [sender.py:send():378] send: stats
+2024-06-11 17:25:05,874 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:25:06,552 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:25:06,552 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:25:07,164 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:25:07,875 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:25:09,876 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:25:11,876 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:25:12,532 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:25:13,877 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:25:15,877 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:25:17,878 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:25:17,882 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:25:19,879 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:25:21,552 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:25:21,552 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:25:21,879 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:25:22,949 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:25:23,880 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:25:25,880 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:25:27,881 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:25:28,004 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:25:29,881 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:25:31,032 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:25:31,033 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:25:31,033 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:25:31,033 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:25:31,882 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:25:31,882 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:25:33,034 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:25:33,882 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:25:33,938 DEBUG   SenderThread:1051410 [sender.py:send():378] send: stats
+2024-06-11 17:25:36,552 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:25:36,552 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:25:38,407 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:25:38,408 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:25:38,408 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:25:38,409 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:25:38,409 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:25:38,884 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:25:39,884 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:25:41,884 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:25:43,451 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:25:43,885 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:25:45,885 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:25:47,886 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:25:48,781 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:25:49,887 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:25:51,552 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:25:51,553 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:25:51,887 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:25:53,808 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:25:53,887 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:25:55,888 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:25:57,889 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:25:58,813 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:25:59,889 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:26:01,890 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:26:03,890 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:26:03,938 DEBUG   SenderThread:1051410 [sender.py:send():378] send: stats
+2024-06-11 17:26:03,939 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:26:05,891 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:26:06,553 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:26:06,553 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:26:07,892 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:26:09,171 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:26:09,892 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:26:10,321 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:26:10,322 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:26:10,322 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:26:10,322 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:26:10,892 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:26:11,893 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:26:14,323 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:26:17,877 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:26:17,877 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:26:17,877 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:26:17,879 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:26:17,894 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:26:19,382 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:26:19,895 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:26:21,552 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:26:21,553 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:26:21,895 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:26:23,896 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:26:24,705 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:26:25,896 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:26:27,897 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:26:29,733 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:26:29,898 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:26:31,898 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:26:33,899 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:26:33,954 DEBUG   SenderThread:1051410 [sender.py:send():378] send: stats
+2024-06-11 17:26:34,770 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:26:35,899 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:26:36,552 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:26:36,553 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:26:37,900 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:26:39,807 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:26:39,900 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:26:41,901 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:26:43,901 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:26:44,932 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:26:45,902 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:26:47,902 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:26:49,903 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:26:49,961 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:26:49,963 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:26:49,963 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:26:49,964 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:26:49,964 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:26:50,903 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:26:51,553 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:26:51,553 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:26:51,904 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:26:55,807 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:26:57,426 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:26:57,427 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:26:57,427 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:26:57,427 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:26:57,905 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:26:59,906 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:00,933 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:27:01,906 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:03,907 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:03,939 DEBUG   SenderThread:1051410 [sender.py:send():378] send: stats
+2024-06-11 17:27:05,907 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:06,366 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:27:06,553 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:27:06,553 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:27:07,908 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:09,908 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:11,689 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:27:11,909 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:13,910 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:15,910 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:17,025 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:27:17,911 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:19,911 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:21,553 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:27:21,553 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:27:21,912 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:22,342 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:27:23,912 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:25,913 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:27,363 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:27:27,913 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:29,256 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:27:29,257 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:27:29,257 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:27:29,257 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:27:29,914 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:27:29,914 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:31,914 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:33,258 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:27:33,940 DEBUG   SenderThread:1051410 [sender.py:send():378] send: stats
+2024-06-11 17:27:36,553 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:27:36,554 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:27:36,781 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:27:36,851 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:27:36,852 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:27:36,852 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:27:36,916 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:27:37,916 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:38,354 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:27:39,917 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:41,917 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:43,411 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:27:43,918 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:45,918 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:47,919 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:48,436 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:27:49,919 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:51,553 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:27:51,553 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:27:51,920 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:53,505 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:27:53,921 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:55,921 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:57,922 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:27:58,870 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:27:59,923 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:28:01,923 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:28:03,896 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:28:03,924 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:28:03,940 DEBUG   SenderThread:1051410 [sender.py:send():378] send: stats
+2024-06-11 17:28:05,924 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:28:06,553 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:28:06,554 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:28:07,925 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:28:08,934 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:28:08,936 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:28:08,936 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:28:08,936 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:28:08,937 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:28:09,925 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:28:09,926 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:28:11,926 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:28:13,938 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:28:16,445 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:28:16,446 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:28:16,446 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:28:16,447 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:28:16,927 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:28:17,928 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:28:19,118 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:28:19,928 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:28:21,553 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:28:21,554 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:28:21,929 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:28:23,929 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:28:24,126 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:28:25,930 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:28:27,931 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:28:29,411 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:28:29,931 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:28:31,932 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:28:33,933 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:28:33,941 DEBUG   SenderThread:1051410 [sender.py:send():378] send: stats
+2024-06-11 17:28:34,701 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:28:35,934 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:28:36,553 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:28:36,554 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:28:37,934 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:28:39,779 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:28:39,935 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:28:41,935 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:28:43,936 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:28:44,802 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:28:45,937 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:28:47,937 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:28:48,987 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:28:48,988 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:28:48,996 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:28:48,997 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:28:49,938 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:28:49,938 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:28:49,997 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:28:51,553 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:28:51,554 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:28:51,938 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:28:55,537 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:28:56,528 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:28:56,529 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:28:56,529 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:28:56,530 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:28:56,939 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:28:57,940 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:28:59,940 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:29:00,875 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:29:01,941 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:29:03,942 DEBUG   SenderThread:1051410 [sender.py:send():378] send: stats
+2024-06-11 17:29:03,942 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:29:05,943 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:29:06,215 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:29:06,554 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:29:06,554 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:29:07,943 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:29:09,944 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:29:11,579 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:29:11,944 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:29:13,945 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:29:15,945 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:29:16,593 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:29:17,946 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:29:19,946 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:29:21,557 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:29:21,557 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:29:21,829 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:29:21,947 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:29:23,947 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:29:25,948 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:29:26,907 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:29:27,948 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:29:28,443 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:29:28,443 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:29:28,443 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:29:28,444 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:29:28,949 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:29:29,949 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:29:32,445 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:29:33,942 DEBUG   SenderThread:1051410 [sender.py:send():378] send: stats
+2024-06-11 17:29:35,919 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:29:35,920 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:29:35,920 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:29:35,921 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:29:35,951 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:29:36,557 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:29:36,557 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:29:37,494 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:29:37,951 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:29:39,952 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:29:41,952 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:29:42,499 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:29:43,953 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:29:45,953 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:29:47,555 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:29:47,954 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:29:49,954 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:29:51,557 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:29:51,557 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:29:51,955 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:29:52,918 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:29:53,955 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:29:55,956 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:29:57,956 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:29:58,284 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:29:59,957 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:30:01,957 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:30:03,384 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:30:03,942 DEBUG   SenderThread:1051410 [sender.py:send():378] send: stats
+2024-06-11 17:30:03,958 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:30:05,958 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:30:06,557 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:30:06,557 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:30:07,959 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:30:08,598 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:30:08,600 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:30:08,601 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:30:08,601 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:30:08,601 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:30:08,959 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:30:09,959 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:30:13,602 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:30:16,104 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:30:16,105 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:30:16,105 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:30:16,105 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:30:16,961 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:30:17,961 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:30:18,794 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:30:19,962 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:30:21,557 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:30:21,558 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:30:21,962 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:30:23,816 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:30:23,963 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:30:25,963 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:30:27,964 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:30:28,844 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:30:29,964 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:30:31,965 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:30:33,943 DEBUG   SenderThread:1051410 [sender.py:send():378] send: stats
+2024-06-11 17:30:33,943 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:30:33,965 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:30:35,966 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:30:36,557 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:30:36,557 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:30:37,966 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:30:39,156 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:30:39,967 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:30:41,967 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:30:43,968 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:30:44,169 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:30:45,968 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:30:47,969 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:30:48,076 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:30:48,076 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:30:48,077 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:30:48,077 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:30:48,969 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:30:49,969 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:30:50,078 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:30:51,557 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:30:51,558 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:30:55,628 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:30:55,629 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:30:55,629 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:30:55,629 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:30:55,629 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:30:55,971 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:30:57,971 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:30:59,972 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:01,007 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:31:01,972 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:03,943 DEBUG   SenderThread:1051410 [sender.py:send():378] send: stats
+2024-06-11 17:31:03,973 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:05,974 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:06,136 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:31:06,557 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:31:06,558 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:31:07,974 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:09,975 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:11,196 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:31:11,975 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:13,976 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:15,977 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:16,568 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:31:17,977 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:19,978 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:21,557 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:31:21,558 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:31:21,764 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:31:21,978 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:23,979 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:25,979 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:26,972 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:31:27,730 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:31:27,731 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:31:27,731 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:31:27,731 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:31:27,980 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:31:27,980 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:29,980 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:32,732 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:31:33,944 DEBUG   SenderThread:1051410 [sender.py:send():378] send: stats
+2024-06-11 17:31:35,211 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:31:35,212 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:31:35,212 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:31:35,213 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:31:35,982 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:31:35,982 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:36,558 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:31:36,558 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:31:37,955 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:31:37,982 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:39,982 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:41,983 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:43,061 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:31:43,983 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:45,984 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:47,984 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:48,393 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:31:49,985 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:51,583 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:31:51,583 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:31:51,985 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:53,494 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:31:53,986 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:55,986 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:57,987 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:31:58,616 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:31:59,988 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:32:01,988 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:32:03,752 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:32:03,945 DEBUG   SenderThread:1051410 [sender.py:send():378] send: stats
+2024-06-11 17:32:03,989 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:32:05,989 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:32:06,582 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:32:06,583 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:32:07,584 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:32:07,585 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:32:07,585 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:32:07,585 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:32:07,990 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:32:07,990 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:32:09,586 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:32:09,990 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:32:14,587 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:32:15,058 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:32:15,059 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:32:15,059 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:32:15,059 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:32:15,992 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:32:15,992 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:32:16,992 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:32:17,992 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:32:19,668 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:32:19,993 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:32:21,583 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:32:21,583 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:32:21,993 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:32:23,994 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:32:24,713 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:32:25,995 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:32:27,995 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:32:29,996 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:32:30,129 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:32:31,996 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:32:33,945 DEBUG   SenderThread:1051410 [sender.py:send():378] send: stats
+2024-06-11 17:32:33,997 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:32:35,244 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:32:35,997 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:32:36,583 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:32:36,583 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:32:37,998 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:32:39,998 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:32:40,290 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:32:41,999 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:32:44,000 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:32:45,305 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:32:46,000 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:32:47,198 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:32:47,198 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:32:47,198 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:32:47,199 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:32:48,001 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:32:48,001 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:32:51,199 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:32:51,583 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:32:51,583 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:32:54,613 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-11 17:32:54,614 DEBUG   SenderThread:1051410 [sender.py:send():378] send: history
+2024-06-11 17:32:54,614 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: summary_record
+2024-06-11 17:32:54,615 INFO    SenderThread:1051410 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-11 17:32:55,002 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/wandb-summary.json
+2024-06-11 17:32:56,003 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:32:56,222 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:32:57,003 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:32:57,344 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: pause
+2024-06-11 17:32:57,344 INFO    HandlerThread:1051410 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-11 17:32:57,344 INFO    HandlerThread:1051410 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-11 17:32:57,344 DEBUG   SystemMonitor:1051410 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-11 17:32:57,344 DEBUG   SystemMonitor:1051410 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-11 17:32:57,344 INFO    HandlerThread:1051410 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-11 17:32:57,345 INFO    HandlerThread:1051410 [interfaces.py:finish():200] Joined disk monitor
+2024-06-11 17:32:57,393 INFO    HandlerThread:1051410 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-11 17:32:57,393 INFO    HandlerThread:1051410 [interfaces.py:finish():200] Joined memory monitor
+2024-06-11 17:32:57,393 INFO    HandlerThread:1051410 [interfaces.py:finish():200] Joined network monitor
+2024-06-11 17:32:57,394 DEBUG   SenderThread:1051410 [sender.py:send():378] send: stats
+2024-06-11 17:32:58,003 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:32:59,408 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: resume
+2024-06-11 17:32:59,408 INFO    HandlerThread:1051410 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-11 17:32:59,408 INFO    HandlerThread:1051410 [system_monitor.py:start():194] Starting system monitor
+2024-06-11 17:32:59,408 INFO    SystemMonitor:1051410 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-11 17:32:59,409 INFO    SystemMonitor:1051410 [interfaces.py:start():188] Started cpu monitoring
+2024-06-11 17:32:59,409 INFO    SystemMonitor:1051410 [interfaces.py:start():188] Started disk monitoring
+2024-06-11 17:32:59,409 INFO    SystemMonitor:1051410 [interfaces.py:start():188] Started gpu monitoring
+2024-06-11 17:32:59,410 INFO    SystemMonitor:1051410 [interfaces.py:start():188] Started memory monitoring
+2024-06-11 17:32:59,410 INFO    SystemMonitor:1051410 [interfaces.py:start():188] Started network monitoring
+2024-06-11 17:32:59,541 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: pause
+2024-06-11 17:32:59,541 INFO    HandlerThread:1051410 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-11 17:32:59,541 INFO    HandlerThread:1051410 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-11 17:32:59,541 INFO    HandlerThread:1051410 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-11 17:32:59,541 DEBUG   SystemMonitor:1051410 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-11 17:32:59,541 INFO    HandlerThread:1051410 [interfaces.py:finish():200] Joined disk monitor
+2024-06-11 17:32:59,541 DEBUG   SystemMonitor:1051410 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-11 17:32:59,542 DEBUG   SystemMonitor:1051410 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-11 17:32:59,590 INFO    HandlerThread:1051410 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-11 17:32:59,590 INFO    HandlerThread:1051410 [interfaces.py:finish():200] Joined memory monitor
+2024-06-11 17:32:59,590 INFO    HandlerThread:1051410 [interfaces.py:finish():200] Joined network monitor
+2024-06-11 17:32:59,591 DEBUG   SenderThread:1051410 [sender.py:send():378] send: stats
+2024-06-11 17:33:01,004 INFO    Thread-24 :1051410 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240611_172333-hcrliwrk/files/output.log
+2024-06-11 17:33:01,591 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:33:06,583 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:33:06,583 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:33:06,832 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:33:11,833 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:33:16,833 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:33:21,583 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:33:21,584 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:33:22,815 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:33:27,815 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:33:32,816 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:33:36,583 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:33:36,583 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:33:37,840 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:33:42,841 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:33:47,842 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:33:51,583 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:33:51,584 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:33:53,784 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:33:58,784 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:34:03,785 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:34:06,584 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:34:06,584 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:34:08,831 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:34:13,832 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:34:18,833 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:34:21,583 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:34:21,584 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:34:23,890 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:34:28,891 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:34:33,892 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:34:36,584 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:34:36,584 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:34:39,879 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:34:44,880 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:34:49,880 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:34:51,584 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:34:51,584 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:34:54,888 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:34:59,889 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:35:04,890 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:35:06,584 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:35:06,584 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:35:10,828 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:35:15,829 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:35:20,830 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:35:21,585 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:35:21,585 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:35:25,875 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:35:30,876 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:35:35,877 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:35:36,584 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:35:36,585 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:35:40,883 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:35:45,884 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:35:50,884 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:35:51,584 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:35:51,585 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:35:56,798 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:36:01,799 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:36:06,585 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:36:06,585 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:36:06,820 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:36:11,820 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:36:16,821 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:36:21,585 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:36:21,585 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:36:21,861 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:36:26,861 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:36:31,862 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:36:36,585 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:36:36,585 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:36:36,877 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:36:41,878 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:36:46,878 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:36:51,585 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:36:51,585 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:36:52,794 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:36:57,794 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:37:02,795 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:37:06,585 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:37:06,586 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:37:07,851 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:37:12,852 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:37:17,853 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:37:21,585 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:37:21,585 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:37:23,787 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:37:28,788 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:37:33,789 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:37:36,585 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:37:36,585 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:37:38,867 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:37:43,868 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:37:48,869 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:37:51,585 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:37:51,586 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:37:54,856 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:37:59,857 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:38:04,858 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:38:06,585 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:38:06,586 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:38:10,779 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:38:15,780 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:38:20,780 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:38:21,585 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:38:21,586 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:38:25,819 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:38:30,820 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:38:35,820 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:38:36,586 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:38:36,586 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:38:40,883 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:38:45,883 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:38:50,884 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:38:51,586 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:38:51,586 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:38:56,852 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:39:01,853 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:39:06,586 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:39:06,586 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:39:07,833 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:39:12,833 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:39:17,834 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:39:21,586 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:39:21,586 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:39:23,794 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:39:28,795 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:39:33,796 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:39:36,586 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:39:36,586 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:39:38,850 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:39:43,851 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:39:48,852 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:39:51,586 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:39:51,587 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:39:54,816 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:39:59,817 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:40:04,818 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:40:06,586 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:40:06,587 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:40:09,842 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:40:14,842 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:40:19,843 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:40:21,586 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:40:21,587 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:40:25,783 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:40:30,783 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:40:35,784 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:40:36,586 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:40:36,587 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:40:40,795 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:40:45,796 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:40:50,797 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:40:51,587 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:40:51,587 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:40:55,800 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:41:00,800 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:41:05,801 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:41:06,587 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:41:06,587 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:41:10,845 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:41:15,846 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:41:20,847 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:41:21,587 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:41:21,587 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:41:26,828 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:41:31,829 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:41:36,587 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:41:36,587 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:41:36,853 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:41:41,854 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:41:46,855 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:41:51,587 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:41:51,587 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:41:51,880 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:41:56,881 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:42:01,881 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:42:06,587 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:42:06,588 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:42:07,873 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:42:12,874 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:42:17,874 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:42:21,587 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:42:21,588 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:42:23,864 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:42:28,865 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:42:33,865 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:42:36,587 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:42:36,588 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:42:38,891 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:42:43,892 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:42:48,893 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:42:51,587 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:42:51,588 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:42:54,791 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:42:59,792 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:43:04,793 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:43:06,588 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:43:06,588 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:43:09,875 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:43:14,877 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:43:19,877 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:43:21,588 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:43:21,588 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:43:25,822 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:43:30,823 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:43:35,824 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:43:36,588 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:43:36,588 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:43:40,881 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:43:45,881 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:43:50,882 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:43:51,588 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:43:51,588 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:43:56,866 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:44:01,867 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:44:06,588 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:44:06,589 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:44:07,839 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:44:12,840 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:44:17,840 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:44:21,588 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:44:21,589 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:44:23,814 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:44:28,815 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:44:33,815 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:44:36,588 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:44:36,589 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:44:38,845 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:44:43,845 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:44:48,846 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:44:51,589 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:44:51,589 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:44:54,819 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:44:59,819 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:45:04,820 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:45:06,589 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:45:06,589 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:45:09,879 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:45:14,880 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:45:19,881 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:45:21,589 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:45:21,589 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:45:25,820 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:45:30,821 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:45:35,821 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:45:36,589 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:45:36,589 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:45:41,821 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:45:46,822 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:45:51,589 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:45:51,590 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:45:52,793 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:45:57,794 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:46:02,795 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:46:06,589 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:46:06,590 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:46:07,891 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:46:12,892 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:46:17,893 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:46:21,589 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:46:21,590 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:46:23,861 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:46:28,862 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:46:33,863 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:46:36,589 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:46:36,590 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:46:38,876 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:46:43,877 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:46:48,877 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:46:51,589 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:46:51,590 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:46:54,861 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:46:59,862 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:47:04,863 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:47:06,590 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:47:06,590 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:47:09,889 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:47:14,890 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:47:19,891 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:47:21,590 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:47:21,590 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:47:25,809 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:47:30,810 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:47:35,811 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:47:36,590 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:47:36,590 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:47:40,813 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:47:45,814 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:47:50,815 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:47:51,591 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:47:51,591 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:47:55,845 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:48:00,846 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:48:05,847 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:48:06,591 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:48:06,591 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:48:11,823 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:48:16,823 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:48:21,591 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:48:21,591 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:48:22,805 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:48:27,805 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:48:32,806 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:48:36,591 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:48:36,591 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:48:37,882 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:48:42,882 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:48:47,883 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:48:51,591 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:48:51,591 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:48:53,845 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:48:58,846 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:49:03,847 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:49:06,591 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:49:06,591 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:49:08,887 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:49:13,888 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:49:18,889 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:49:21,591 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:49:21,591 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:49:24,885 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:49:29,886 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:49:34,887 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:49:36,591 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:49:36,591 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:49:40,823 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:49:45,824 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:49:50,825 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:49:51,591 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:49:51,591 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:49:55,857 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:50:00,858 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:50:05,858 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:50:06,591 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:50:06,592 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:50:10,887 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:50:15,888 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:50:20,889 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:50:21,591 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:50:21,592 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:50:26,859 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:50:31,860 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:50:36,591 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:50:36,592 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:50:37,793 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:50:42,794 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:50:47,795 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:50:51,592 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:50:51,592 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:50:52,873 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:50:57,874 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:51:02,875 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:51:06,592 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:51:06,592 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:51:08,864 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:51:13,865 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:51:18,866 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:51:21,592 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:51:21,592 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:51:24,785 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:51:29,785 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:51:34,786 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:51:36,592 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:51:36,592 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:51:39,884 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:51:44,885 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:51:49,886 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:51:51,592 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:51:51,593 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:51:55,876 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:52:00,877 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:52:05,877 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:52:06,592 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:52:06,593 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:52:11,832 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:52:16,833 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:52:21,592 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:52:21,593 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:52:22,820 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:52:27,821 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:52:32,821 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:52:36,593 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:52:36,593 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:52:37,824 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:52:42,825 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:52:47,825 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:52:51,593 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:52:51,593 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:52:53,794 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:52:58,794 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:53:03,795 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:53:06,593 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:53:06,593 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:53:08,895 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:53:13,896 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:53:18,896 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:53:21,593 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:53:21,593 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:53:24,886 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:53:29,887 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:53:34,887 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:53:36,593 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:53:36,594 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:53:40,857 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:53:45,857 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:53:50,858 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:53:51,593 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:53:51,594 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:53:56,824 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:54:01,825 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:54:06,594 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:54:06,594 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:54:06,830 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:54:11,831 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:54:16,832 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:54:21,594 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:54:21,594 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:54:22,819 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:54:27,820 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:54:32,820 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:54:36,594 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:54:36,594 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:54:37,864 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:54:42,865 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:54:47,866 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:54:51,594 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:54:51,595 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:54:53,840 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:54:58,841 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:55:03,842 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:55:06,594 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:55:06,595 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:55:08,887 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:55:13,888 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:55:18,889 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:55:21,595 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:55:21,595 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:55:24,850 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:55:29,851 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:55:34,852 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:55:36,594 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:55:36,595 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:55:39,856 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:55:44,857 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:55:49,858 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:55:51,595 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:55:51,595 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:55:55,827 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:56:00,828 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:56:05,829 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:56:06,594 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:56:06,595 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:56:11,816 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:56:16,817 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:56:21,595 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:56:21,595 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:56:21,864 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:56:26,864 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:56:31,865 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:56:36,595 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:56:36,595 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:56:36,898 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:56:41,898 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:56:46,899 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:56:51,595 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:56:51,595 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:56:52,875 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:56:57,875 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:57:02,876 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:57:06,595 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:57:06,595 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:57:07,897 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:57:12,897 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:57:17,898 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:57:21,596 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:57:21,596 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:57:23,850 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:57:28,851 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:57:33,852 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:57:36,595 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:57:36,596 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:57:39,821 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:57:44,822 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:57:49,823 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:57:51,596 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:57:51,596 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:57:54,824 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:57:59,825 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:58:04,825 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:58:06,596 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:58:06,596 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:58:10,819 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:58:15,820 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:58:20,820 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:58:21,596 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:58:21,596 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:58:25,828 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:58:30,829 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:58:35,830 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:58:36,596 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:58:36,596 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:58:41,822 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:58:46,823 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:58:51,596 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:58:51,596 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:58:51,863 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:58:56,864 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:59:01,864 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:59:06,596 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:59:06,597 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:59:06,892 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:59:11,893 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:59:16,894 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:59:21,596 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:59:21,597 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:59:22,885 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:59:27,886 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:59:32,887 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:59:36,597 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:59:36,597 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:59:37,897 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:59:42,898 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:59:47,899 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:59:51,596 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 17:59:51,597 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 17:59:53,829 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 17:59:58,830 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 18:00:03,831 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 18:00:06,597 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 18:00:06,597 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 18:00:09,801 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 18:00:14,802 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 18:00:19,802 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 18:00:21,597 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 18:00:21,597 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 18:00:24,804 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 18:00:29,805 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 18:00:34,805 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 18:00:36,597 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 18:00:36,597 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 18:00:39,849 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 18:00:44,850 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 18:00:49,851 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 18:00:51,597 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 18:00:51,597 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 18:00:54,891 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 18:00:59,891 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 18:01:04,892 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 18:01:06,597 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 18:01:06,597 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 18:01:09,894 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 18:01:14,895 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 18:01:19,896 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 18:01:21,597 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 18:01:21,597 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 18:01:25,896 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 18:01:30,896 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 18:01:35,897 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 18:01:36,597 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 18:01:36,598 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 18:01:41,884 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 18:01:46,885 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 18:01:51,597 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 18:01:51,598 DEBUG   SenderThread:1051410 [sender.py:send_request():405] send_request: stop_status
+2024-06-11 18:01:52,858 DEBUG   HandlerThread:1051410 [handler.py:handle_request():158] handle_request: status_report

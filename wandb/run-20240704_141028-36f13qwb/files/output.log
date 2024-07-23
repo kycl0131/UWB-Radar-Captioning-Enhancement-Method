@@ -1,0 +1,33 @@
+Epoch 1/1000:   9%|████████████████                                                                                                                                                             | 4/43 [00:17<02:48,  4.31s/it, loss=0.0397]
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 374, in <module>
+    main(args.train_1024, args.train_768, args.epochs, args.batch_size)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 332, in main
+    train_model(encoder_search_resnet1D_1024, retrieval_model, train_loader, val_loader, criterion, optimizer, prepro_image_features_1024, num_epochs=num_epochs,filter = LearnableLogFilter_1024)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 225, in train_model
+    for images, radars,_,_ in train_loader_tqdm:
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/yunkwan/project/radarclip/dataload.py", line 107, in __getitem__
+    radar = np.load(radar_path)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/numpy/lib/npyio.py", line 456, in load
+    return format.read_array(fid, allow_pickle=allow_pickle,
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/numpy/lib/format.py", line 784, in read_array
+    shape, fortran_order, dtype = _read_array_header(
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/numpy/lib/format.py", line 623, in _read_array_header
+    d = safe_eval(header)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/numpy/lib/utils.py", line 1078, in safe_eval
+    return ast.literal_eval(source)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/ast.py", line 62, in literal_eval
+    node_or_string = parse(node_or_string, mode='eval')
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+KeyboardInterrupt

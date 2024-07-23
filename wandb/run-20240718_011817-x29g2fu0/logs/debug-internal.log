@@ -1,0 +1,16 @@
+{"time":"2024-07-18T01:18:17.924079556+09:00","level":"INFO","msg":"using version","core version":"0.17.3"}
+{"time":"2024-07-18T01:18:17.924091284+09:00","level":"INFO","msg":"created symlink","path":"/home/yunkwan/project/radarclip/wandb/run-20240718_011817-x29g2fu0/logs/debug-core.log"}
+{"time":"2024-07-18T01:18:17.931818086+09:00","level":"INFO","msg":"created new stream","id":"x29g2fu0"}
+{"time":"2024-07-18T01:18:17.931850664+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"x29g2fu0"}}
+{"time":"2024-07-18T01:18:17.931901714+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"x29g2fu0"}}
+{"time":"2024-07-18T01:18:17.931852692+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"x29g2fu0"}}
+{"time":"2024-07-18T01:18:18.173360399+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-07-18T01:18:18.21524487+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-07-18T04:37:07.352286088+09:00","level":"INFO","msg":"sender: getServerInfo: got server info","serverInfo":{"cliVersionInfo":{"max_cli_version":"0.17.4","min_cli_version":"0.8.20"},"latestLocalVersionInfo":null}}
+{"time":"2024-07-18T04:37:07.352888437+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-07-18T04:37:07.353950862+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-07-18T04:37:07.554377536+09:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-07-18T04:37:07.554390853+09:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-07-18T04:37:07.554394382+09:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-07-18T04:37:09.811361798+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"x29g2fu0"}}
+{"time":"2024-07-18T04:37:09.811374896+09:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"x29g2fu0"}}

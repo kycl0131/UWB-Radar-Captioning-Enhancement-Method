@@ -1,0 +1,21 @@
+Epoch 1/200:   0%|                                                                                                                                                           | 0/94 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/distillation.py", line 391, in <module>
+    main(args.train_3, args.epochs, args.batch_size, args.test_mode)
+  File "/home/yunkwan/project/radarclip/distillation.py", line 376, in main
+    train_model(teacher_model, student_model, retrieval_model,train_loader, val_loader, criterion, optimizer, warmup_scheduler, cosine_scheduler, prepro_image_fn=prepro_image_features, num_epochs=num_epochs, filter=LearnableLogFilter_3)
+  File "/home/yunkwan/project/radarclip/distillation.py", line 189, in train_model
+    teacher_outputs, teacher_features = teacher_model(image_features, radars)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yunkwan/project/radarclip/distillation.py", line 125, in forward
+    reduced_features = self.reduce_dim(attention_output)  # 크기 조정
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (256x768 and 1536x768)

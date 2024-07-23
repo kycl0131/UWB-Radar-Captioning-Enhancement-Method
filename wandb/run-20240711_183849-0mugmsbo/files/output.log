@@ -1,0 +1,21 @@
+Epoch 1/5: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:47<00:00,  7.94s/it, loss=0.42]
+Epoch 1/5, Train Loss: 0.4197, Val Loss: 0.0348
+Epoch 2/5: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:41<00:00,  6.87s/it, loss=0.0742]
+Epoch 2/5, Train Loss: 0.0742, Val Loss: 0.0374
+Epoch 3/5: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:41<00:00,  6.93s/it, loss=0.0501]
+Epoch 3/5, Train Loss: 0.0501, Val Loss: 0.0308
+Epoch 4/5: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:41<00:00,  6.88s/it, loss=0.0275]
+Epoch 4/5, Train Loss: 0.0275, Val Loss: 0.0227
+Epoch 5/5:   0%|                                                                                                                                                                      | 0/6 [00:05<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 487, in <module>
+    main(args.train_1024, args.train_768, args.epochs, args.batch_size)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 426, in main
+    train_model(encoder_search_resnet1D_1024, retrieval_model, train_loader, val_loader, criterion, optimizer,scheduler, prepro_image_features_1024, num_epochs=num_epochs,filter = LearnableLogFilter_1024)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 259, in train_model
+    images_features = prepro_image_fn(images, retrieval_model, device, batch_size=32)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 187, in prepro_image_features_1024
+    torch.cuda.empty_cache()
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/cuda/memory.py", line 162, in empty_cache
+    torch._C._cuda_emptyCache()
+KeyboardInterrupt

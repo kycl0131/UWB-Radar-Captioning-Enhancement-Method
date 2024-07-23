@@ -1,0 +1,29 @@
+Epoch 1/1:  28%|█████████████████████████████████████████████▎                                                                                                                    | 21/75 [01:17<03:19,  3.70s/it, loss=nan]
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 334, in <module>
+    main(args.train_1024, args.train_768, args.epochs, args.batch_size)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 292, in main
+    train_model(encoder_search_resnet1D_1024, retrieval_model, train_loader, val_loader, criterion, optimizer, prepro_image_features_1024, num_epochs=num_epochs)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 193, in train_model
+    for images, radars,_,_,_ in train_loader_tqdm:
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = self.dataset.__getitems__(possibly_batched_index)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/dataset.py", line 419, in __getitems__
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/dataset.py", line 419, in <listcomp>
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/home/yunkwan/project/radarclip/dataload.py", line 266, in __getitem__
+    image = self.transform(image)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 137, in __call__
+    return F.to_tensor(pic)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torchvision/transforms/functional.py", line 174, in to_tensor
+    img = img.permute((2, 0, 1)).contiguous()
+KeyboardInterrupt

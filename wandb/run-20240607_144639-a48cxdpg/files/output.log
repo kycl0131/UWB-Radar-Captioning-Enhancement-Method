@@ -1,0 +1,5 @@
+Epoch 1/10:   0%|          | 0/25 [00:00<?, ?it/s]/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/autograd/graph.py:744: UserWarning: Plan failed with a cudnnException: CUDNN_BACKEND_EXECUTION_PLAN_DESCRIPTOR: cudnnFinalize Descriptor Failed cudnn_status: CUDNN_STATUS_NOT_SUPPORTED (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:919.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+Epoch 1/10:  92%|█████████▏| 23/25 [00:02<00:00, 12.08it/s, decoder_loss=0.711, loss=0.847]/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/conv.py:456: UserWarning: Plan failed with a cudnnException: CUDNN_BACKEND_EXECUTION_PLAN_DESCRIPTOR: cudnnFinalize Descriptor Failed cudnn_status: CUDNN_STATUS_NOT_SUPPORTED (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:919.)
+  return F.conv2d(input, weight, bias, self.stride,
+Epoch 1/10: 100%|██████████| 25/25 [00:02<00:00,  9.43it/s, decoder_loss=0.728, loss=0.864]

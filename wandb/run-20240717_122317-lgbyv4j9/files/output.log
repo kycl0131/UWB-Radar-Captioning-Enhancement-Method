@@ -1,0 +1,23 @@
+Epoch 1/200:   0%|                                                                                                                                                          | 0/188 [00:00<?, ?it/s]/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/loss.py:535: UserWarning: Using a target size (torch.Size([128, 768])) that is different to the input size (torch.Size([128, 512])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 1/200:   0%|                                                                                                                                                          | 0/188 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/distillation.py", line 410, in <module>
+    main(args.train_3, args.epochs, args.batch_size, args.test_mode)
+  File "/home/yunkwan/project/radarclip/distillation.py", line 395, in main
+    train_model(teacher_model, student_model, retrieval_model,train_loader, val_loader, criterion, optimizer, warmup_scheduler, cosine_scheduler, prepro_image_fn=prepro_image_features, num_epochs=num_epochs, filter=LearnableLogFilter_3)
+  File "/home/yunkwan/project/radarclip/distillation.py", line 214, in train_model
+    loss = distillation_loss((student_outputs, student_features), (teacher_outputs, teacher_features), labels)
+  File "/home/yunkwan/project/radarclip/distillation.py", line 172, in distillation_loss
+    feature_loss = nn.MSELoss()(student_features, teacher_features) * 0.1
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/loss.py", line 535, in forward
+    return F.mse_loss(input, target, reduction=self.reduction)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/functional.py", line 3365, in mse_loss
+    expanded_input, expanded_target = torch.broadcast_tensors(input, target)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/functional.py", line 76, in broadcast_tensors
+    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]
+RuntimeError: The size of tensor a (512) must match the size of tensor b (768) at non-singleton dimension 1

@@ -1,0 +1,51 @@
+Some weights of SmallCap were not initialized from the model checkpoint at Yova/SmallCap7M and are newly initialized: ['encoder_radar.layer3.14.bn1.running_mean', 'encoder_radar.layer3.20.bn2.weight', 'encoder_radar.layer3.9.bn1.running_mean', 'encoder_radar.layer4.2.bn1.weight', 'encoder_radar.layer3.22.bn2.num_batches_tracked', 'encoder_radar.layer1.2.bn2.running_var', 'encoder_radar.fc.bias', 'encoder_radar.layer3.18.bn3.weight', 'encoder_radar.layer3.3.bn1.num_batches_tracked', 'encoder_radar.layer3.15.bn2.weight', 'encoder_radar.layer3.22.bn2.running_var', 'encoder_radar.layer3.16.conv3.weight', 'encoder_radar.layer4.0.conv2.weight', 'encoder_radar.layer4.1.bn3.running_var', 'encoder_radar.layer1.2.bn3.num_batches_tracked', 'encoder_radar.layer3.10.bn2.running_mean', 'encoder_radar.layer1.2.conv3.weight', 'encoder_radar.layer2.3.bn3.bias', 'encoder_radar.layer3.7.bn1.running_mean', 'encoder_radar.layer3.11.bn2.weight', 'encoder_radar.layer3.18.conv1.weight', 'encoder_radar.layer3.17.bn3.weight', 'encoder_radar.layer2.1.conv3.weight', 'encoder_radar.layer3.9.bn3.num_batches_tracked', 'encoder_radar.layer3.6.bn2.running_mean', 'encoder_radar.layer1.2.bn2.weight', 'encoder_radar.layer2.0.bn3.bias', 'encoder_radar.layer3.10.bn1.weight', 'encoder_radar.layer4.2.bn2.running_var', 'encoder_radar.layer3.4.bn2.bias', 'encoder_radar.layer3.16.bn1.weight', 'encoder_radar.layer3.8.bn3.weight', 'encoder_radar.layer3.8.bn3.running_var', 'encoder_radar.layer3.13.conv3.weight', 'encoder_radar.layer3.4.bn2.running_var', 'encoder_radar.layer3.0.downsample.1.running_var', 'encoder_radar.layer3.19.bn2.num_batches_tracked', 'encoder_radar.layer3.22.conv3.weight', 'encoder_radar.layer3.6.bn3.weight', 'encoder_radar.layer3.8.bn1.num_batches_tracked', 'encoder_radar.layer3.11.bn1.num_batches_tracked', 'encoder_radar.layer3.11.conv2.weight', 'encoder_radar.layer3.16.bn3.bias', 'encoder_radar.layer3.11.bn1.running_var', 'encoder_radar.layer3.3.conv1.weight', 'encoder_radar.layer3.12.bn3.num_batches_tracked', 'encoder_radar.layer3.0.bn1.running_mean', 'encoder_radar.layer3.18.bn2.running_mean', 'encoder_radar.layer2.2.bn2.weight', 'encoder_radar.layer3.11.bn3.running_mean', 'encoder_radar.layer3.0.bn3.bias', 'encoder_radar.layer3.2.bn1.running_mean', 'encoder_radar.layer4.1.bn1.num_batches_tracked', 'encoder_radar.layer4.2.bn1.num_batches_tracked', 'encoder_radar.layer2.2.bn2.running_mean', 'encoder_radar.layer3.20.bn1.weight', 'encoder_radar.layer2.3.bn3.running_var', 'encoder_radar.layer3.4.bn2.weight', 'encoder_radar.layer3.12.bn1.weight', 'encoder_radar.layer3.12.bn3.running_var', 'encoder_radar.layer3.10.bn2.bias', 'encoder_radar.layer1.2.bn3.weight', 'encoder_radar.layer3.18.bn2.running_var', 'encoder_radar.layer3.1.bn1.bias', 'encoder_radar.layer3.2.bn1.num_batches_tracked', 'encoder_radar.layer1.0.bn2.bias', 'encoder_radar.layer1.0.downsample.0.weight', 'encoder_radar.layer1.1.bn3.running_mean', 'encoder_radar.layer3.0.bn1.weight', 'encoder_radar.layer3.6.bn1.running_var', 'encoder_radar.layer1.0.bn3.running_mean', 'encoder_radar.layer1.1.bn3.running_var', 'encoder_radar.layer2.0.bn1.num_batches_tracked', 'encoder_radar.layer2.1.bn1.weight', 'encoder_radar.layer3.12.bn1.running_mean', 'encoder_radar.layer3.13.bn3.num_batches_tracked', 'encoder_radar.layer1.0.bn1.bias', 'encoder_radar.layer3.6.conv3.weight', 'encoder_radar.layer3.12.bn3.running_mean', 'encoder_radar.layer2.2.bn3.running_mean', 'encoder_radar.layer3.10.bn3.weight', 'encoder_radar.layer3.20.bn1.bias', 'encoder_radar.layer3.3.bn1.running_mean', 'encoder_radar.layer2.1.bn1.num_batches_tracked', 'encoder_radar.layer3.11.bn3.running_var', 'encoder_radar.layer3.21.bn1.num_batches_tracked', 'encoder_radar.layer4.0.bn2.num_batches_tracked', 'encoder_radar.layer1.1.bn2.running_mean', 'encoder_radar.layer3.17.bn1.running_mean', 'encoder_radar.layer4.1.bn1.running_var', 'encoder_radar.layer2.3.bn2.bias', 'encoder_radar.layer3.15.bn2.running_mean', 'encoder_radar.layer4.0.bn3.weight', 'encoder_radar.layer1.1.bn2.weight', 'encoder_radar.layer3.10.bn1.num_batches_tracked', 'encoder_r
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 188/188 [01:49<00:00,  1.71it/s, loss=0.55]
+Epoch 1/100, Train Loss: 0.5500, Train_acc: 0.3333, Val Loss: 1.0992, Val_acc: 0.3333
+Epoch 2/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 188/188 [01:50<00:00,  1.70it/s, loss=0.55]
+Epoch 2/100, Train Loss: 0.5500, Train_acc: 0.3333, Val Loss: 1.0992, Val_acc: 0.3333
+Epoch 3/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 188/188 [01:45<00:00,  1.78it/s, loss=0.55]
+Epoch 3/100, Train Loss: 0.5500, Train_acc: 0.3333, Val Loss: 1.0991, Val_acc: 0.3333
+Epoch 4/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 188/188 [01:49<00:00,  1.72it/s, loss=0.55]
+Epoch 4/100, Train Loss: 0.5500, Train_acc: 0.3333, Val Loss: 1.0991, Val_acc: 0.3333
+Epoch 5/100:   1%|█▏                                                                                                                | 2/188 [00:01<02:18,  1.34it/s, loss=0.553]
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/distillation.py", line 404, in <module>
+    main(args.train_3, args.epochs, args.batch_size, args.test_mode)
+  File "/home/yunkwan/project/radarclip/distillation.py", line 389, in main
+    train_model(teacher_model, student_model, train_loader, val_loader, criterion, optimizer, warmup_scheduler, cosine_scheduler, prepro_image_fn=prepro_image_features, num_epochs=num_epochs, filter=LearnableLogFilter_3)
+  File "/home/yunkwan/project/radarclip/distillation.py", line 216, in train_model
+    teacher_outputs, teacher_features = teacher_model(image_features, radars)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yunkwan/project/radarclip/distillation.py", line 141, in forward
+    radar_features = self.resnet(radar).reshape(-1, 50, 768)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yunkwan/project/radarclip/model.py", line 239, in forward
+    x = self.layer3(x)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yunkwan/project/radarclip/model.py", line 179, in forward
+    out = self.conv1(x)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 310, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 306, in _conv_forward
+    return F.conv1d(input, weight, bias, self.stride,
+KeyboardInterrupt

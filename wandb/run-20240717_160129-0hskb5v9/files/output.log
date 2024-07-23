@@ -1,0 +1,51 @@
+Epoch 1/200: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [02:02<00:00,  1.31s/it, loss=0.433]
+Epoch 1/200, Train Loss: 0.4329, Train_acc: 0.6544, Val Loss: 1.4988, Val_acc: 0.3262
+Epoch 2/200: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:56<00:00,  1.24s/it, loss=0.266]
+Epoch 2/200, Train Loss: 0.2663, Train_acc: 0.8514, Val Loss: 0.7062, Val_acc: 0.7327
+Epoch 3/200: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:57<00:00,  1.25s/it, loss=0.218]
+Epoch 3/200, Train Loss: 0.2184, Train_acc: 0.8911, Val Loss: 0.7644, Val_acc: 0.7150
+Epoch 4/200: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:57<00:00,  1.25s/it, loss=0.204]
+Epoch 4/200, Train Loss: 0.2041, Train_acc: 0.9011, Val Loss: 0.7890, Val_acc: 0.7065
+Epoch 5/200: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:56<00:00,  1.24s/it, loss=0.193]
+Epoch 5/200, Train Loss: 0.1935, Train_acc: 0.9107, Val Loss: 0.6904, Val_acc: 0.7485
+Epoch 6/200: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:55<00:00,  1.23s/it, loss=0.187]
+Epoch 6/200, Train Loss: 0.1870, Train_acc: 0.9138, Val Loss: 0.8137, Val_acc: 0.7277
+Epoch 7/200: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:55<00:00,  1.22s/it, loss=0.176]
+Epoch 7/200, Train Loss: 0.1762, Train_acc: 0.9203, Val Loss: 0.7331, Val_acc: 0.7050
+Epoch 8/200: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:56<00:00,  1.24s/it, loss=0.178]
+Epoch 8/200, Train Loss: 0.1779, Train_acc: 0.9236, Val Loss: 0.7415, Val_acc: 0.7420
+Epoch 9/200:  77%|██████████████████████████████████████████████████████████████████████████████████████████████████████▋                               | 72/94 [01:31<00:27,  1.27s/it, loss=0.167]
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/distillation.py", line 409, in <module>
+    main(args.train_3, args.epochs, args.batch_size, args.test_mode)
+  File "/home/yunkwan/project/radarclip/distillation.py", line 394, in main
+    train_model(teacher_model, student_model, retrieval_model,train_loader, val_loader, criterion, optimizer, warmup_scheduler, cosine_scheduler, prepro_image_fn=prepro_image_features, num_epochs=num_epochs, filter=LearnableLogFilter_3)
+  File "/home/yunkwan/project/radarclip/distillation.py", line 203, in train_model
+    image_features = prepro_image_fn(images, retrieval_model, device, batch_size=32)
+  File "/home/yunkwan/project/radarclip/distillation.py", line 70, in prepro_image_features
+    features = retrieval_model.encoder(batch_images.to(device))
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/transformers/models/clip/modeling_clip.py", line 774, in forward
+    encoder_outputs = self.encoder(
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/transformers/models/clip/modeling_clip.py", line 578, in forward
+    layer_outputs = encoder_layer(
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/transformers/models/clip/modeling_clip.py", line 321, in forward
+    hidden_states, attn_weights = self.self_attn(
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/transformers/models/clip/modeling_clip.py", line 269, in forward
+    attn_output = attn_output.transpose(1, 2)
+KeyboardInterrupt

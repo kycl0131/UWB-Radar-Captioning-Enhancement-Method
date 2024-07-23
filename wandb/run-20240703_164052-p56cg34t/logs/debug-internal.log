@@ -1,0 +1,8 @@
+{"time":"2024-07-03T16:40:52.669322534+09:00","level":"INFO","msg":"using version","core version":"0.17.3"}
+{"time":"2024-07-03T16:40:52.669335748+09:00","level":"INFO","msg":"created symlink","path":"/home/yunkwan/project/radarclip/wandb/run-20240703_164052-p56cg34t/logs/debug-core.log"}
+{"time":"2024-07-03T16:40:52.676871584+09:00","level":"INFO","msg":"created new stream","id":"p56cg34t"}
+{"time":"2024-07-03T16:40:52.676932968+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"p56cg34t"}}
+{"time":"2024-07-03T16:40:52.676907179+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"p56cg34t"}}
+{"time":"2024-07-03T16:40:52.676949326+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"p56cg34t"}}
+{"time":"2024-07-03T16:40:52.983892244+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-07-03T16:40:53.025468928+09:00","level":"INFO","msg":"Starting system monitor"}

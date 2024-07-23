@@ -1,0 +1,97 @@
+Some weights of SmallCap were not initialized from the model checkpoint at Yova/SmallCap7M and are newly initialized: ['encoder_radar.layer3.6.bn2.running_mean', 'encoder_radar.layer3.0.bn3.num_batches_tracked', 'encoder_radar.layer3.13.bn1.running_mean', 'encoder_radar.layer3.21.conv3.weight', 'encoder_radar.layer3.13.bn2.bias', 'encoder_radar.layer2.1.bn3.running_mean', 'encoder_radar.layer3.12.bn3.bias', 'encoder_radar.layer3.21.bn2.weight', 'encoder_radar.layer3.17.bn3.num_batches_tracked', 'encoder_radar.layer3.13.conv3.weight', 'encoder_radar.layer3.11.bn2.running_mean', 'encoder_radar.layer3.15.bn1.weight', 'encoder_radar.layer3.9.bn2.running_mean', 'encoder_radar.layer3.9.conv3.weight', 'encoder_radar.layer3.5.bn1.weight', 'encoder_radar.layer3.21.bn3.running_var', 'encoder_radar.layer1.0.bn3.running_mean', 'encoder_radar.layer4.2.bn3.running_mean', 'encoder_radar.layer3.1.conv1.weight', 'encoder_radar.layer3.1.bn1.num_batches_tracked', 'encoder_radar.layer3.9.bn2.bias', 'encoder_radar.layer3.21.bn1.running_mean', 'encoder_radar.layer3.15.conv3.weight', 'encoder_radar.layer3.10.bn2.bias', 'encoder_radar.layer3.16.bn1.running_mean', 'encoder_radar.layer2.1.bn1.num_batches_tracked', 'encoder_radar.fc.bias', 'encoder_radar.layer3.12.bn2.weight', 'encoder_radar.layer3.14.bn2.weight', 'encoder_radar.layer3.13.bn3.weight', 'encoder_radar.layer3.1.bn3.weight', 'encoder_radar.layer3.4.conv2.weight', 'encoder_radar.layer3.7.bn2.num_batches_tracked', 'encoder_radar.layer3.20.bn3.bias', 'encoder_radar.layer1.1.bn2.running_var', 'encoder_radar.layer4.0.bn2.running_mean', 'encoder_radar.layer3.12.bn1.running_mean', 'encoder_radar.layer3.0.bn2.running_mean', 'encoder_radar.layer1.1.bn2.running_mean', 'encoder_radar.layer1.1.conv2.weight', 'encoder_radar.layer1.0.bn3.num_batches_tracked', 'encoder_radar.layer3.4.bn2.num_batches_tracked', 'encoder_radar.layer1.2.bn2.num_batches_tracked', 'encoder_radar.layer3.0.bn2.bias', 'encoder_radar.layer2.3.conv3.weight', 'encoder_radar.layer2.3.bn1.running_var', 'encoder_radar.layer2.3.bn2.running_var', 'encoder_radar.layer3.17.bn3.weight', 'encoder_radar.layer4.1.bn3.weight', 'encoder_radar.layer3.14.conv1.weight', 'encoder_radar.layer3.17.bn1.bias', 'encoder_radar.layer3.8.bn2.bias', 'encoder_radar.layer3.16.conv2.weight', 'encoder_radar.layer3.2.bn2.weight', 'encoder_radar.layer3.18.conv3.weight', 'encoder_radar.layer3.0.bn3.running_var', 'encoder_radar.layer3.4.bn3.running_mean', 'encoder_radar.layer3.15.bn2.weight', 'encoder_radar.layer3.4.conv3.weight', 'encoder_radar.layer3.7.bn2.running_var', 'encoder_radar.layer3.1.bn3.running_mean', 'encoder_radar.layer3.6.bn2.num_batches_tracked', 'encoder_radar.layer3.12.bn3.weight', 'encoder_radar.layer3.9.bn3.running_mean', 'encoder_radar.layer3.19.bn3.running_mean', 'encoder_radar.layer3.11.bn3.bias', 'encoder_radar.layer2.0.bn1.weight', 'encoder_radar.layer3.0.bn1.num_batches_tracked', 'encoder_radar.layer3.19.bn1.num_batches_tracked', 'encoder_radar.layer3.0.downsample.1.bias', 'encoder_radar.layer3.10.bn1.num_batches_tracked', 'encoder_radar.layer3.2.bn2.num_batches_tracked', 'encoder_radar.layer3.21.bn2.running_mean', 'encoder_radar.layer3.2.bn2.running_var', 'encoder_radar.layer3.16.bn1.weight', 'encoder_radar.layer3.10.conv3.weight', 'encoder_radar.layer3.0.downsample.0.weight', 'encoder_radar.layer3.17.bn3.running_mean', 'encoder_radar.layer3.19.bn3.weight', 'encoder_radar.layer3.0.bn2.running_var', 'encoder_radar.layer1.1.bn3.weight', 'encoder_radar.layer2.0.bn3.running_mean', 'encoder_radar.layer4.1.conv3.weight', 'encoder_radar.layer3.22.bn3.num_batches_tracked', 'encoder_radar.layer1.1.bn2.bias', 'encoder_radar.layer3.6.bn1.running_var', 'encoder_radar.layer3.2.bn2.running_mean', 'encoder_radar.layer4.1.bn2.weight', 'encoder_radar.layer4.2.bn3.weight', 'encoder_radar.layer3.7.bn1.running_var', 'encoder_radar.layer3.3.bn1.weight', 'encoder_radar.layer3.7.bn2.weight', 'encoder_radar.layer3.18.conv1.weight', 'encoder_radar.layer3.22.conv3.weight', 'encoder_radar.layer3.15.bn1.running_var', 'encoder_radar.layer4.1.bn2.num_batches_trac
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:27<00:00,  1.87s/it, loss=0.797]
+Epoch 1/100, Train Loss: 0.7966, Train_acc: 0.6291, Val Loss: 2.5514 , Val_acc: 0.3333
+Epoch 2/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:26<00:00,  1.84s/it, loss=0.399]
+Epoch 2/100, Train Loss: 0.3989, Train_acc: 0.8497, Val Loss: 2.3803 , Val_acc: 0.3533
+Epoch 3/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:31<00:00,  1.94s/it, loss=0.224]
+Epoch 3/100, Train Loss: 0.2237, Train_acc: 0.9176, Val Loss: 1.4658 , Val_acc: 0.5828
+Epoch 4/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:24<00:00,  1.79s/it, loss=0.135]
+Epoch 4/100, Train Loss: 0.1351, Train_acc: 0.9520, Val Loss: 1.2704 , Val_acc: 0.6075
+Epoch 5/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:26<00:00,  1.84s/it, loss=0.0925]
+Epoch 5/100, Train Loss: 0.0925, Train_acc: 0.9666, Val Loss: 1.5190 , Val_acc: 0.6015
+Epoch 6/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:24<00:00,  1.80s/it, loss=0.0624]
+Epoch 6/100, Train Loss: 0.0624, Train_acc: 0.9776, Val Loss: 1.5031 , Val_acc: 0.6195
+Epoch 7/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:25<00:00,  1.83s/it, loss=0.0451]
+Epoch 7/100, Train Loss: 0.0451, Train_acc: 0.9838, Val Loss: 2.2025 , Val_acc: 0.5063
+Epoch 8/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:24<00:00,  1.79s/it, loss=0.0525]
+Epoch 8/100, Train Loss: 0.0525, Train_acc: 0.9816, Val Loss: 1.6135 , Val_acc: 0.6173
+Epoch 9/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:24<00:00,  1.79s/it, loss=0.0415]
+Epoch 9/100, Train Loss: 0.0415, Train_acc: 0.9859, Val Loss: 1.3844 , Val_acc: 0.6578
+Epoch 10/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:27<00:00,  1.86s/it, loss=0.0342]
+Epoch 10/100, Train Loss: 0.0342, Train_acc: 0.9878, Val Loss: 1.3856 , Val_acc: 0.6650
+Epoch 11/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:31<00:00,  1.94s/it, loss=0.0226]
+Epoch 11/100, Train Loss: 0.0226, Train_acc: 0.9914, Val Loss: 1.7828 , Val_acc: 0.6332
+Epoch 12/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:28<00:00,  1.88s/it, loss=0.01]
+Epoch 12/100, Train Loss: 0.0100, Train_acc: 0.9970, Val Loss: 1.9451 , Val_acc: 0.6213
+Epoch 13/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:26<00:00,  1.83s/it, loss=0.00684]
+Epoch 13/100, Train Loss: 0.0068, Train_acc: 0.9976, Val Loss: 2.0695 , Val_acc: 0.6412
+Epoch 14/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:32<00:00,  1.97s/it, loss=0.00465]
+Epoch 14/100, Train Loss: 0.0047, Train_acc: 0.9985, Val Loss: 2.1739 , Val_acc: 0.6477
+Epoch 15/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:23<00:00,  1.78s/it, loss=0.00271]
+Epoch 15/100, Train Loss: 0.0027, Train_acc: 0.9992, Val Loss: 2.3866 , Val_acc: 0.6203
+Epoch 16/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:30<00:00,  1.92s/it, loss=0.00794]
+Epoch 16/100, Train Loss: 0.0079, Train_acc: 0.9970, Val Loss: 2.2264 , Val_acc: 0.6327
+Epoch 17/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:28<00:00,  1.88s/it, loss=0.00335]
+Epoch 17/100, Train Loss: 0.0033, Train_acc: 0.9988, Val Loss: 2.3223 , Val_acc: 0.6258
+Epoch 18/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:25<00:00,  1.82s/it, loss=0.0104]
+Epoch 18/100, Train Loss: 0.0104, Train_acc: 0.9962, Val Loss: 2.4237 , Val_acc: 0.6332
+Epoch 19/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:24<00:00,  1.80s/it, loss=0.0479]
+Epoch 19/100, Train Loss: 0.0479, Train_acc: 0.9870, Val Loss: 1.8478 , Val_acc: 0.5490
+Epoch 20/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:29<00:00,  1.91s/it, loss=0.0299]
+Epoch 20/100, Train Loss: 0.0299, Train_acc: 0.9917, Val Loss: 1.6601 , Val_acc: 0.5797
+Epoch 21/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:31<00:00,  1.95s/it, loss=0.0938]
+Epoch 21/100, Train Loss: 0.0938, Train_acc: 0.9691, Val Loss: 1.6758 , Val_acc: 0.5877
+Epoch 22/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:26<00:00,  1.84s/it, loss=0.0346]
+Epoch 22/100, Train Loss: 0.0346, Train_acc: 0.9880, Val Loss: 2.2553 , Val_acc: 0.6082
+Epoch 23/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:26<00:00,  1.83s/it, loss=0.0311]
+Epoch 23/100, Train Loss: 0.0311, Train_acc: 0.9895, Val Loss: 1.8154 , Val_acc: 0.5970
+Epoch 24/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:24<00:00,  1.80s/it, loss=0.0174]
+Epoch 24/100, Train Loss: 0.0174, Train_acc: 0.9936, Val Loss: 1.7674 , Val_acc: 0.6098
+Epoch 25/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:28<00:00,  1.88s/it, loss=0.0101]
+Epoch 25/100, Train Loss: 0.0101, Train_acc: 0.9965, Val Loss: 2.1834 , Val_acc: 0.6202
+Epoch 26/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:31<00:00,  1.95s/it, loss=0.00984]
+Epoch 26/100, Train Loss: 0.0098, Train_acc: 0.9960, Val Loss: 2.7585 , Val_acc: 0.5852
+Epoch 27/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:31<00:00,  1.96s/it, loss=0.00549]
+Epoch 27/100, Train Loss: 0.0055, Train_acc: 0.9982, Val Loss: 2.5605 , Val_acc: 0.6048
+Epoch 28/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:27<00:00,  1.86s/it, loss=0.0116]
+Epoch 28/100, Train Loss: 0.0116, Train_acc: 0.9958, Val Loss: 2.2098 , Val_acc: 0.6375
+Epoch 29/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:24<00:00,  1.79s/it, loss=0.00717]
+Epoch 29/100, Train Loss: 0.0072, Train_acc: 0.9975, Val Loss: 2.5193 , Val_acc: 0.5725
+Epoch 30/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:26<00:00,  1.84s/it, loss=0.014]
+Epoch 30/100, Train Loss: 0.0140, Train_acc: 0.9950, Val Loss: 2.4704 , Val_acc: 0.6238
+Epoch 31/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:24<00:00,  1.81s/it, loss=0.0146]
+Epoch 31/100, Train Loss: 0.0146, Train_acc: 0.9950, Val Loss: 2.5345 , Val_acc: 0.5953
+Epoch 32/100:  81%|██████████████████████████████████████████████████████████████████████████████████████████████████████████▋                         | 38/47 [01:10<00:16,  1.87s/it, loss=0.00973]
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 549, in <module>
+    main(args.train_3, args.epochs, args.batch_size, args.test_mode)
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 534, in main
+    train_model(encoder_search_resnet1D_3, train_loader, val_loader, criterion, optimizer,warmup_scheduler,cosine_scheduler, prepro_image_fn= prepro_image_features_768,num_epochs=num_epochs,filter = LearnableLogFilter_3)
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 263, in train_model
+    for images, radars,_,_,labels in train_loader_tqdm:
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/yunkwan/project/radarclip/dataload.py", line 108, in __getitem__
+    image = self.transform(image)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 354, in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torchvision/transforms/functional.py", line 435, in resize
+    if not torch.jit.is_scripting() and not torch.jit.is_tracing():
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/jit/_trace.py", line 1141, in is_tracing
+    return torch._C._is_tracing()
+KeyboardInterrupt

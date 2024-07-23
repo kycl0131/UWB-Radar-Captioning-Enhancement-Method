@@ -1,0 +1,16 @@
+{"time":"2024-07-01T15:04:34.799805534+09:00","level":"INFO","msg":"using version","core version":"0.17.3"}
+{"time":"2024-07-01T15:04:34.79981517+09:00","level":"INFO","msg":"created symlink","path":"/home/yunkwan/project/radarclip/wandb/run-20240701_150434-fuziqgu4/logs/debug-core.log"}
+{"time":"2024-07-01T15:04:34.802236389+09:00","level":"INFO","msg":"created new stream","id":"fuziqgu4"}
+{"time":"2024-07-01T15:04:34.802268299+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"fuziqgu4"}}
+{"time":"2024-07-01T15:04:34.802300093+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"fuziqgu4"}}
+{"time":"2024-07-01T15:04:34.802305949+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"fuziqgu4"}}
+{"time":"2024-07-01T15:04:35.094220957+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-07-01T15:04:35.137429707+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-07-01T15:12:03.111382879+09:00","level":"INFO","msg":"sender: getServerInfo: got server info","serverInfo":{"cliVersionInfo":{"max_cli_version":"0.17.2","min_cli_version":"0.8.20"},"latestLocalVersionInfo":null}}
+{"time":"2024-07-01T15:12:03.11192194+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-07-01T15:12:03.112918864+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-07-01T15:12:03.328503507+09:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-07-01T15:12:03.328517207+09:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-07-01T15:12:03.328520942+09:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-07-01T15:12:05.47170975+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"fuziqgu4"}}
+{"time":"2024-07-01T15:12:05.471744814+09:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"fuziqgu4"}}

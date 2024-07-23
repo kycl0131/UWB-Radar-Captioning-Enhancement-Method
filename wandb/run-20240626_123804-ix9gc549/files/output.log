@@ -1,0 +1,27 @@
+Epoch 1/300:   7%|█████████▋                                                                                                                                 | 5/72 [00:21<04:42,  4.21s/it, loss=0.0236]
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 285, in <module>
+    main(args.train_1024, args.train_768, args.epochs, args.batch_size)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 252, in main
+    train_model(encoder_search_resnet1D_1024, retrieval_model, train_loader, val_loader, criterion, optimizer, prepro_image_features_1024, num_epochs=num_epochs)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 180, in train_model
+    for images, radars,_,_,_ in train_loader_tqdm:
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = self.dataset.__getitems__(possibly_batched_index)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/dataset.py", line 419, in __getitems__
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/dataset.py", line 419, in <listcomp>
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/home/yunkwan/project/radarclip/dataload.py", line 105, in __getitem__
+    image = Image.open(image_path).convert('RGB')
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/PIL/Image.py", line 941, in convert
+    self.load()
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/PIL/ImageFile.py", line 291, in load
+    n, err_code = decoder.decode(b)
+KeyboardInterrupt

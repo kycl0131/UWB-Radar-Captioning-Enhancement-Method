@@ -1,0 +1,16 @@
+{"time":"2024-06-30T18:40:18.784231777+09:00","level":"INFO","msg":"using version","core version":"0.17.3"}
+{"time":"2024-06-30T18:40:18.784242167+09:00","level":"INFO","msg":"created symlink","path":"/home/yunkwan/project/radarclip/wandb/run-20240630_184018-vzm64vws/logs/debug-core.log"}
+{"time":"2024-06-30T18:40:18.791888836+09:00","level":"INFO","msg":"created new stream","id":"vzm64vws"}
+{"time":"2024-06-30T18:40:18.791942166+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"vzm64vws"}}
+{"time":"2024-06-30T18:40:18.791997115+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"vzm64vws"}}
+{"time":"2024-06-30T18:40:18.791948513+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"vzm64vws"}}
+{"time":"2024-06-30T18:40:19.063473302+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-06-30T18:40:19.105373686+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-06-30T18:41:20.427540322+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-06-30T18:41:20.428389083+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-06-30T18:41:20.698790261+09:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-06-30T18:41:20.698801289+09:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-06-30T18:41:20.698804563+09:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-06-30T18:41:21.670608458+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"vzm64vws"}}
+{"time":"2024-06-30T18:41:21.670657677+09:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"vzm64vws"}}
+{"time":"2024-06-30T18:41:21.670719019+09:00","level":"INFO","msg":"closed stream","id":"vzm64vws"}

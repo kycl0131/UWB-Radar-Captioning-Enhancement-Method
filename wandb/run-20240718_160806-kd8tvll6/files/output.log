@@ -1,0 +1,13 @@
+Some weights of the model checkpoint at google/vit-base-patch16-224 were not used when initializing ViTModel: ['classifier.bias', 'classifier.weight']
+- This IS expected if you are initializing ViTModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing ViTModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of ViTModel were not initialized from the model checkpoint at google/vit-base-patch16-224 and are newly initialized: ['vit.pooler.dense.bias', 'vit.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/50:   0%|                                                                                                                                                                                     | 0/188 [00:41<?, ?it/s]
+--Call--
+[10] > [33;01m/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/autograd/grad_mode.py[00m([36;01m83[00m)__exit__()
+-> def __exit__(self, exc_type: Any, exc_value: Any, traceback: Any) -> None:
+*** NameError: name 'features' is not defined
+*** NameError: name 'features' is not defined
+*** NameError: name 'features' is not defined
+*** NameError: name 'outputs' is not defined

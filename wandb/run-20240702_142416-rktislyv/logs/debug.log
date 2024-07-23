@@ -1,0 +1,37 @@
+2024-07-02 14:24:16,917 INFO    MainThread:2804301 [wandb_setup.py:_flush():76] Current SDK version is 0.17.3
+2024-07-02 14:24:16,917 INFO    MainThread:2804301 [wandb_setup.py:_flush():76] Configure stats pid to 2804301
+2024-07-02 14:24:16,917 INFO    MainThread:2804301 [wandb_setup.py:_flush():76] Loading settings from /home/yunkwan/.config/wandb/settings
+2024-07-02 14:24:16,917 INFO    MainThread:2804301 [wandb_setup.py:_flush():76] Loading settings from /home/yunkwan/project/radarclip/wandb/settings
+2024-07-02 14:24:16,917 INFO    MainThread:2804301 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'_require_core': 'true'}
+2024-07-02 14:24:16,917 INFO    MainThread:2804301 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-07-02 14:24:16,917 INFO    MainThread:2804301 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'Radarcap_main.py', 'program_abspath': '/home/yunkwan/project/radarclip/Radarcap_main.py', 'program': '/home/yunkwan/project/radarclip/Radarcap_main.py'}
+2024-07-02 14:24:16,917 INFO    MainThread:2804301 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-02 14:24:16,917 INFO    MainThread:2804301 [wandb_init.py:_log_setup():520] Logging user logs to /home/yunkwan/project/radarclip/wandb/run-20240702_142416-rktislyv/logs/debug.log
+2024-07-02 14:24:16,917 INFO    MainThread:2804301 [wandb_init.py:_log_setup():521] Logging internal logs to /home/yunkwan/project/radarclip/wandb/run-20240702_142416-rktislyv/logs/debug-internal.log
+2024-07-02 14:24:16,917 INFO    MainThread:2804301 [wandb_init.py:init():560] calling init triggers
+2024-07-02 14:24:16,917 INFO    MainThread:2804301 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {}
+2024-07-02 14:24:16,917 INFO    MainThread:2804301 [wandb_init.py:init():610] starting backend
+2024-07-02 14:24:16,917 INFO    MainThread:2804301 [wandb_init.py:init():614] setting up manager
+2024-07-02 14:24:16,918 INFO    MainThread:2804301 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-07-02 14:24:16,919 INFO    MainThread:2804301 [wandb_init.py:init():622] backend started and connected
+2024-07-02 14:24:16,922 INFO    MainThread:2804301 [wandb_init.py:init():711] updated telemetry
+2024-07-02 14:24:16,922 INFO    MainThread:2804301 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-07-02 14:24:16,929 WARNING MainThread:2804301 [wandb_init.py:init():1175] interrupted
+Traceback (most recent call last):
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1171, in init
+    return wi.init()
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 747, in init
+    result = run_init_handle.wait(
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/threading.py", line 581, in wait
+    signaled = self._cond.wait(timeout)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/threading.py", line 316, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2024-07-02 14:24:16,931 WARNING MsgRouterThr:2804301 [router.py:message_loop():77] message_loop has been closed

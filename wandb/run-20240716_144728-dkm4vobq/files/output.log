@@ -1,0 +1,17 @@
+Epoch 1/100: 100%|█████████████████████████████████████████████████████████████████████████| 94/94 [05:43<00:00,  3.66s/it, loss=0.816]
+Epoch 1/100, Train Loss: 0.8164, Train_acc: 0.6310, Val Loss: 1.4934 , Val_acc: 0.5070
+Epoch 2/100: 100%|█████████████████████████████████████████████████████████████████████████| 94/94 [05:41<00:00,  3.63s/it, loss=0.513]
+Epoch 2/100, Train Loss: 0.5130, Train_acc: 0.8002, Val Loss: 1.5218 , Val_acc: 0.4672
+Epoch 3/100:  13%|█████████▎                                                               | 12/94 [00:45<05:08,  3.77s/it, loss=0.437]
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 483, in <module>
+    warmup_scheduler =  LambdaLR(optimizer, lr_lambda=warmup_lr_lambda)
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 470, in main
+    encoder_search_resnet1D_3.to(device)
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 242, in train_model
+    images_features = prepro_image_fn(images, retrieval_model, device, batch_size=32)
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 117, in prepro_image_features_1024
+    torch.cuda.empty_cache()
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/cuda/memory.py", line 162, in empty_cache
+    torch._C._cuda_emptyCache()
+KeyboardInterrupt

@@ -1,0 +1,813 @@
+2024-06-13 17:36:19,016 INFO    StreamThr :1257267 [internal.py:wandb_internal():85] W&B internal server running at pid: 1257267, started at: 2024-06-13 17:36:19.015591
+2024-06-13 17:36:19,017 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status
+2024-06-13 17:36:19,022 INFO    WriterThread:1257267 [datastore.py:open_for_write():87] open: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/run-gatsj4ef.wandb
+2024-06-13 17:36:19,023 DEBUG   SenderThread:1257267 [sender.py:send():378] send: header
+2024-06-13 17:36:19,024 DEBUG   SenderThread:1257267 [sender.py:send():378] send: run
+2024-06-13 17:36:19,483 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: check_version
+2024-06-13 17:36:19,485 INFO    SenderThread:1257267 [dir_watcher.py:__init__():211] watching files in: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files
+2024-06-13 17:36:19,486 INFO    SenderThread:1257267 [sender.py:_start_run_threads():1123] run started: gatsj4ef with start time 1718267779.015145
+2024-06-13 17:36:19,486 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: check_version
+2024-06-13 17:36:19,524 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: run_start
+2024-06-13 17:36:19,525 DEBUG   HandlerThread:1257267 [system_info.py:__init__():26] System info init
+2024-06-13 17:36:19,525 DEBUG   HandlerThread:1257267 [system_info.py:__init__():41] System info init done
+2024-06-13 17:36:19,525 INFO    HandlerThread:1257267 [system_monitor.py:start():194] Starting system monitor
+2024-06-13 17:36:19,525 INFO    SystemMonitor:1257267 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-13 17:36:19,525 INFO    HandlerThread:1257267 [system_monitor.py:probe():214] Collecting system info
+2024-06-13 17:36:19,525 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started cpu monitoring
+2024-06-13 17:36:19,526 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started disk monitoring
+2024-06-13 17:36:19,527 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started gpu monitoring
+2024-06-13 17:36:19,527 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started memory monitoring
+2024-06-13 17:36:19,527 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started network monitoring
+2024-06-13 17:36:19,532 DEBUG   HandlerThread:1257267 [system_info.py:probe():150] Probing system
+2024-06-13 17:36:19,532 DEBUG   HandlerThread:1257267 [gitlib.py:_init_repo():56] git repository is invalid
+2024-06-13 17:36:19,532 DEBUG   HandlerThread:1257267 [system_info.py:probe():198] Probing system done
+2024-06-13 17:36:19,532 DEBUG   HandlerThread:1257267 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-28-generic-x86_64-with-glibc2.35', 'python': '3.9.19', 'heartbeatAt': '2024-06-13T08:36:19.532461', 'startedAt': '2024-06-13T08:36:19.011445', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'rfad', 'username': 'yunkwan', 'executable': '/home/yunkwan/anaconda3/envs/smallcap/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3.4484999999999997, 'min': 800.0, 'max': 4600.0}, 'cpu_freq_per_core': [{'current': 4.325, 'min': 800.0, 'max': 4600.0}, {'current': 4.304, 'min': 800.0, 'max': 4600.0}, {'current': 4.314, 'min': 800.0, 'max': 4600.0}, {'current': 4.306, 'min': 800.0, 'max': 4600.0}, {'current': 4.302, 'min': 800.0, 'max': 4600.0}, {'current': 0.8, 'min': 800.0, 'max': 4600.0}, {'current': 4.363, 'min': 800.0, 'max': 4600.0}, {'current': 4.442, 'min': 800.0, 'max': 4600.0}, {'current': 0.8, 'min': 800.0, 'max': 4600.0}, {'current': 4.3, 'min': 800.0, 'max': 4600.0}, {'current': 0.8, 'min': 800.0, 'max': 4600.0}, {'current': 4.326, 'min': 800.0, 'max': 4600.0}], 'disk': {'/': {'total': 478.46307373046875, 'used': 55.946937561035156}}, 'gpu': 'NVIDIA GeForce RTX 4080', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4080', 'memory_total': 17171480576}], 'memory': {'total': 31.27035140991211}}
+2024-06-13 17:36:19,532 INFO    HandlerThread:1257267 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-13 17:36:19,532 INFO    HandlerThread:1257267 [system_monitor.py:probe():227] Publishing system info
+2024-06-13 17:36:19,532 DEBUG   HandlerThread:1257267 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-06-13 17:36:20,487 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/conda-environment.yaml
+2024-06-13 17:36:22,004 DEBUG   HandlerThread:1257267 [system_info.py:_save_conda():222] Saving conda packages done
+2024-06-13 17:36:22,005 INFO    HandlerThread:1257267 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-13 17:36:22,006 DEBUG   SenderThread:1257267 [sender.py:send():378] send: files
+2024-06-13 17:36:22,006 INFO    SenderThread:1257267 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-06-13 17:36:22,089 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: python_packages
+2024-06-13 17:36:22,090 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: python_packages
+2024-06-13 17:36:22,090 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:36:22,090 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:36:22,399 DEBUG   SenderThread:1257267 [sender.py:send():378] send: telemetry
+2024-06-13 17:36:22,486 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/conda-environment.yaml
+2024-06-13 17:36:22,486 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:36:22,486 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/requirements.txt
+2024-06-13 17:36:22,487 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/wandb-metadata.json
+2024-06-13 17:36:22,735 INFO    wandb-upload_0:1257267 [upload_job.py:push():130] Uploaded file /tmp/tmpaz3cq1h4wandb/asn9ks2o-wandb-metadata.json
+2024-06-13 17:36:24,151 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:36:24,487 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:36:26,487 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:36:28,488 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:36:29,358 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:36:30,489 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:36:32,489 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:36:34,490 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:36:34,503 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:36:36,490 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:36:37,090 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:36:37,091 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:36:38,491 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:36:40,276 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:36:40,491 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:36:40,602 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 17:36:40,602 DEBUG   SenderThread:1257267 [sender.py:send():378] send: history
+2024-06-13 17:36:40,603 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 17:36:40,603 INFO    SenderThread:1257267 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 17:36:41,491 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/wandb-summary.json
+2024-06-13 17:36:42,492 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:36:45,604 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:36:48,318 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 17:36:48,318 DEBUG   SenderThread:1257267 [sender.py:send():378] send: history
+2024-06-13 17:36:48,319 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 17:36:48,320 INFO    SenderThread:1257267 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 17:36:48,493 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/wandb-summary.json
+2024-06-13 17:36:50,494 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:36:50,891 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:36:51,494 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/config.yaml
+2024-06-13 17:36:52,090 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:36:52,090 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:36:52,494 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:36:54,495 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:36:56,405 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:36:56,495 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:36:58,496 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:37:00,496 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:37:01,545 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:37:02,497 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:37:04,411 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 17:37:04,411 DEBUG   SenderThread:1257267 [sender.py:send():378] send: history
+2024-06-13 17:37:04,412 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 17:37:04,412 INFO    SenderThread:1257267 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 17:37:04,497 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:37:04,498 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/wandb-summary.json
+2024-06-13 17:37:06,498 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:37:07,090 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:37:07,091 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:37:07,311 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:37:11,183 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 17:37:11,184 DEBUG   SenderThread:1257267 [sender.py:send():378] send: history
+2024-06-13 17:37:11,184 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 17:37:11,185 INFO    SenderThread:1257267 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 17:37:11,500 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/wandb-summary.json
+2024-06-13 17:37:12,500 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:37:12,662 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:37:14,500 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:37:16,501 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:37:17,832 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:37:18,502 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:37:19,528 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-13 17:37:19,528 DEBUG   SenderThread:1257267 [sender.py:send():378] send: stats
+2024-06-13 17:37:20,502 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:37:22,090 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:37:22,091 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:37:22,503 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:37:23,114 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:37:24,503 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:37:26,504 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:37:27,536 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 17:37:27,537 DEBUG   SenderThread:1257267 [sender.py:send():378] send: history
+2024-06-13 17:37:27,537 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 17:37:27,538 INFO    SenderThread:1257267 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 17:37:28,504 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:37:28,504 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/wandb-summary.json
+2024-06-13 17:37:28,538 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:37:33,539 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:37:34,301 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 17:37:34,302 DEBUG   SenderThread:1257267 [sender.py:send():378] send: history
+2024-06-13 17:37:34,302 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 17:37:34,302 INFO    SenderThread:1257267 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 17:37:34,506 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/wandb-summary.json
+2024-06-13 17:37:36,507 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:37:37,090 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:37:37,091 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:37:38,507 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:37:38,810 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:37:40,508 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:37:42,508 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:37:44,063 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:37:44,510 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:37:47,511 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:37:49,265 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:37:49,511 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:37:49,529 DEBUG   SenderThread:1257267 [sender.py:send():378] send: stats
+2024-06-13 17:37:50,677 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 17:37:50,678 DEBUG   SenderThread:1257267 [sender.py:send():378] send: history
+2024-06-13 17:37:50,678 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 17:37:50,678 INFO    SenderThread:1257267 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 17:37:51,512 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:37:51,512 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/wandb-summary.json
+2024-06-13 17:37:52,091 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:37:52,091 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:37:53,512 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:37:54,335 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:37:57,454 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 17:37:57,454 DEBUG   SenderThread:1257267 [sender.py:send():378] send: history
+2024-06-13 17:37:57,454 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 17:37:57,455 INFO    SenderThread:1257267 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 17:37:57,513 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/wandb-summary.json
+2024-06-13 17:37:58,514 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:37:59,514 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:37:59,703 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:38:01,515 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:38:03,515 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:38:04,884 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:38:05,516 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:38:07,091 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:38:07,091 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:38:07,517 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:38:09,517 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:38:10,151 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:38:11,518 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:38:13,518 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:38:13,793 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 17:38:13,793 DEBUG   SenderThread:1257267 [sender.py:send():378] send: history
+2024-06-13 17:38:13,793 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 17:38:13,794 INFO    SenderThread:1257267 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 17:38:14,519 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/wandb-summary.json
+2024-06-13 17:38:15,519 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:38:15,794 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:38:19,529 DEBUG   SenderThread:1257267 [sender.py:send():378] send: stats
+2024-06-13 17:38:20,532 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 17:38:20,533 DEBUG   SenderThread:1257267 [sender.py:send():378] send: history
+2024-06-13 17:38:20,541 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 17:38:20,541 INFO    SenderThread:1257267 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 17:38:20,903 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:38:21,521 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/wandb-summary.json
+2024-06-13 17:38:22,091 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:38:22,091 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:38:22,521 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:38:23,521 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:38:25,522 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:38:26,119 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:38:27,522 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:38:29,523 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:38:31,158 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:38:31,523 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:38:33,524 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:38:35,524 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:38:36,374 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:38:37,040 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 17:38:37,041 DEBUG   SenderThread:1257267 [sender.py:send():378] send: history
+2024-06-13 17:38:37,041 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 17:38:37,042 INFO    SenderThread:1257267 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 17:38:37,091 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:38:37,091 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:38:37,525 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:38:37,525 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/wandb-summary.json
+2024-06-13 17:38:39,525 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:38:42,297 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:38:43,850 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 17:38:43,851 DEBUG   SenderThread:1257267 [sender.py:send():378] send: history
+2024-06-13 17:38:43,852 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 17:38:43,853 INFO    SenderThread:1257267 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 17:38:44,527 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:38:44,527 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/wandb-summary.json
+2024-06-13 17:38:45,527 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:38:47,527 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:38:47,562 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:38:49,528 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:38:49,530 DEBUG   SenderThread:1257267 [sender.py:send():378] send: stats
+2024-06-13 17:38:51,528 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:38:52,091 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:38:52,092 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:38:52,791 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:38:53,529 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:38:55,529 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:38:57,530 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:38:58,036 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:38:59,531 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:39:00,186 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 17:39:00,187 DEBUG   SenderThread:1257267 [sender.py:send():378] send: history
+2024-06-13 17:39:00,187 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 17:39:00,188 INFO    SenderThread:1257267 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 17:39:00,531 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/wandb-summary.json
+2024-06-13 17:39:01,531 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:39:03,188 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:39:06,960 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-13 17:39:06,961 DEBUG   SenderThread:1257267 [sender.py:send():378] send: history
+2024-06-13 17:39:06,961 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: summary_record
+2024-06-13 17:39:06,964 INFO    SenderThread:1257267 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 17:39:07,091 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:39:07,091 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:39:07,533 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/wandb-summary.json
+2024-06-13 17:39:08,450 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:39:08,533 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:39:09,533 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:39:11,534 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:39:13,534 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:39:13,649 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:39:15,535 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:39:16,271 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: pause
+2024-06-13 17:39:16,271 INFO    HandlerThread:1257267 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-13 17:39:16,271 INFO    HandlerThread:1257267 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-13 17:39:16,271 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-13 17:39:16,271 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-13 17:39:16,272 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-13 17:39:16,272 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined disk monitor
+2024-06-13 17:39:16,321 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-13 17:39:16,321 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined memory monitor
+2024-06-13 17:39:16,321 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined network monitor
+2024-06-13 17:39:16,321 DEBUG   SenderThread:1257267 [sender.py:send():378] send: stats
+2024-06-13 17:39:17,535 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:39:18,462 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: resume
+2024-06-13 17:39:18,462 INFO    HandlerThread:1257267 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-13 17:39:18,462 INFO    HandlerThread:1257267 [system_monitor.py:start():194] Starting system monitor
+2024-06-13 17:39:18,462 INFO    SystemMonitor:1257267 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-13 17:39:18,463 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started cpu monitoring
+2024-06-13 17:39:18,463 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started disk monitoring
+2024-06-13 17:39:18,463 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started gpu monitoring
+2024-06-13 17:39:18,463 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started memory monitoring
+2024-06-13 17:39:18,464 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started network monitoring
+2024-06-13 17:39:18,584 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: pause
+2024-06-13 17:39:18,584 INFO    HandlerThread:1257267 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-13 17:39:18,584 INFO    HandlerThread:1257267 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-13 17:39:18,584 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-13 17:39:18,585 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined disk monitor
+2024-06-13 17:39:18,585 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-13 17:39:18,585 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-13 17:39:18,585 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-13 17:39:18,633 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-13 17:39:18,633 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined memory monitor
+2024-06-13 17:39:18,633 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined network monitor
+2024-06-13 17:39:18,633 DEBUG   SenderThread:1257267 [sender.py:send():378] send: stats
+2024-06-13 17:39:19,536 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:39:19,634 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:39:20,536 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:39:22,091 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:39:22,092 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:39:25,342 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:39:30,343 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:39:35,344 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:39:37,091 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:39:37,092 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:39:40,349 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:39:45,350 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:39:50,350 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:39:52,091 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:39:52,092 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:39:56,331 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:40:01,331 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:40:06,332 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:40:07,092 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:40:07,092 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:40:11,345 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:40:16,346 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:40:21,347 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:40:22,092 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:40:22,092 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:40:27,325 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:40:32,326 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:40:37,092 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:40:37,092 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:40:37,326 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:40:42,327 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:40:47,328 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:40:52,092 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:40:52,092 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:40:52,387 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:40:57,388 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:41:02,389 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:41:07,092 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:41:07,093 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:41:08,387 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:41:13,388 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:41:18,389 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:41:19,279 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: resume
+2024-06-13 17:41:19,279 INFO    HandlerThread:1257267 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-13 17:41:19,279 INFO    HandlerThread:1257267 [system_monitor.py:start():194] Starting system monitor
+2024-06-13 17:41:19,279 INFO    SystemMonitor:1257267 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-13 17:41:19,280 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started cpu monitoring
+2024-06-13 17:41:19,280 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started disk monitoring
+2024-06-13 17:41:19,280 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started gpu monitoring
+2024-06-13 17:41:19,281 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started memory monitoring
+2024-06-13 17:41:19,281 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started network monitoring
+2024-06-13 17:41:19,815 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: pause
+2024-06-13 17:41:19,815 INFO    HandlerThread:1257267 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-13 17:41:19,815 INFO    HandlerThread:1257267 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-13 17:41:19,821 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-13 17:41:19,821 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-13 17:41:19,821 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-13 17:41:19,821 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-13 17:41:19,821 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined disk monitor
+2024-06-13 17:41:23,001 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:41:24,616 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-13 17:41:24,616 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined memory monitor
+2024-06-13 17:41:24,616 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined network monitor
+2024-06-13 17:41:24,616 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:41:24,616 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:41:24,616 DEBUG   SenderThread:1257267 [sender.py:send():378] send: stats
+2024-06-13 17:41:24,617 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: resume
+2024-06-13 17:41:24,617 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:41:24,617 INFO    HandlerThread:1257267 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-13 17:41:24,619 INFO    HandlerThread:1257267 [system_monitor.py:start():194] Starting system monitor
+2024-06-13 17:41:24,619 INFO    SystemMonitor:1257267 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-13 17:41:24,620 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started cpu monitoring
+2024-06-13 17:41:24,620 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started disk monitoring
+2024-06-13 17:41:24,620 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started gpu monitoring
+2024-06-13 17:41:24,621 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started memory monitoring
+2024-06-13 17:41:24,621 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started network monitoring
+2024-06-13 17:41:25,007 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: pause
+2024-06-13 17:41:25,007 INFO    HandlerThread:1257267 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-13 17:41:25,007 INFO    HandlerThread:1257267 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-13 17:41:25,008 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-13 17:41:25,008 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-13 17:41:25,008 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-13 17:41:25,008 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-13 17:41:25,008 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined disk monitor
+2024-06-13 17:41:27,907 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-13 17:41:27,907 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined memory monitor
+2024-06-13 17:41:27,907 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined network monitor
+2024-06-13 17:41:27,907 DEBUG   SenderThread:1257267 [sender.py:send():378] send: stats
+2024-06-13 17:41:28,909 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:41:29,465 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: resume
+2024-06-13 17:41:29,465 INFO    HandlerThread:1257267 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-13 17:41:29,465 INFO    HandlerThread:1257267 [system_monitor.py:start():194] Starting system monitor
+2024-06-13 17:41:29,486 INFO    SystemMonitor:1257267 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-13 17:41:29,522 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started cpu monitoring
+2024-06-13 17:41:29,547 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started disk monitoring
+2024-06-13 17:41:29,553 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started gpu monitoring
+2024-06-13 17:41:29,558 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started memory monitoring
+2024-06-13 17:41:29,559 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started network monitoring
+2024-06-13 17:41:29,760 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: pause
+2024-06-13 17:41:29,760 INFO    HandlerThread:1257267 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-13 17:41:29,760 INFO    HandlerThread:1257267 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-13 17:41:29,760 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-13 17:41:29,766 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-13 17:41:29,766 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-13 17:41:29,777 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-13 17:41:30,073 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined disk monitor
+2024-06-13 17:41:32,706 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:41:38,600 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:41:38,618 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-13 17:41:38,618 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined memory monitor
+2024-06-13 17:41:38,618 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined network monitor
+2024-06-13 17:41:38,618 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: resume
+2024-06-13 17:41:38,618 DEBUG   SenderThread:1257267 [sender.py:send():378] send: stats
+2024-06-13 17:41:38,618 INFO    HandlerThread:1257267 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-13 17:41:38,619 INFO    HandlerThread:1257267 [system_monitor.py:start():194] Starting system monitor
+2024-06-13 17:41:38,619 INFO    SystemMonitor:1257267 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-13 17:41:38,619 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: pause
+2024-06-13 17:41:38,619 INFO    HandlerThread:1257267 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-13 17:41:38,619 INFO    HandlerThread:1257267 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-13 17:41:38,620 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started cpu monitoring
+2024-06-13 17:41:38,620 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-13 17:41:38,620 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-13 17:41:38,620 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-13 17:41:38,621 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-13 17:41:38,621 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: resume
+2024-06-13 17:41:38,621 INFO    HandlerThread:1257267 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-13 17:41:38,621 INFO    HandlerThread:1257267 [system_monitor.py:start():194] Starting system monitor
+2024-06-13 17:41:38,621 INFO    SystemMonitor:1257267 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-13 17:41:38,621 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started cpu monitoring
+2024-06-13 17:41:38,621 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:41:38,622 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: pause
+2024-06-13 17:41:38,622 INFO    HandlerThread:1257267 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-13 17:41:38,622 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started disk monitoring
+2024-06-13 17:41:38,622 INFO    HandlerThread:1257267 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-13 17:41:38,622 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started gpu monitoring
+2024-06-13 17:41:38,623 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-13 17:41:38,623 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-13 17:41:38,623 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-13 17:41:38,623 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-13 17:41:38,624 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined disk monitor
+2024-06-13 17:41:38,674 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-13 17:41:38,674 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:41:38,690 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:41:38,982 DEBUG   SenderThread:1257267 [sender.py:send():378] send: stats
+2024-06-13 17:41:38,983 DEBUG   SenderThread:1257267 [sender.py:send():378] send: stats
+2024-06-13 17:41:39,993 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:41:44,634 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: resume
+2024-06-13 17:41:44,634 INFO    HandlerThread:1257267 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-13 17:41:44,634 INFO    HandlerThread:1257267 [system_monitor.py:start():194] Starting system monitor
+2024-06-13 17:41:44,639 INFO    SystemMonitor:1257267 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-13 17:41:44,672 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started cpu monitoring
+2024-06-13 17:41:44,691 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started disk monitoring
+2024-06-13 17:41:44,717 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started gpu monitoring
+2024-06-13 17:41:44,718 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started memory monitoring
+2024-06-13 17:41:44,729 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started network monitoring
+2024-06-13 17:41:45,087 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: pause
+2024-06-13 17:41:45,087 INFO    HandlerThread:1257267 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-13 17:41:45,087 INFO    HandlerThread:1257267 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-13 17:41:45,092 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-13 17:41:45,108 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-13 17:41:45,119 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined disk monitor
+2024-06-13 17:41:45,151 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-13 17:41:45,187 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-13 17:41:46,778 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:41:57,652 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-13 17:41:57,652 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined memory monitor
+2024-06-13 17:41:57,652 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined network monitor
+2024-06-13 17:41:57,652 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:41:57,652 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:41:57,652 DEBUG   SenderThread:1257267 [sender.py:send():378] send: stats
+2024-06-13 17:41:57,652 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:41:57,653 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: resume
+2024-06-13 17:41:57,653 INFO    HandlerThread:1257267 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-13 17:41:57,653 INFO    HandlerThread:1257267 [system_monitor.py:start():194] Starting system monitor
+2024-06-13 17:41:57,653 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:41:57,653 INFO    SystemMonitor:1257267 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-13 17:41:57,655 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: pause
+2024-06-13 17:41:57,656 INFO    HandlerThread:1257267 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-13 17:41:57,656 INFO    HandlerThread:1257267 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-13 17:41:57,656 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started cpu monitoring
+2024-06-13 17:41:57,656 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-13 17:41:57,656 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-13 17:41:57,656 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-13 17:41:57,656 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-13 17:41:57,657 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:41:57,657 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 17:41:57,863 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:41:57,869 DEBUG   SenderThread:1257267 [sender.py:send():378] send: stats
+2024-06-13 17:42:00,935 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:42:04,272 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:42:05,972 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:42:07,092 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 17:42:07,093 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:42:07,093 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:42:11,363 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:42:16,369 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:42:21,405 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:42:22,093 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 17:42:22,093 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:42:22,093 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:42:27,315 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:42:32,321 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:42:37,105 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 17:42:37,105 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:42:37,106 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:42:38,306 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:42:43,312 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:42:47,439 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: resume
+2024-06-13 17:42:47,439 INFO    HandlerThread:1257267 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-13 17:42:47,439 INFO    HandlerThread:1257267 [system_monitor.py:start():194] Starting system monitor
+2024-06-13 17:42:47,439 INFO    SystemMonitor:1257267 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-13 17:42:47,440 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started cpu monitoring
+2024-06-13 17:42:47,440 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started disk monitoring
+2024-06-13 17:42:47,440 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started gpu monitoring
+2024-06-13 17:42:47,440 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started memory monitoring
+2024-06-13 17:42:47,441 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started network monitoring
+2024-06-13 17:42:48,794 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:42:48,804 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: pause
+2024-06-13 17:42:48,804 INFO    HandlerThread:1257267 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-13 17:42:48,804 INFO    HandlerThread:1257267 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-13 17:42:48,810 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-13 17:42:48,810 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined disk monitor
+2024-06-13 17:42:48,820 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-13 17:42:48,820 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-13 17:42:48,820 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-13 17:42:53,334 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:42:54,801 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-13 17:42:54,802 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined memory monitor
+2024-06-13 17:42:54,802 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined network monitor
+2024-06-13 17:42:54,802 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: resume
+2024-06-13 17:42:54,802 INFO    HandlerThread:1257267 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-13 17:42:54,802 INFO    HandlerThread:1257267 [system_monitor.py:start():194] Starting system monitor
+2024-06-13 17:42:54,802 INFO    SystemMonitor:1257267 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-13 17:42:54,802 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 17:42:54,803 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:42:54,803 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: pause
+2024-06-13 17:42:54,803 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started cpu monitoring
+2024-06-13 17:42:54,803 INFO    HandlerThread:1257267 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-13 17:42:54,803 DEBUG   SenderThread:1257267 [sender.py:send():378] send: stats
+2024-06-13 17:42:54,803 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started disk monitoring
+2024-06-13 17:42:54,804 INFO    HandlerThread:1257267 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-13 17:42:54,804 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:42:54,804 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started gpu monitoring
+2024-06-13 17:42:54,805 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-13 17:42:54,807 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-13 17:42:54,807 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-13 17:42:54,807 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-13 17:42:54,808 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined disk monitor
+2024-06-13 17:42:54,854 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-13 17:42:54,855 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: resume
+2024-06-13 17:42:54,855 INFO    HandlerThread:1257267 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-13 17:42:54,855 INFO    HandlerThread:1257267 [system_monitor.py:start():194] Starting system monitor
+2024-06-13 17:42:54,855 INFO    SystemMonitor:1257267 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-13 17:42:54,855 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:42:54,855 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started cpu monitoring
+2024-06-13 17:42:54,856 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started disk monitoring
+2024-06-13 17:42:54,856 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started gpu monitoring
+2024-06-13 17:42:54,856 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started memory monitoring
+2024-06-13 17:42:54,857 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started network monitoring
+2024-06-13 17:42:55,098 DEBUG   SenderThread:1257267 [sender.py:send():378] send: stats
+2024-06-13 17:42:55,135 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: pause
+2024-06-13 17:42:55,135 INFO    HandlerThread:1257267 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-13 17:42:55,135 INFO    HandlerThread:1257267 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-13 17:42:55,136 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-13 17:42:55,136 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined disk monitor
+2024-06-13 17:42:55,136 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-13 17:42:55,136 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-13 17:42:55,136 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-13 17:42:55,184 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-13 17:42:55,185 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined memory monitor
+2024-06-13 17:42:55,185 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined network monitor
+2024-06-13 17:42:55,185 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: resume
+2024-06-13 17:42:55,185 INFO    HandlerThread:1257267 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-13 17:42:55,185 INFO    HandlerThread:1257267 [system_monitor.py:start():194] Starting system monitor
+2024-06-13 17:42:55,185 DEBUG   SenderThread:1257267 [sender.py:send():378] send: stats
+2024-06-13 17:42:55,185 INFO    SystemMonitor:1257267 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-13 17:42:55,186 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started cpu monitoring
+2024-06-13 17:42:55,186 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started disk monitoring
+2024-06-13 17:42:55,186 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started gpu monitoring
+2024-06-13 17:42:55,187 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started memory monitoring
+2024-06-13 17:42:55,187 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started network monitoring
+2024-06-13 17:42:58,882 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:43:00,197 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:43:04,098 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: pause
+2024-06-13 17:43:04,098 INFO    HandlerThread:1257267 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-13 17:43:04,098 INFO    HandlerThread:1257267 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-13 17:43:04,098 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-13 17:43:04,098 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-13 17:43:04,099 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-13 17:43:04,099 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-13 17:43:04,099 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined disk monitor
+2024-06-13 17:43:04,147 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-13 17:43:04,147 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined memory monitor
+2024-06-13 17:43:04,147 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined network monitor
+2024-06-13 17:43:04,147 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: resume
+2024-06-13 17:43:04,147 INFO    HandlerThread:1257267 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-13 17:43:04,147 INFO    HandlerThread:1257267 [system_monitor.py:start():194] Starting system monitor
+2024-06-13 17:43:04,148 INFO    SystemMonitor:1257267 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-13 17:43:04,148 DEBUG   SenderThread:1257267 [sender.py:send():378] send: stats
+2024-06-13 17:43:04,148 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: pause
+2024-06-13 17:43:04,148 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started cpu monitoring
+2024-06-13 17:43:04,157 INFO    HandlerThread:1257267 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-13 17:43:04,160 INFO    HandlerThread:1257267 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-13 17:43:04,160 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started disk monitoring
+2024-06-13 17:43:04,160 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-13 17:43:04,160 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-13 17:43:04,160 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-13 17:43:04,160 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-13 17:43:04,161 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined disk monitor
+2024-06-13 17:43:04,161 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: resume
+2024-06-13 17:43:04,161 INFO    HandlerThread:1257267 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-13 17:43:04,161 INFO    HandlerThread:1257267 [system_monitor.py:start():194] Starting system monitor
+2024-06-13 17:43:04,161 INFO    SystemMonitor:1257267 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-13 17:43:04,162 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started cpu monitoring
+2024-06-13 17:43:04,162 DEBUG   SenderThread:1257267 [sender.py:send():378] send: stats
+2024-06-13 17:43:04,162 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started disk monitoring
+2024-06-13 17:43:04,163 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started gpu monitoring
+2024-06-13 17:43:04,163 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started memory monitoring
+2024-06-13 17:43:04,164 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started network monitoring
+2024-06-13 17:43:04,220 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: pause
+2024-06-13 17:43:04,225 INFO    HandlerThread:1257267 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-13 17:43:04,225 INFO    HandlerThread:1257267 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-13 17:43:04,227 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-13 17:43:04,227 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-13 17:43:04,227 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-13 17:43:04,228 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-13 17:43:04,228 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined disk monitor
+2024-06-13 17:43:04,277 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-13 17:43:04,277 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined memory monitor
+2024-06-13 17:43:04,277 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined network monitor
+2024-06-13 17:43:04,277 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: resume
+2024-06-13 17:43:04,277 INFO    HandlerThread:1257267 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-13 17:43:04,277 INFO    HandlerThread:1257267 [system_monitor.py:start():194] Starting system monitor
+2024-06-13 17:43:04,277 DEBUG   SenderThread:1257267 [sender.py:send():378] send: stats
+2024-06-13 17:43:04,278 INFO    SystemMonitor:1257267 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-13 17:43:04,278 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started cpu monitoring
+2024-06-13 17:43:04,278 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started disk monitoring
+2024-06-13 17:43:04,279 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started gpu monitoring
+2024-06-13 17:43:04,279 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started memory monitoring
+2024-06-13 17:43:04,279 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started network monitoring
+2024-06-13 17:43:04,893 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:43:05,227 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: pause
+2024-06-13 17:43:05,227 INFO    HandlerThread:1257267 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-13 17:43:05,227 INFO    HandlerThread:1257267 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-13 17:43:05,227 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-13 17:43:05,227 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-13 17:43:05,227 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-13 17:43:05,228 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-13 17:43:05,228 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined disk monitor
+2024-06-13 17:43:05,273 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-13 17:43:05,273 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined memory monitor
+2024-06-13 17:43:05,273 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined network monitor
+2024-06-13 17:43:05,273 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: resume
+2024-06-13 17:43:05,273 INFO    HandlerThread:1257267 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-13 17:43:05,274 INFO    HandlerThread:1257267 [system_monitor.py:start():194] Starting system monitor
+2024-06-13 17:43:05,274 INFO    SystemMonitor:1257267 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-13 17:43:05,274 DEBUG   SenderThread:1257267 [sender.py:send():378] send: stats
+2024-06-13 17:43:05,275 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:43:05,275 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started cpu monitoring
+2024-06-13 17:43:05,276 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started disk monitoring
+2024-06-13 17:43:05,276 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started gpu monitoring
+2024-06-13 17:43:05,276 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started memory monitoring
+2024-06-13 17:43:05,277 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started network monitoring
+2024-06-13 17:43:07,093 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 17:43:07,093 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:43:07,093 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:43:10,348 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:43:15,349 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:43:20,349 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:43:22,093 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 17:43:22,093 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 17:43:22,094 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: stop_status
+2024-06-13 17:43:25,874 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: pause
+2024-06-13 17:43:25,874 INFO    HandlerThread:1257267 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-13 17:43:25,874 INFO    HandlerThread:1257267 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-13 17:43:25,874 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-13 17:43:25,874 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-13 17:43:25,875 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-13 17:43:25,875 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-13 17:43:25,875 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined disk monitor
+2024-06-13 17:43:25,931 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-13 17:43:25,931 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined memory monitor
+2024-06-13 17:43:25,931 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined network monitor
+2024-06-13 17:43:25,931 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: resume
+2024-06-13 17:43:25,931 INFO    HandlerThread:1257267 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-13 17:43:25,931 INFO    HandlerThread:1257267 [system_monitor.py:start():194] Starting system monitor
+2024-06-13 17:43:25,931 INFO    SystemMonitor:1257267 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-13 17:43:25,932 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started cpu monitoring
+2024-06-13 17:43:25,932 DEBUG   SenderThread:1257267 [sender.py:send():378] send: stats
+2024-06-13 17:43:25,932 DEBUG   SenderThread:1257267 [sender.py:send():378] send: telemetry
+2024-06-13 17:43:25,933 DEBUG   SenderThread:1257267 [sender.py:send():378] send: exit
+2024-06-13 17:43:25,933 INFO    SenderThread:1257267 [sender.py:send_exit():585] handling exit code: 0
+2024-06-13 17:43:25,933 INFO    SenderThread:1257267 [sender.py:send_exit():587] handling runtime: 246
+2024-06-13 17:43:25,933 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started disk monitoring
+2024-06-13 17:43:25,933 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:43:25,933 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started gpu monitoring
+2024-06-13 17:43:25,933 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started memory monitoring
+2024-06-13 17:43:25,934 INFO    SystemMonitor:1257267 [interfaces.py:start():188] Started network monitoring
+2024-06-13 17:43:25,934 INFO    SenderThread:1257267 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 17:43:25,935 INFO    SenderThread:1257267 [sender.py:send_exit():593] send defer
+2024-06-13 17:43:25,935 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 17:43:25,935 INFO    HandlerThread:1257267 [handler.py:handle_request_defer():184] handle defer: 0
+2024-06-13 17:43:25,935 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: defer
+2024-06-13 17:43:25,935 INFO    SenderThread:1257267 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-06-13 17:43:25,935 INFO    SenderThread:1257267 [sender.py:transition_state():613] send defer: 1
+2024-06-13 17:43:25,936 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 17:43:25,936 INFO    HandlerThread:1257267 [handler.py:handle_request_defer():184] handle defer: 1
+2024-06-13 17:43:25,936 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: defer
+2024-06-13 17:43:25,936 INFO    SenderThread:1257267 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-06-13 17:43:25,936 INFO    SenderThread:1257267 [sender.py:transition_state():613] send defer: 2
+2024-06-13 17:43:25,936 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 17:43:25,936 INFO    HandlerThread:1257267 [handler.py:handle_request_defer():184] handle defer: 2
+2024-06-13 17:43:25,936 INFO    HandlerThread:1257267 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-13 17:43:25,936 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-13 17:43:25,937 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-13 17:43:25,937 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-13 17:43:25,937 DEBUG   SystemMonitor:1257267 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-13 17:43:25,937 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined disk monitor
+2024-06-13 17:43:25,978 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-13 17:43:25,978 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined memory monitor
+2024-06-13 17:43:25,978 INFO    HandlerThread:1257267 [interfaces.py:finish():200] Joined network monitor
+2024-06-13 17:43:25,979 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: defer
+2024-06-13 17:43:25,979 INFO    SenderThread:1257267 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-06-13 17:43:25,979 INFO    SenderThread:1257267 [sender.py:transition_state():613] send defer: 3
+2024-06-13 17:43:25,979 DEBUG   SenderThread:1257267 [sender.py:send():378] send: stats
+2024-06-13 17:43:25,979 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 17:43:25,979 INFO    HandlerThread:1257267 [handler.py:handle_request_defer():184] handle defer: 3
+2024-06-13 17:43:25,979 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: defer
+2024-06-13 17:43:25,979 INFO    SenderThread:1257267 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-06-13 17:43:25,979 INFO    SenderThread:1257267 [sender.py:transition_state():613] send defer: 4
+2024-06-13 17:43:25,979 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 17:43:25,979 INFO    HandlerThread:1257267 [handler.py:handle_request_defer():184] handle defer: 4
+2024-06-13 17:43:25,980 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: defer
+2024-06-13 17:43:25,980 INFO    SenderThread:1257267 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-06-13 17:43:25,980 INFO    SenderThread:1257267 [sender.py:transition_state():613] send defer: 5
+2024-06-13 17:43:25,980 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 17:43:25,980 INFO    HandlerThread:1257267 [handler.py:handle_request_defer():184] handle defer: 5
+2024-06-13 17:43:25,980 DEBUG   SenderThread:1257267 [sender.py:send():378] send: summary
+2024-06-13 17:43:25,980 INFO    SenderThread:1257267 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-13 17:43:25,980 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: defer
+2024-06-13 17:43:25,981 INFO    SenderThread:1257267 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-06-13 17:43:25,981 INFO    SenderThread:1257267 [sender.py:transition_state():613] send defer: 6
+2024-06-13 17:43:25,981 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 17:43:25,981 INFO    HandlerThread:1257267 [handler.py:handle_request_defer():184] handle defer: 6
+2024-06-13 17:43:25,981 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: defer
+2024-06-13 17:43:25,981 INFO    SenderThread:1257267 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-06-13 17:43:25,983 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:43:26,198 INFO    SenderThread:1257267 [sender.py:transition_state():613] send defer: 7
+2024-06-13 17:43:26,198 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 17:43:26,198 INFO    HandlerThread:1257267 [handler.py:handle_request_defer():184] handle defer: 7
+2024-06-13 17:43:26,198 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: defer
+2024-06-13 17:43:26,198 INFO    SenderThread:1257267 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-06-13 17:43:26,898 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/config.yaml
+2024-06-13 17:43:26,898 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/wandb-summary.json
+2024-06-13 17:43:26,926 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-13 17:43:28,782 INFO    SenderThread:1257267 [sender.py:transition_state():613] send defer: 8
+2024-06-13 17:43:28,782 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: poll_exit
+2024-06-13 17:43:28,782 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 17:43:28,782 INFO    HandlerThread:1257267 [handler.py:handle_request_defer():184] handle defer: 8
+2024-06-13 17:43:28,783 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: defer
+2024-06-13 17:43:28,783 INFO    SenderThread:1257267 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-06-13 17:43:28,783 INFO    SenderThread:1257267 [job_builder.py:build():432] Attempting to build job artifact
+2024-06-13 17:43:28,792 INFO    SenderThread:1257267 [job_builder.py:_get_source_type():576] no source found
+2024-06-13 17:43:28,792 INFO    SenderThread:1257267 [sender.py:transition_state():613] send defer: 9
+2024-06-13 17:43:28,792 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 17:43:28,792 INFO    HandlerThread:1257267 [handler.py:handle_request_defer():184] handle defer: 9
+2024-06-13 17:43:28,792 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: defer
+2024-06-13 17:43:28,792 INFO    SenderThread:1257267 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-06-13 17:43:28,792 INFO    SenderThread:1257267 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-06-13 17:43:28,898 INFO    Thread-24 :1257267 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:43:28,899 INFO    SenderThread:1257267 [dir_watcher.py:finish():388] scan: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files
+2024-06-13 17:43:28,899 INFO    SenderThread:1257267 [dir_watcher.py:finish():402] scan save: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/requirements.txt requirements.txt
+2024-06-13 17:43:28,899 INFO    SenderThread:1257267 [dir_watcher.py:finish():402] scan save: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/wandb-metadata.json wandb-metadata.json
+2024-06-13 17:43:28,899 INFO    SenderThread:1257267 [dir_watcher.py:finish():402] scan save: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/config.yaml config.yaml
+2024-06-13 17:43:28,899 INFO    SenderThread:1257267 [dir_watcher.py:finish():402] scan save: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/wandb-summary.json wandb-summary.json
+2024-06-13 17:43:28,899 INFO    SenderThread:1257267 [dir_watcher.py:finish():402] scan save: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/conda-environment.yaml conda-environment.yaml
+2024-06-13 17:43:28,899 INFO    SenderThread:1257267 [dir_watcher.py:finish():402] scan save: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log output.log
+2024-06-13 17:43:28,899 INFO    SenderThread:1257267 [sender.py:transition_state():613] send defer: 10
+2024-06-13 17:43:28,900 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 17:43:28,901 INFO    HandlerThread:1257267 [handler.py:handle_request_defer():184] handle defer: 10
+2024-06-13 17:43:28,903 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: defer
+2024-06-13 17:43:28,904 INFO    SenderThread:1257267 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-06-13 17:43:28,904 INFO    SenderThread:1257267 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-13 17:43:28,927 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-13 17:43:28,927 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: poll_exit
+2024-06-13 17:43:29,429 INFO    wandb-upload_0:1257267 [upload_job.py:push():130] Uploaded file /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/requirements.txt
+2024-06-13 17:43:29,472 INFO    wandb-upload_1:1257267 [upload_job.py:push():130] Uploaded file /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/config.yaml
+2024-06-13 17:43:29,532 INFO    wandb-upload_3:1257267 [upload_job.py:push():130] Uploaded file /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/conda-environment.yaml
+2024-06-13 17:43:29,607 INFO    wandb-upload_2:1257267 [upload_job.py:push():130] Uploaded file /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/wandb-summary.json
+2024-06-13 17:43:29,930 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-13 17:43:29,930 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: poll_exit
+2024-06-13 17:43:30,930 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-13 17:43:30,931 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: poll_exit
+2024-06-13 17:43:31,093 INFO    wandb-upload_4:1257267 [upload_job.py:push():130] Uploaded file /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/files/output.log
+2024-06-13 17:43:31,293 INFO    Thread-23 :1257267 [sender.py:transition_state():613] send defer: 11
+2024-06-13 17:43:31,293 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 17:43:31,293 INFO    HandlerThread:1257267 [handler.py:handle_request_defer():184] handle defer: 11
+2024-06-13 17:43:31,294 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: defer
+2024-06-13 17:43:31,294 INFO    SenderThread:1257267 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-06-13 17:43:31,294 INFO    SenderThread:1257267 [file_pusher.py:join():175] waiting for file pusher
+2024-06-13 17:43:31,303 INFO    SenderThread:1257267 [sender.py:transition_state():613] send defer: 12
+2024-06-13 17:43:31,303 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 17:43:31,303 INFO    HandlerThread:1257267 [handler.py:handle_request_defer():184] handle defer: 12
+2024-06-13 17:43:31,303 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 17:43:31,303 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: defer
+2024-06-13 17:43:31,303 INFO    SenderThread:1257267 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-06-13 17:43:31,303 INFO    SenderThread:1257267 [file_stream.py:finish():601] file stream finish called
+2024-06-13 17:43:31,931 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-13 17:43:31,942 INFO    SenderThread:1257267 [file_stream.py:finish():605] file stream finish is done
+2024-06-13 17:43:31,942 INFO    SenderThread:1257267 [sender.py:transition_state():613] send defer: 13
+2024-06-13 17:43:31,942 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: poll_exit
+2024-06-13 17:43:31,943 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 17:43:31,943 INFO    HandlerThread:1257267 [handler.py:handle_request_defer():184] handle defer: 13
+2024-06-13 17:43:31,943 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: defer
+2024-06-13 17:43:31,943 INFO    SenderThread:1257267 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-06-13 17:43:31,943 INFO    SenderThread:1257267 [sender.py:transition_state():613] send defer: 14
+2024-06-13 17:43:31,943 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: defer
+2024-06-13 17:43:31,943 INFO    HandlerThread:1257267 [handler.py:handle_request_defer():184] handle defer: 14
+2024-06-13 17:43:31,944 DEBUG   SenderThread:1257267 [sender.py:send():378] send: final
+2024-06-13 17:43:31,944 DEBUG   SenderThread:1257267 [sender.py:send():378] send: footer
+2024-06-13 17:43:31,944 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: defer
+2024-06-13 17:43:31,944 INFO    SenderThread:1257267 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-06-13 17:43:31,944 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-13 17:43:31,945 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: poll_exit
+2024-06-13 17:43:31,946 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 17:43:31,946 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: server_info
+2024-06-13 17:43:31,946 DEBUG   SenderThread:1257267 [sender.py:send_request():405] send_request: server_info
+2024-06-13 17:43:31,989 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: get_summary
+2024-06-13 17:43:31,989 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: sampled_history
+2024-06-13 17:43:32,142 DEBUG   HandlerThread:1257267 [handler.py:handle_request():158] handle_request: shutdown
+2024-06-13 17:43:32,142 INFO    HandlerThread:1257267 [handler.py:finish():882] shutting down handler
+2024-06-13 17:43:32,946 INFO    WriterThread:1257267 [datastore.py:close():296] close: /home/yunkwan/project/radarclip/wandb/run-20240613_173619-gatsj4ef/run-gatsj4ef.wandb
+2024-06-13 17:43:33,141 INFO    SenderThread:1257267 [sender.py:finish():1545] shutting down sender
+2024-06-13 17:43:33,141 INFO    SenderThread:1257267 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-13 17:43:33,141 INFO    SenderThread:1257267 [file_pusher.py:join():175] waiting for file pusher

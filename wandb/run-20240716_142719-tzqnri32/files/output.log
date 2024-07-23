@@ -1,0 +1,20 @@
+Epoch 1/100:   0%|                                                                                              | 0/94 [00:24<?, ?it/s]
+[2] > [33;01m/home/yunkwan/project/radarclip/Radarcap_main_cl.py[00m([36;01m235[00m)train_model()
+-> radars_features = radars_features.permute(1, 0, 2)  # [seq_len, batch_size, embed_dim]
+torch.Size([1, 256, 1024])
+--KeyboardInterrupt--
+--KeyboardInterrupt--
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 455, in <module>
+    main(args.train_3, args.epochs, args.batch_size, args.test_mode)
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 442, in main
+    train_model(encoder_search_resnet1D_3, train_loader, val_loader, criterion, optimizer,warmup_scheduler,cosine_scheduler, prepro_image_fn= prepro_image_features_1024,num_epochs=num_epochs,filter = LearnableLogFilter_3)
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 235, in train_model
+    radars_features = radars_features.permute(1, 0, 2)  # [seq_len, batch_size, embed_dim]
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 235, in train_model
+    radars_features = radars_features.permute(1, 0, 2)  # [seq_len, batch_size, embed_dim]
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

@@ -1,0 +1,31 @@
+Epoch 1/40: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:28<00:00,  1.06it/s, loss=0.14]
+Epoch 1/40, Train Loss: 0.1402, Train_acc: 0.9400, Val Loss: 3.9905 , Val_acc: 0.3395
+Epoch 2/40: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:32<00:00,  1.02it/s, loss=8.02e-5]
+Epoch 2/40, Train Loss: 0.0001, Train_acc: 1.0000, Val Loss: 6.0478 , Val_acc: 0.3437
+Epoch 3/40:  45%|█████████████████████████████████████████████████████████████████████████████▎                                                                                               | 42/94 [00:37<00:46,  1.11it/s, loss=5.05e-5]
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 384, in <module>
+    main(args.train_3, args.epochs, args.batch_size, args.test_mode)
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 371, in main
+    train_model(encoder_search_resnet1D_3, train_loader, val_loader, criterion, optimizer,warmup_scheduler,cosine_scheduler, num_epochs=num_epochs,filter = LearnableLogFilter_3)
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 159, in train_model
+    for images, radars,_,_,labels in train_loader_tqdm:
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/yunkwan/project/radarclip/dataload.py", line 105, in __getitem__
+    image = Image.open(image_path).convert('RGB')
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/PIL/Image.py", line 3274, in open
+    filename = os.path.realpath(os.fspath(fp))
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/posixpath.py", line 392, in realpath
+    path, ok = _joinrealpath(filename[:0], filename, {})
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/posixpath.py", line 426, in _joinrealpath
+    if not islink(newpath):
+KeyboardInterrupt

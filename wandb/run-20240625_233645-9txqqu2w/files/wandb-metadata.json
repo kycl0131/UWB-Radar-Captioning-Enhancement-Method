@@ -1,0 +1,108 @@
+{
+    "os": "Linux-6.5.0-28-generic-x86_64-with-glibc2.35",
+    "python": "3.9.19",
+    "heartbeatAt": "2024-06-25T14:36:46.535743",
+    "startedAt": "2024-06-25T14:36:45.972898",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--train_1024",
+        "--epochs",
+        "30",
+        "--batch_size",
+        "32"
+    ],
+    "state": "running",
+    "program": "/home/yunkwan/project/radarclip/Radarcap_main.py",
+    "codePathLocal": "Radarcap_main.py",
+    "codePath": "Radarcap_main.py",
+    "host": "rfad",
+    "username": "yunkwan",
+    "executable": "/home/yunkwan/anaconda3/envs/smallcap/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 4.053249999999999,
+        "min": 800.0,
+        "max": 4600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4.332,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4.299,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4.293,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4.301,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4.302,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4.305,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4.308,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4.299,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4.306,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4.307,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4.401,
+            "min": 800.0,
+            "max": 4600.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 478.46307373046875,
+            "used": 55.944618225097656
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4080",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4080",
+            "memory_total": 17171480576
+        }
+    ],
+    "memory": {
+        "total": 31.27035140991211
+    }
+}

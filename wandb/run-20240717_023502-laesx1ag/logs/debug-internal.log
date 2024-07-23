@@ -1,0 +1,16 @@
+{"time":"2024-07-17T02:35:02.055778671+09:00","level":"INFO","msg":"using version","core version":"0.17.3"}
+{"time":"2024-07-17T02:35:02.055788971+09:00","level":"INFO","msg":"created symlink","path":"/home/yunkwan/project/radarclip/wandb/run-20240717_023502-laesx1ag/logs/debug-core.log"}
+{"time":"2024-07-17T02:35:02.063203825+09:00","level":"INFO","msg":"created new stream","id":"laesx1ag"}
+{"time":"2024-07-17T02:35:02.063256748+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"laesx1ag"}}
+{"time":"2024-07-17T02:35:02.063294611+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"laesx1ag"}}
+{"time":"2024-07-17T02:35:02.063257615+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"laesx1ag"}}
+{"time":"2024-07-17T02:35:02.46117403+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-07-17T02:35:02.503299369+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-07-17T02:37:13.320157069+09:00","level":"INFO","msg":"sender: getServerInfo: got server info","serverInfo":{"cliVersionInfo":{"max_cli_version":"0.17.2","min_cli_version":"0.8.20"},"latestLocalVersionInfo":null}}
+{"time":"2024-07-17T02:37:13.320671785+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-07-17T02:37:13.32164712+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-07-17T02:37:13.535130461+09:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-07-17T02:37:13.53514094+09:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-07-17T02:37:13.535144483+09:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-07-17T02:37:15.493970245+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"laesx1ag"}}
+{"time":"2024-07-17T02:37:15.493980342+09:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"laesx1ag"}}

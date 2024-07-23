@@ -1,0 +1,29 @@
+Epoch 1/200: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:48<00:00,  1.16s/it, loss=0.528]
+Epoch 1/200, Train Loss: 0.5278, Train_acc: 0.4457, Val Loss: 1.1828, Val_acc: 0.3337
+Epoch 2/200: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:45<00:00,  1.13s/it, loss=0.42]
+Epoch 2/200, Train Loss: 0.4202, Train_acc: 0.6891, Val Loss: 0.8952, Val_acc: 0.5920
+Epoch 3/200: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:49<00:00,  1.16s/it, loss=0.299]
+Epoch 3/200, Train Loss: 0.2986, Train_acc: 0.8387, Val Loss: 0.9081, Val_acc: 0.5875
+Epoch 4/200: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:51<00:00,  1.19s/it, loss=0.211]
+Epoch 4/200, Train Loss: 0.2114, Train_acc: 0.9187, Val Loss: 0.9580, Val_acc: 0.5933
+Epoch 5/200:  64%|█████████████████████████████████████████████████████████████████████████████████████▌                                                | 60/94 [01:11<00:40,  1.19s/it, loss=0.159]
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/distillation.py", line 390, in <module>
+  File "/home/yunkwan/project/radarclip/distillation.py", line 375, in main
+  File "/home/yunkwan/project/radarclip/distillation.py", line 175, in train_model
+    for images, radars, _, _, labels in train_loader_tqdm:
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/yunkwan/project/radarclip/dataload.py", line 111, in __getitem__
+    radar = np.load(radar_path)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/numpy/lib/npyio.py", line 423, in load
+    if hasattr(file, 'read'):
+KeyboardInterrupt

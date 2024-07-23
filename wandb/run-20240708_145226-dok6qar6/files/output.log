@@ -1,0 +1,31 @@
+Epoch 1/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:34<00:00,  3.46s/it, loss=0.25]
+Epoch 1/100, Train Loss: 0.2500, Val Loss: 0.0325
+Epoch 2/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:30<00:00,  3.08s/it, loss=0.0362]
+Epoch 2/100, Train Loss: 0.0362, Val Loss: 0.0267
+Epoch 3/100:  80%|██████████████████████████████████████████████████████████████████████████████▍                   | 8/10 [00:27<00:06,  3.42s/it, loss=0.0252]
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 455, in <module>
+    main(args.train_1024, args.train_768, args.epochs, args.batch_size)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 397, in main
+    train_model(encoder_search_resnet1D_1024, retrieval_model, train_loader, val_loader, criterion, optimizer,scheduler, prepro_image_features_1024, num_epochs=num_epochs,filter = LearnableLogFilter_1024)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 225, in train_model
+    for images, radars,_,_,swvds in train_loader_tqdm:
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/yunkwan/project/radarclip/dataload.py", line 104, in __getitem__
+    image = self.transform(image)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 137, in __call__
+    return F.to_tensor(pic)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torchvision/transforms/functional.py", line 174, in to_tensor
+    img = img.permute((2, 0, 1)).contiguous()
+KeyboardInterrupt

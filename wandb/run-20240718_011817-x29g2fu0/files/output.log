@@ -1,0 +1,102 @@
+Some weights of SmallCap were not initialized from the model checkpoint at Yova/SmallCap7M and are newly initialized: ['encoder_radar.layer3.11.conv2.weight', 'encoder_radar.layer3.4.bn1.weight', 'encoder_radar.layer3.11.bn1.weight', 'encoder_radar.layer3.22.bn2.num_batches_tracked', 'encoder_radar.layer3.0.bn3.running_var', 'encoder_radar.layer3.22.bn2.weight', 'encoder_radar.layer3.8.bn3.weight', 'encoder_radar.layer4.0.bn3.num_batches_tracked', 'encoder_radar.layer3.19.bn3.bias', 'encoder_radar.layer3.11.bn3.weight', 'encoder_radar.layer2.1.bn2.bias', 'encoder_radar.layer2.2.bn1.num_batches_tracked', 'encoder_radar.layer3.17.bn2.running_var', 'encoder_radar.layer3.17.conv3.weight', 'encoder_radar.layer3.3.bn3.weight', 'encoder_radar.layer2.0.bn3.num_batches_tracked', 'encoder_radar.layer3.0.conv3.weight', 'encoder_radar.layer3.10.bn2.bias', 'encoder_radar.layer1.0.downsample.1.running_mean', 'encoder_radar.layer4.2.conv3.weight', 'encoder_radar.layer2.1.conv1.weight', 'encoder_radar.layer1.0.bn3.num_batches_tracked', 'encoder_radar.layer3.6.bn3.running_mean', 'encoder_radar.layer3.11.bn2.weight', 'encoder_radar.layer3.14.bn2.weight', 'encoder_radar.layer2.1.bn2.num_batches_tracked', 'encoder_radar.layer3.5.bn1.running_var', 'encoder_radar.layer3.8.bn1.running_mean', 'encoder_radar.layer3.22.bn2.bias', 'encoder_radar.layer3.5.bn3.running_var', 'encoder_radar.layer3.19.bn3.running_var', 'encoder_radar.layer3.16.conv1.weight', 'encoder_radar.layer3.13.bn2.bias', 'encoder_radar.layer3.16.bn1.running_mean', 'encoder_radar.layer3.11.bn2.bias', 'encoder_radar.layer3.7.bn3.num_batches_tracked', 'encoder_radar.layer3.13.bn1.running_mean', 'encoder_radar.layer1.1.conv3.weight', 'encoder_radar.layer4.0.downsample.1.bias', 'encoder_radar.layer3.0.bn3.weight', 'encoder_radar.layer3.10.bn1.running_mean', 'encoder_radar.layer3.9.conv1.weight', 'encoder_radar.layer3.0.bn1.running_var', 'encoder_radar.layer3.18.bn3.num_batches_tracked', 'encoder_radar.layer3.20.bn1.bias', 'encoder_radar.layer3.9.conv2.weight', 'encoder_radar.layer2.3.bn3.weight', 'encoder_radar.layer2.2.bn1.bias', 'encoder_radar.layer3.0.bn1.running_mean', 'encoder_radar.layer3.8.conv2.weight', 'encoder_radar.layer1.1.bn3.running_mean', 'encoder_radar.layer3.0.bn3.running_mean', 'encoder_radar.layer3.1.conv3.weight', 'encoder_radar.layer2.2.bn1.running_mean', 'encoder_radar.layer3.17.conv2.weight', 'encoder_radar.layer1.2.bn3.running_mean', 'encoder_radar.layer3.15.bn1.num_batches_tracked', 'encoder_radar.layer3.22.bn1.weight', 'encoder_radar.layer3.3.bn2.running_var', 'encoder_radar.layer1.0.bn1.weight', 'encoder_radar.layer3.9.bn3.running_var', 'encoder_radar.layer3.11.conv1.weight', 'encoder_radar.layer3.22.bn1.num_batches_tracked', 'encoder_radar.layer3.16.bn3.running_var', 'encoder_radar.layer3.20.bn1.running_var', 'encoder_radar.layer3.6.bn1.bias', 'encoder_radar.layer1.1.bn1.weight', 'encoder_radar.layer3.10.bn2.running_mean', 'encoder_radar.layer3.16.bn3.running_mean', 'encoder_radar.layer3.1.bn1.num_batches_tracked', 'encoder_radar.layer3.11.bn2.num_batches_tracked', 'encoder_radar.layer3.2.bn3.running_mean', 'encoder_radar.layer3.7.bn2.weight', 'encoder_radar.layer3.12.bn1.num_batches_tracked', 'encoder_radar.layer3.12.bn2.weight', 'encoder_radar.layer2.3.conv3.weight', 'encoder_radar.layer3.15.bn1.bias', 'encoder_radar.layer3.20.conv1.weight', 'encoder_radar.layer4.0.bn2.weight', 'encoder_radar.layer3.10.bn1.weight', 'encoder_radar.layer1.2.bn2.running_var', 'encoder_radar.layer4.1.conv1.weight', 'encoder_radar.layer3.10.bn2.num_batches_tracked', 'encoder_radar.layer3.1.bn2.running_var', 'encoder_radar.layer3.19.bn1.bias', 'encoder_radar.layer1.1.bn1.num_batches_tracked', 'encoder_radar.layer3.1.bn1.weight', 'encoder_radar.layer2.1.bn3.running_var', 'encoder_radar.layer3.2.bn1.bias', 'encoder_radar.layer3.13.bn3.num_batches_tracked', 'encoder_radar.layer4.0.bn1.running_mean', 'encoder_radar.layer3.14.bn2.running_mean', 'encoder_radar.layer1.0.downsample.1.weight', 'encoder_radar.layer3.22.bn1.bias', 'encoder_radar.layer4.2.bn1.weight', 'encoder_radar.layer1
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/50: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:30<00:00,  3.56it/s, loss=0.289]
+Epoch 1/50, Train Loss: 0.2893, Train_acc: 0.5683, Val Loss: 0.9061, Val_acc: 0.5682
+Epoch 2/50: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:30<00:00,  3.57it/s, loss=0.215]
+Epoch 2/50, Train Loss: 0.2146, Train_acc: 0.7761, Val Loss: 0.7338, Val_acc: 0.6998
+Epoch 3/50: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:31<00:00,  3.54it/s, loss=0.177]
+Epoch 3/50, Train Loss: 0.1770, Train_acc: 0.8313, Val Loss: 0.6823, Val_acc: 0.7260
+Epoch 4/50: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:33<00:00,  3.51it/s, loss=0.163]
+Epoch 4/50, Train Loss: 0.1627, Train_acc: 0.8593, Val Loss: 0.7089, Val_acc: 0.7313
+Epoch 5/50: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:33<00:00,  3.51it/s, loss=0.154]
+Epoch 5/50, Train Loss: 0.1543, Train_acc: 0.8742, Val Loss: 0.6865, Val_acc: 0.7308
+Epoch 6/50: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:35<00:00,  3.48it/s, loss=0.149]
+Epoch 6/50, Train Loss: 0.1485, Train_acc: 0.8849, Val Loss: 0.7105, Val_acc: 0.7337
+Epoch 7/50: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:38<00:00,  3.43it/s, loss=0.14]
+Epoch 7/50, Train Loss: 0.1396, Train_acc: 0.8923, Val Loss: 0.6985, Val_acc: 0.7338
+Epoch 8/50: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:30<00:00,  3.56it/s, loss=0.134]
+Epoch 8/50, Train Loss: 0.1342, Train_acc: 0.8998, Val Loss: 0.7032, Val_acc: 0.7427
+Epoch 9/50: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:35<00:00,  3.48it/s, loss=0.133]
+Epoch 9/50, Train Loss: 0.1332, Train_acc: 0.8995, Val Loss: 0.6732, Val_acc: 0.7367
+Epoch 10/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:32<00:00,  3.52it/s, loss=0.124]
+Epoch 10/50, Train Loss: 0.1243, Train_acc: 0.9105, Val Loss: 0.7498, Val_acc: 0.7338
+Epoch 11/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:33<00:00,  3.51it/s, loss=0.118]
+Epoch 11/50, Train Loss: 0.1178, Train_acc: 0.9165, Val Loss: 0.7063, Val_acc: 0.7372
+Epoch 12/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:34<00:00,  3.50it/s, loss=0.112]
+Epoch 12/50, Train Loss: 0.1124, Train_acc: 0.9218, Val Loss: 0.7142, Val_acc: 0.7347
+Epoch 13/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:33<00:00,  3.51it/s, loss=0.107]
+Epoch 13/50, Train Loss: 0.1071, Train_acc: 0.9266, Val Loss: 0.6951, Val_acc: 0.7478
+Epoch 14/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:37<00:00,  3.45it/s, loss=0.103]
+Epoch 14/50, Train Loss: 0.1027, Train_acc: 0.9285, Val Loss: 0.6976, Val_acc: 0.7473
+Epoch 15/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:37<00:00,  3.44it/s, loss=0.095]
+Epoch 15/50, Train Loss: 0.0950, Train_acc: 0.9365, Val Loss: 0.7050, Val_acc: 0.7503
+Epoch 16/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:32<00:00,  3.53it/s, loss=0.0924]
+Epoch 16/50, Train Loss: 0.0924, Train_acc: 0.9399, Val Loss: 0.7433, Val_acc: 0.7387
+Epoch 17/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:29<00:00,  3.59it/s, loss=0.0878]
+Epoch 17/50, Train Loss: 0.0878, Train_acc: 0.9447, Val Loss: 0.7653, Val_acc: 0.7423
+Epoch 18/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:28<00:00,  3.60it/s, loss=0.0817]
+Epoch 18/50, Train Loss: 0.0817, Train_acc: 0.9514, Val Loss: 0.7976, Val_acc: 0.7195
+Epoch 19/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:33<00:00,  3.51it/s, loss=0.078]
+Epoch 19/50, Train Loss: 0.0780, Train_acc: 0.9537, Val Loss: 0.7588, Val_acc: 0.7510
+Epoch 20/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:34<00:00,  3.50it/s, loss=0.0673]
+Epoch 20/50, Train Loss: 0.0673, Train_acc: 0.9616, Val Loss: 0.7577, Val_acc: 0.7518
+Epoch 21/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:35<00:00,  3.48it/s, loss=0.0651]
+Epoch 21/50, Train Loss: 0.0651, Train_acc: 0.9643, Val Loss: 0.8030, Val_acc: 0.7465
+Epoch 22/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:27<00:00,  3.62it/s, loss=0.0603]
+Epoch 22/50, Train Loss: 0.0603, Train_acc: 0.9680, Val Loss: 0.8223, Val_acc: 0.7448
+Epoch 23/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:33<00:00,  3.51it/s, loss=0.051]
+Epoch 23/50, Train Loss: 0.0510, Train_acc: 0.9752, Val Loss: 0.8271, Val_acc: 0.7387
+Epoch 24/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:28<00:00,  3.59it/s, loss=0.0457]
+Epoch 24/50, Train Loss: 0.0457, Train_acc: 0.9792, Val Loss: 0.9013, Val_acc: 0.7355
+Epoch 25/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:32<00:00,  3.53it/s, loss=0.0404]
+Epoch 25/50, Train Loss: 0.0404, Train_acc: 0.9833, Val Loss: 0.9167, Val_acc: 0.7372
+Epoch 26/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:31<00:00,  3.54it/s, loss=0.0372]
+Epoch 26/50, Train Loss: 0.0372, Train_acc: 0.9858, Val Loss: 0.9212, Val_acc: 0.7418
+Epoch 27/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:29<00:00,  3.58it/s, loss=0.0337]
+Epoch 27/50, Train Loss: 0.0337, Train_acc: 0.9883, Val Loss: 0.9778, Val_acc: 0.7302
+Epoch 28/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:34<00:00,  3.49it/s, loss=0.0287]
+Epoch 28/50, Train Loss: 0.0287, Train_acc: 0.9910, Val Loss: 0.9997, Val_acc: 0.7413
+Epoch 29/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:30<00:00,  3.56it/s, loss=0.0278]
+Epoch 29/50, Train Loss: 0.0278, Train_acc: 0.9913, Val Loss: 0.9815, Val_acc: 0.7390
+Epoch 30/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:37<00:00,  3.44it/s, loss=0.0231]
+Epoch 30/50, Train Loss: 0.0231, Train_acc: 0.9936, Val Loss: 1.0878, Val_acc: 0.7338
+Epoch 31/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:34<00:00,  3.50it/s, loss=0.0227]
+Epoch 31/50, Train Loss: 0.0227, Train_acc: 0.9938, Val Loss: 1.0659, Val_acc: 0.7347
+Epoch 32/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:30<00:00,  3.57it/s, loss=0.0228]
+Epoch 32/50, Train Loss: 0.0228, Train_acc: 0.9938, Val Loss: 1.0575, Val_acc: 0.7415
+Epoch 33/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:32<00:00,  3.54it/s, loss=0.0212]
+Epoch 33/50, Train Loss: 0.0212, Train_acc: 0.9947, Val Loss: 1.0894, Val_acc: 0.7378
+Epoch 34/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:34<00:00,  3.49it/s, loss=0.024]
+Epoch 34/50, Train Loss: 0.0240, Train_acc: 0.9940, Val Loss: 1.0870, Val_acc: 0.7347
+Epoch 35/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:32<00:00,  3.52it/s, loss=0.0255]
+Epoch 35/50, Train Loss: 0.0255, Train_acc: 0.9942, Val Loss: 1.0518, Val_acc: 0.7287
+Epoch 36/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:29<00:00,  3.58it/s, loss=0.0282]
+Epoch 36/50, Train Loss: 0.0282, Train_acc: 0.9934, Val Loss: 1.0514, Val_acc: 0.7312
+Epoch 37/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:27<00:00,  3.61it/s, loss=0.0285]
+Epoch 37/50, Train Loss: 0.0285, Train_acc: 0.9932, Val Loss: 1.0713, Val_acc: 0.7208
+Epoch 38/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:32<00:00,  3.53it/s, loss=0.036]
+Epoch 38/50, Train Loss: 0.0360, Train_acc: 0.9905, Val Loss: 1.0388, Val_acc: 0.7218
+Epoch 39/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:29<00:00,  3.57it/s, loss=0.036]
+Epoch 39/50, Train Loss: 0.0360, Train_acc: 0.9906, Val Loss: 0.9885, Val_acc: 0.7260
+Epoch 40/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:34<00:00,  3.49it/s, loss=0.0413]
+Epoch 40/50, Train Loss: 0.0413, Train_acc: 0.9887, Val Loss: 0.9679, Val_acc: 0.7272
+Epoch 41/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:30<00:00,  3.57it/s, loss=0.0448]
+Epoch 41/50, Train Loss: 0.0448, Train_acc: 0.9872, Val Loss: 0.9084, Val_acc: 0.7218
+Epoch 42/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:30<00:00,  3.57it/s, loss=0.048]
+Epoch 42/50, Train Loss: 0.0480, Train_acc: 0.9855, Val Loss: 0.8852, Val_acc: 0.7328
+Epoch 43/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:36<00:00,  3.46it/s, loss=0.0578]
+Epoch 43/50, Train Loss: 0.0578, Train_acc: 0.9800, Val Loss: 0.7867, Val_acc: 0.7457
+Epoch 44/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:36<00:00,  3.46it/s, loss=0.0582]
+Epoch 44/50, Train Loss: 0.0582, Train_acc: 0.9800, Val Loss: 0.8908, Val_acc: 0.7333
+Epoch 45/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:35<00:00,  3.49it/s, loss=0.0604]
+Epoch 45/50, Train Loss: 0.0604, Train_acc: 0.9790, Val Loss: 0.8645, Val_acc: 0.7383
+Epoch 46/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:34<00:00,  3.50it/s, loss=0.0647]
+Epoch 46/50, Train Loss: 0.0647, Train_acc: 0.9764, Val Loss: 0.8007, Val_acc: 0.7378
+Epoch 47/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:32<00:00,  3.52it/s, loss=0.0702]
+Epoch 47/50, Train Loss: 0.0702, Train_acc: 0.9744, Val Loss: 0.7987, Val_acc: 0.7358
+Epoch 48/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:33<00:00,  3.52it/s, loss=0.0705]
+Epoch 48/50, Train Loss: 0.0705, Train_acc: 0.9734, Val Loss: 0.6880, Val_acc: 0.7390
+Epoch 49/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:39<00:00,  3.41it/s, loss=0.0702]
+Epoch 49/50, Train Loss: 0.0702, Train_acc: 0.9721, Val Loss: 0.7598, Val_acc: 0.7570
+Epoch 50/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:34<00:00,  3.50it/s, loss=0.0759]
+Epoch 50/50, Train Loss: 0.0759, Train_acc: 0.9680, Val Loss: 0.8082, Val_acc: 0.7347

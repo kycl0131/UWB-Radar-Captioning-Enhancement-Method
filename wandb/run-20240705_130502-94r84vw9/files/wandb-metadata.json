@@ -1,0 +1,44 @@
+{
+  "os":  "Linux-6.5.0-41-generic-x86_64-with-glibc2.35",
+  "python":  "3.9.19",
+  "startedAt":  "2024-07-05T04:05:02.345914Z",
+  "args":  [
+    "--train_768",
+    "--train_1024",
+    "--epochs",
+    "10",
+    "--batch_size",
+    "4"
+  ],
+  "program":  "/home/yunkwan/project/radarclip/Radarcap_main.py",
+  "codePath":  "Radarcap_main.py",
+  "email":  "kycl0131@gmail.com",
+  "root":  "/home/yunkwan/project/radarclip",
+  "host":  "rfad",
+  "username":  "yunkwan",
+  "executable":  "/home/yunkwan/anaconda3/envs/smallcap/bin/python",
+  "codePathLocal":  "Radarcap_main.py",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "gpu":  "[NVIDIA GeForce RTX 4080]",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "513745813504",
+      "used":  "59984969728"
+    }
+  },
+  "memory":  {
+    "total":  "33576292352"
+  },
+  "cpu":  {
+    "count":  6,
+    "countLogical":  12
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 4080",
+      "memoryTotal":  "17171480576"
+    }
+  ]
+}

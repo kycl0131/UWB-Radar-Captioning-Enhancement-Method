@@ -1,0 +1,16 @@
+{"time":"2024-06-30T21:38:36.908178284+09:00","level":"INFO","msg":"using version","core version":"0.17.3"}
+{"time":"2024-06-30T21:38:36.90818799+09:00","level":"INFO","msg":"created symlink","path":"/home/yunkwan/project/radarclip/wandb/run-20240630_213836-wdj0lrhb/logs/debug-core.log"}
+{"time":"2024-06-30T21:38:36.910790979+09:00","level":"INFO","msg":"created new stream","id":"wdj0lrhb"}
+{"time":"2024-06-30T21:38:36.910827232+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"wdj0lrhb"}}
+{"time":"2024-06-30T21:38:36.910859312+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"wdj0lrhb"}}
+{"time":"2024-06-30T21:38:36.910821979+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"wdj0lrhb"}}
+{"time":"2024-06-30T21:38:37.202955663+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-06-30T21:38:37.24543033+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-06-30T21:38:46.29784593+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-06-30T21:38:46.29864298+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-06-30T21:38:46.508492198+09:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-06-30T21:38:46.508501996+09:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-06-30T21:38:46.508505578+09:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-06-30T21:38:47.48631692+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"wdj0lrhb"}}
+{"time":"2024-06-30T21:38:47.486321716+09:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"wdj0lrhb"}}
+{"time":"2024-06-30T21:38:47.486424628+09:00","level":"INFO","msg":"closed stream","id":"wdj0lrhb"}

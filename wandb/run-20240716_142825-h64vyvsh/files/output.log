@@ -1,0 +1,23 @@
+Epoch 1/100:   0%|                                                                                              | 0/94 [00:04<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 455, in <module>
+    main(args.train_3, args.epochs, args.batch_size, args.test_mode)
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 442, in main
+    train_model(encoder_search_resnet1D_3, train_loader, val_loader, criterion, optimizer,warmup_scheduler,cosine_scheduler, prepro_image_fn= prepro_image_features_1024,num_epochs=num_epochs,filter = LearnableLogFilter_3)
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 238, in train_model
+    cross_attn_output, cross_attn_weights = cross_attention(radars_features, images_features, images_features)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 193, in forward
+    attn_output, attn_output_weights = self.attention(query, key, value)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/activation.py", line 1266, in forward
+    attn_output, attn_output_weights = F.multi_head_attention_forward(
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/functional.py", line 5344, in multi_head_attention_forward
+    assert embed_dim == embed_dim_to_check, \
+AssertionError: was expecting embedding dimension of 1024, but got 3

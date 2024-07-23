@@ -1,0 +1,37 @@
+Epoch 1/10: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:25<00:00,  3.65it/s, loss=0.0323]
+Epoch 1/10, Train Loss: 0.0323, Train_acc: 0.9863, Val Loss: 0.5031 , Val_acc: 0.9568
+Epoch 2/10: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:24<00:00,  3.67it/s, loss=0.0007]
+Epoch 2/10, Train Loss: 0.0007, Train_acc: 0.9999, Val Loss: 0.2597 , Val_acc: 0.9738
+Epoch 3/10: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:25<00:00,  3.65it/s, loss=1.36e-5]
+Epoch 3/10, Train Loss: 0.0000, Train_acc: 1.0000, Val Loss: 0.2766 , Val_acc: 0.9738
+Epoch 4/10: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:24<00:00,  3.67it/s, loss=5.37e-6]
+Epoch 4/10, Train Loss: 0.0000, Train_acc: 1.0000, Val Loss: 0.3157 , Val_acc: 0.9738
+Epoch 5/10: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:26<00:00,  3.63it/s, loss=4.12e-6]
+Epoch 5/10, Train Loss: 0.0000, Train_acc: 1.0000, Val Loss: 0.3029 , Val_acc: 0.9738
+Epoch 6/10: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 750/750 [03:29<00:00,  3.58it/s, loss=5.28e-6]
+Epoch 6/10, Train Loss: 0.0000, Train_acc: 1.0000, Val Loss: 0.3664 , Val_acc: 0.9738
+Epoch 7/10:  47%|███████████████████████████████████████████████████████████████████████████████▊                                                                                           | 350/750 [01:34<01:48,  3.69it/s, loss=3.39e-5]
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 383, in <module>
+    main(args.train_3, args.epochs, args.batch_size, args.test_mode)
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 370, in main
+    train_model(encoder_search_resnet1D_3, train_loader, val_loader, criterion, optimizer,warmup_scheduler,cosine_scheduler, num_epochs=num_epochs,filter = LearnableLogFilter_3)
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 159, in train_model
+    for images, radars,_,_,labels in train_loader_tqdm:
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/yunkwan/project/radarclip/dataload.py", line 110, in __getitem__
+    # 레이더 데이터 로드
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/PIL/Image.py", line 941, in convert
+    self.load()
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/PIL/ImageFile.py", line 291, in load
+    n, err_code = decoder.decode(b)
+KeyboardInterrupt

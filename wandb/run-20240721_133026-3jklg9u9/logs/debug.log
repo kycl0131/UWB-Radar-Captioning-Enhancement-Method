@@ -1,0 +1,35 @@
+2024-07-21 13:30:26,908 INFO    Thread-21 :5008 [wandb_setup.py:_flush():76] Current SDK version is 0.17.3
+2024-07-21 13:30:26,908 INFO    Thread-21 :5008 [wandb_setup.py:_flush():76] Configure stats pid to 5008
+2024-07-21 13:30:26,908 INFO    Thread-21 :5008 [wandb_setup.py:_flush():76] Loading settings from /home/yunkwan/.config/wandb/settings
+2024-07-21 13:30:26,908 INFO    Thread-21 :5008 [wandb_setup.py:_flush():76] Loading settings from /home/yunkwan/project/radarclip/wandb/settings
+2024-07-21 13:30:26,908 INFO    Thread-21 :5008 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'_require_core': 'true', 'project': 'teacher_student_distillation', 'entity': 'kycl0131', 'root_dir': '/home/yunkwan/project/radarclip', 'run_id': '3jklg9u9', 'sweep_param_path': '/home/yunkwan/project/radarclip/wandb/sweep-4l61gqmr/config-3jklg9u9.yaml', 'sweep_id': '4l61gqmr'}
+2024-07-21 13:30:26,908 INFO    Thread-21 :5008 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-07-21 13:30:26,908 INFO    Thread-21 :5008 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'distillation.py', 'program_abspath': '/home/yunkwan/project/radarclip/distillation.py', 'program': '/home/yunkwan/project/radarclip/distillation.py'}
+2024-07-21 13:30:26,908 INFO    Thread-21 :5008 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-21 13:30:26,908 INFO    Thread-21 :5008 [wandb_init.py:_log_setup():520] Logging user logs to /home/yunkwan/project/radarclip/wandb/run-20240721_133026-3jklg9u9/logs/debug.log
+2024-07-21 13:30:26,908 INFO    Thread-21 :5008 [wandb_init.py:_log_setup():521] Logging internal logs to /home/yunkwan/project/radarclip/wandb/run-20240721_133026-3jklg9u9/logs/debug-internal.log
+2024-07-21 13:30:26,908 INFO    Thread-21 :5008 [wandb_init.py:init():560] calling init triggers
+2024-07-21 13:30:26,908 INFO    Thread-21 :5008 [wandb_init.py:init():567] wandb.init called with sweep_config: {'alpha': 0.3, 'batch_size': 64, 'epochs': 30, 'feature_loss_weight': 6, 'temperature': 9, 'vit_loss': 0.7}
+config: {}
+2024-07-21 13:30:26,908 INFO    Thread-21 :5008 [wandb_init.py:init():610] starting backend
+2024-07-21 13:30:26,908 INFO    Thread-21 :5008 [wandb_init.py:init():614] setting up manager
+2024-07-21 13:30:26,911 INFO    Thread-21 :5008 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-07-21 13:30:26,911 INFO    Thread-21 :5008 [wandb_init.py:init():622] backend started and connected
+2024-07-21 13:30:26,917 INFO    Thread-21 :5008 [wandb_run.py:_config_callback():1382] config_cb None None {'alpha': 0.3, 'batch_size': 64, 'epochs': 30, 'feature_loss_weight': 6, 'temperature': 9, 'vit_loss': 0.7}
+2024-07-21 13:30:26,919 INFO    Thread-21 :5008 [wandb_init.py:init():711] updated telemetry
+2024-07-21 13:30:26,919 INFO    Thread-21 :5008 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-07-21 13:30:27,155 INFO    Thread-21 :5008 [wandb_run.py:_on_init():2402] communicating current version
+2024-07-21 13:30:27,156 INFO    Thread-21 :5008 [wandb_run.py:_on_init():2411] got version response 
+2024-07-21 13:30:27,156 INFO    Thread-21 :5008 [wandb_init.py:init():795] starting run threads in backend
+2024-07-21 13:30:27,302 INFO    Thread-21 :5008 [wandb_run.py:_console_start():2380] atexit reg
+2024-07-21 13:30:27,303 INFO    Thread-21 :5008 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2024-07-21 13:30:27,303 INFO    Thread-21 :5008 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2024-07-21 13:30:27,303 INFO    Thread-21 :5008 [wandb_run.py:_redirect():2325] Redirects installed.
+2024-07-21 13:30:27,303 INFO    Thread-21 :5008 [wandb_init.py:init():838] run started, returning control to user process
+2024-07-21 15:22:15,626 INFO    Thread-21 :5008 [wandb_run.py:_finish():2109] finishing run kycl0131/teacher_student_distillation/3jklg9u9
+2024-07-21 15:22:15,626 INFO    Thread-21 :5008 [wandb_run.py:_atexit_cleanup():2349] got exitcode: 0
+2024-07-21 15:22:15,626 INFO    Thread-21 :5008 [wandb_run.py:_restore():2332] restore
+2024-07-21 15:22:15,627 INFO    Thread-21 :5008 [wandb_run.py:_restore():2338] restore done
+2024-07-21 15:22:18,371 INFO    Thread-21 :5008 [wandb_run.py:_footer_history_summary_info():3991] rendering history
+2024-07-21 15:22:18,371 INFO    Thread-21 :5008 [wandb_run.py:_footer_history_summary_info():4023] rendering summary
+2024-07-21 15:22:18,374 INFO    Thread-21 :5008 [wandb_run.py:_footer_sync_info():3950] logging synced files

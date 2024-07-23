@@ -1,0 +1,238 @@
+2024-06-10 13:18:02,505 INFO    StreamThr :781844 [internal.py:wandb_internal():85] W&B internal server running at pid: 781844, started at: 2024-06-10 13:18:02.504608
+2024-06-10 13:18:02,506 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: status
+2024-06-10 13:18:02,507 INFO    WriterThread:781844 [datastore.py:open_for_write():87] open: /home/yunkwan/project/radarclip/wandb/run-20240610_131754-hybcxzq4/run-hybcxzq4.wandb
+2024-06-10 13:18:02,507 DEBUG   SenderThread:781844 [sender.py:send():378] send: header
+2024-06-10 13:18:02,507 DEBUG   SenderThread:781844 [sender.py:send():378] send: run
+2024-06-10 13:18:02,948 INFO    SenderThread:781844 [dir_watcher.py:__init__():211] watching files in: /home/yunkwan/project/radarclip/wandb/run-20240610_131754-hybcxzq4/files
+2024-06-10 13:18:02,948 INFO    SenderThread:781844 [sender.py:_start_run_threads():1123] run started: hybcxzq4 with start time 1717993081.553097
+2024-06-10 13:18:02,955 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: check_version
+2024-06-10 13:18:02,956 DEBUG   SenderThread:781844 [sender.py:send_request():405] send_request: check_version
+2024-06-10 13:18:03,025 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: run_start
+2024-06-10 13:18:03,026 DEBUG   HandlerThread:781844 [system_info.py:__init__():26] System info init
+2024-06-10 13:18:03,026 DEBUG   HandlerThread:781844 [system_info.py:__init__():41] System info init done
+2024-06-10 13:18:03,026 INFO    HandlerThread:781844 [system_monitor.py:start():194] Starting system monitor
+2024-06-10 13:18:03,026 INFO    SystemMonitor:781844 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-10 13:18:03,026 INFO    HandlerThread:781844 [system_monitor.py:probe():214] Collecting system info
+2024-06-10 13:18:03,027 INFO    SystemMonitor:781844 [interfaces.py:start():188] Started cpu monitoring
+2024-06-10 13:18:03,027 INFO    SystemMonitor:781844 [interfaces.py:start():188] Started disk monitoring
+2024-06-10 13:18:03,028 INFO    SystemMonitor:781844 [interfaces.py:start():188] Started gpu monitoring
+2024-06-10 13:18:03,028 INFO    SystemMonitor:781844 [interfaces.py:start():188] Started memory monitoring
+2024-06-10 13:18:03,028 INFO    SystemMonitor:781844 [interfaces.py:start():188] Started network monitoring
+2024-06-10 13:18:03,034 DEBUG   HandlerThread:781844 [system_info.py:probe():150] Probing system
+2024-06-10 13:18:03,035 DEBUG   HandlerThread:781844 [gitlib.py:_init_repo():56] git repository is invalid
+2024-06-10 13:18:03,035 DEBUG   HandlerThread:781844 [system_info.py:probe():198] Probing system done
+2024-06-10 13:18:03,035 DEBUG   HandlerThread:781844 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-28-generic-x86_64-with-glibc2.35', 'python': '3.9.19', 'heartbeatAt': '2024-06-10T04:18:03.035012', 'startedAt': '2024-06-10T04:17:54.773640', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'rfad', 'username': 'yunkwan', 'executable': '/home/yunkwan/anaconda3/envs/smallcap/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3.1649166666666666, 'min': 800.0, 'max': 4600.0}, 'cpu_freq_per_core': [{'current': 4.299, 'min': 800.0, 'max': 4600.0}, {'current': 4.299, 'min': 800.0, 'max': 4600.0}, {'current': 4.299, 'min': 800.0, 'max': 4600.0}, {'current': 0.8, 'min': 800.0, 'max': 4600.0}, {'current': 0.8, 'min': 800.0, 'max': 4600.0}, {'current': 0.8, 'min': 800.0, 'max': 4600.0}, {'current': 4.41, 'min': 800.0, 'max': 4600.0}, {'current': 0.8, 'min': 800.0, 'max': 4600.0}, {'current': 4.299, 'min': 800.0, 'max': 4600.0}, {'current': 4.332, 'min': 800.0, 'max': 4600.0}, {'current': 4.299, 'min': 800.0, 'max': 4600.0}, {'current': 4.299, 'min': 800.0, 'max': 4600.0}], 'disk': {'/': {'total': 478.46307373046875, 'used': 55.91619110107422}}, 'gpu': 'NVIDIA GeForce RTX 4080', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4080', 'memory_total': 17171480576}], 'memory': {'total': 31.27035140991211}}
+2024-06-10 13:18:03,035 INFO    HandlerThread:781844 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-10 13:18:03,035 INFO    HandlerThread:781844 [system_monitor.py:probe():227] Publishing system info
+2024-06-10 13:18:03,035 DEBUG   HandlerThread:781844 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-06-10 13:18:03,952 INFO    Thread-84 :781844 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240610_131754-hybcxzq4/files/conda-environment.yaml
+2024-06-10 13:18:05,560 DEBUG   HandlerThread:781844 [system_info.py:_save_conda():222] Saving conda packages done
+2024-06-10 13:18:05,561 INFO    HandlerThread:781844 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-10 13:18:05,562 DEBUG   SenderThread:781844 [sender.py:send():378] send: files
+2024-06-10 13:18:05,562 INFO    SenderThread:781844 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-06-10 13:18:05,644 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: python_packages
+2024-06-10 13:18:05,645 DEBUG   SenderThread:781844 [sender.py:send_request():405] send_request: python_packages
+2024-06-10 13:18:05,646 DEBUG   SenderThread:781844 [sender.py:send():378] send: telemetry
+2024-06-10 13:18:05,649 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-10 13:18:05,649 DEBUG   SenderThread:781844 [sender.py:send_request():405] send_request: stop_status
+2024-06-10 13:18:05,949 INFO    Thread-84 :781844 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240610_131754-hybcxzq4/files/conda-environment.yaml
+2024-06-10 13:18:05,950 INFO    Thread-84 :781844 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240610_131754-hybcxzq4/files/requirements.txt
+2024-06-10 13:18:05,950 INFO    Thread-84 :781844 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240610_131754-hybcxzq4/files/wandb-metadata.json
+2024-06-10 13:18:05,950 INFO    Thread-84 :781844 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240610_131754-hybcxzq4/files/output.log
+2024-06-10 13:18:06,274 INFO    wandb-upload_0:781844 [upload_job.py:push():130] Uploaded file /tmp/tmpqjjpxgbhwandb/jn166olh-wandb-metadata.json
+2024-06-10 13:18:06,336 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: pause
+2024-06-10 13:18:06,336 INFO    HandlerThread:781844 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-10 13:18:06,336 INFO    HandlerThread:781844 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-10 13:18:06,337 DEBUG   SystemMonitor:781844 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-10 13:18:06,337 DEBUG   SystemMonitor:781844 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-10 13:18:06,337 DEBUG   SystemMonitor:781844 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-10 13:18:06,337 INFO    HandlerThread:781844 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-10 13:18:06,338 INFO    HandlerThread:781844 [interfaces.py:finish():200] Joined disk monitor
+2024-06-10 13:18:06,392 INFO    HandlerThread:781844 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-10 13:18:06,393 INFO    HandlerThread:781844 [interfaces.py:finish():200] Joined memory monitor
+2024-06-10 13:18:06,393 INFO    HandlerThread:781844 [interfaces.py:finish():200] Joined network monitor
+2024-06-10 13:18:06,393 DEBUG   SenderThread:781844 [sender.py:send():378] send: stats
+2024-06-10 13:18:07,950 INFO    Thread-84 :781844 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240610_131754-hybcxzq4/files/output.log
+2024-06-10 13:18:08,394 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: status_report
+2024-06-10 13:18:13,394 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: status_report
+2024-06-10 13:18:18,395 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: status_report
+2024-06-10 13:18:20,645 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-10 13:18:20,645 DEBUG   SenderThread:781844 [sender.py:send_request():405] send_request: stop_status
+2024-06-10 13:18:23,838 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: status_report
+2024-06-10 13:18:28,838 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: status_report
+2024-06-10 13:18:32,996 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: resume
+2024-06-10 13:18:32,996 INFO    HandlerThread:781844 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-10 13:18:32,996 INFO    HandlerThread:781844 [system_monitor.py:start():194] Starting system monitor
+2024-06-10 13:18:32,996 INFO    SystemMonitor:781844 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-10 13:18:32,997 INFO    SystemMonitor:781844 [interfaces.py:start():188] Started cpu monitoring
+2024-06-10 13:18:32,997 INFO    SystemMonitor:781844 [interfaces.py:start():188] Started disk monitoring
+2024-06-10 13:18:32,998 INFO    SystemMonitor:781844 [interfaces.py:start():188] Started gpu monitoring
+2024-06-10 13:18:32,998 INFO    SystemMonitor:781844 [interfaces.py:start():188] Started memory monitoring
+2024-06-10 13:18:32,999 INFO    SystemMonitor:781844 [interfaces.py:start():188] Started network monitoring
+2024-06-10 13:18:33,842 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: status_report
+2024-06-10 13:18:34,956 INFO    Thread-84 :781844 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240610_131754-hybcxzq4/files/config.yaml
+2024-06-10 13:18:35,645 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-10 13:18:35,646 DEBUG   SenderThread:781844 [sender.py:send_request():405] send_request: stop_status
+2024-06-10 13:18:36,008 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: pause
+2024-06-10 13:18:36,008 INFO    HandlerThread:781844 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-10 13:18:36,008 INFO    HandlerThread:781844 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-10 13:18:36,008 DEBUG   SystemMonitor:781844 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-10 13:18:36,008 INFO    HandlerThread:781844 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-10 13:18:36,008 DEBUG   SystemMonitor:781844 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-10 13:18:36,008 INFO    HandlerThread:781844 [interfaces.py:finish():200] Joined disk monitor
+2024-06-10 13:18:36,008 DEBUG   SystemMonitor:781844 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-10 13:18:36,054 INFO    HandlerThread:781844 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-10 13:18:36,054 INFO    HandlerThread:781844 [interfaces.py:finish():200] Joined memory monitor
+2024-06-10 13:18:36,055 INFO    HandlerThread:781844 [interfaces.py:finish():200] Joined network monitor
+2024-06-10 13:18:36,055 DEBUG   SenderThread:781844 [sender.py:send():378] send: stats
+2024-06-10 13:18:37,957 INFO    Thread-84 :781844 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240610_131754-hybcxzq4/files/output.log
+2024-06-10 13:18:40,056 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: status_report
+2024-06-10 13:18:45,057 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: status_report
+2024-06-10 13:18:50,057 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: status_report
+2024-06-10 13:18:50,645 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-10 13:18:50,645 DEBUG   SenderThread:781844 [sender.py:send_request():405] send_request: stop_status
+2024-06-10 13:18:55,941 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: status_report
+2024-06-10 13:19:00,942 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: status_report
+2024-06-10 13:19:02,846 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: resume
+2024-06-10 13:19:02,846 INFO    HandlerThread:781844 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-10 13:19:02,846 INFO    HandlerThread:781844 [system_monitor.py:start():194] Starting system monitor
+2024-06-10 13:19:02,846 INFO    SystemMonitor:781844 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-10 13:19:02,846 INFO    SystemMonitor:781844 [interfaces.py:start():188] Started cpu monitoring
+2024-06-10 13:19:02,847 INFO    SystemMonitor:781844 [interfaces.py:start():188] Started disk monitoring
+2024-06-10 13:19:02,848 INFO    SystemMonitor:781844 [interfaces.py:start():188] Started gpu monitoring
+2024-06-10 13:19:02,848 INFO    SystemMonitor:781844 [interfaces.py:start():188] Started memory monitoring
+2024-06-10 13:19:02,848 INFO    SystemMonitor:781844 [interfaces.py:start():188] Started network monitoring
+2024-06-10 13:19:02,856 DEBUG   SenderThread:781844 [sender.py:send():378] send: telemetry
+2024-06-10 13:19:02,857 DEBUG   SenderThread:781844 [sender.py:send():378] send: exit
+2024-06-10 13:19:02,857 INFO    SenderThread:781844 [sender.py:send_exit():585] handling exit code: 0
+2024-06-10 13:19:02,857 INFO    SenderThread:781844 [sender.py:send_exit():587] handling runtime: 6
+2024-06-10 13:19:02,858 INFO    SenderThread:781844 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-10 13:19:02,858 INFO    SenderThread:781844 [sender.py:send_exit():593] send defer
+2024-06-10 13:19:02,859 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: defer
+2024-06-10 13:19:02,859 INFO    HandlerThread:781844 [handler.py:handle_request_defer():184] handle defer: 0
+2024-06-10 13:19:02,859 DEBUG   SenderThread:781844 [sender.py:send_request():405] send_request: defer
+2024-06-10 13:19:02,859 INFO    SenderThread:781844 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-06-10 13:19:02,859 INFO    SenderThread:781844 [sender.py:transition_state():613] send defer: 1
+2024-06-10 13:19:02,859 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: defer
+2024-06-10 13:19:02,859 INFO    HandlerThread:781844 [handler.py:handle_request_defer():184] handle defer: 1
+2024-06-10 13:19:02,859 DEBUG   SenderThread:781844 [sender.py:send_request():405] send_request: defer
+2024-06-10 13:19:02,859 INFO    SenderThread:781844 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-06-10 13:19:02,859 INFO    SenderThread:781844 [sender.py:transition_state():613] send defer: 2
+2024-06-10 13:19:02,859 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: defer
+2024-06-10 13:19:02,859 INFO    HandlerThread:781844 [handler.py:handle_request_defer():184] handle defer: 2
+2024-06-10 13:19:02,859 INFO    HandlerThread:781844 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-10 13:19:02,860 DEBUG   SystemMonitor:781844 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-10 13:19:02,860 DEBUG   SystemMonitor:781844 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-10 13:19:02,860 DEBUG   SystemMonitor:781844 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-10 13:19:02,860 INFO    HandlerThread:781844 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-10 13:19:02,861 INFO    HandlerThread:781844 [interfaces.py:finish():200] Joined disk monitor
+2024-06-10 13:19:02,905 INFO    HandlerThread:781844 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-10 13:19:02,906 INFO    HandlerThread:781844 [interfaces.py:finish():200] Joined memory monitor
+2024-06-10 13:19:02,906 INFO    HandlerThread:781844 [interfaces.py:finish():200] Joined network monitor
+2024-06-10 13:19:02,906 DEBUG   SenderThread:781844 [sender.py:send_request():405] send_request: defer
+2024-06-10 13:19:02,906 INFO    SenderThread:781844 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-06-10 13:19:02,906 INFO    SenderThread:781844 [sender.py:transition_state():613] send defer: 3
+2024-06-10 13:19:02,906 DEBUG   SenderThread:781844 [sender.py:send():378] send: stats
+2024-06-10 13:19:02,907 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: defer
+2024-06-10 13:19:02,907 INFO    HandlerThread:781844 [handler.py:handle_request_defer():184] handle defer: 3
+2024-06-10 13:19:02,907 DEBUG   SenderThread:781844 [sender.py:send_request():405] send_request: defer
+2024-06-10 13:19:02,907 INFO    SenderThread:781844 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-06-10 13:19:02,907 INFO    SenderThread:781844 [sender.py:transition_state():613] send defer: 4
+2024-06-10 13:19:02,907 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: defer
+2024-06-10 13:19:02,907 INFO    HandlerThread:781844 [handler.py:handle_request_defer():184] handle defer: 4
+2024-06-10 13:19:02,907 DEBUG   SenderThread:781844 [sender.py:send_request():405] send_request: defer
+2024-06-10 13:19:02,907 INFO    SenderThread:781844 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-06-10 13:19:02,907 INFO    SenderThread:781844 [sender.py:transition_state():613] send defer: 5
+2024-06-10 13:19:02,907 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: defer
+2024-06-10 13:19:02,907 INFO    HandlerThread:781844 [handler.py:handle_request_defer():184] handle defer: 5
+2024-06-10 13:19:02,908 DEBUG   SenderThread:781844 [sender.py:send():378] send: summary
+2024-06-10 13:19:02,908 INFO    SenderThread:781844 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-10 13:19:02,908 DEBUG   SenderThread:781844 [sender.py:send_request():405] send_request: defer
+2024-06-10 13:19:02,908 INFO    SenderThread:781844 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-06-10 13:19:02,908 INFO    SenderThread:781844 [sender.py:transition_state():613] send defer: 6
+2024-06-10 13:19:02,908 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: defer
+2024-06-10 13:19:02,908 INFO    HandlerThread:781844 [handler.py:handle_request_defer():184] handle defer: 6
+2024-06-10 13:19:02,909 DEBUG   SenderThread:781844 [sender.py:send_request():405] send_request: defer
+2024-06-10 13:19:02,909 INFO    SenderThread:781844 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-06-10 13:19:02,911 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: status_report
+2024-06-10 13:19:02,962 INFO    Thread-84 :781844 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240610_131754-hybcxzq4/files/wandb-summary.json
+2024-06-10 13:19:03,110 INFO    SenderThread:781844 [sender.py:transition_state():613] send defer: 7
+2024-06-10 13:19:03,111 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: defer
+2024-06-10 13:19:03,111 INFO    HandlerThread:781844 [handler.py:handle_request_defer():184] handle defer: 7
+2024-06-10 13:19:03,111 DEBUG   SenderThread:781844 [sender.py:send_request():405] send_request: defer
+2024-06-10 13:19:03,111 INFO    SenderThread:781844 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-06-10 13:19:03,857 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-10 13:19:03,963 INFO    Thread-84 :781844 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240610_131754-hybcxzq4/files/config.yaml
+2024-06-10 13:19:05,949 INFO    SenderThread:781844 [sender.py:transition_state():613] send defer: 8
+2024-06-10 13:19:05,950 DEBUG   SenderThread:781844 [sender.py:send_request():405] send_request: poll_exit
+2024-06-10 13:19:05,950 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: defer
+2024-06-10 13:19:05,950 INFO    HandlerThread:781844 [handler.py:handle_request_defer():184] handle defer: 8
+2024-06-10 13:19:05,950 DEBUG   SenderThread:781844 [sender.py:send_request():405] send_request: defer
+2024-06-10 13:19:05,950 INFO    SenderThread:781844 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-06-10 13:19:05,950 INFO    SenderThread:781844 [job_builder.py:build():432] Attempting to build job artifact
+2024-06-10 13:19:05,951 INFO    SenderThread:781844 [job_builder.py:_get_source_type():576] no source found
+2024-06-10 13:19:05,951 INFO    SenderThread:781844 [sender.py:transition_state():613] send defer: 9
+2024-06-10 13:19:05,951 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: defer
+2024-06-10 13:19:05,951 INFO    HandlerThread:781844 [handler.py:handle_request_defer():184] handle defer: 9
+2024-06-10 13:19:05,951 DEBUG   SenderThread:781844 [sender.py:send_request():405] send_request: defer
+2024-06-10 13:19:05,951 INFO    SenderThread:781844 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-06-10 13:19:05,951 INFO    SenderThread:781844 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-06-10 13:19:05,963 INFO    SenderThread:781844 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240610_131754-hybcxzq4/files/output.log
+2024-06-10 13:19:05,964 INFO    SenderThread:781844 [dir_watcher.py:finish():388] scan: /home/yunkwan/project/radarclip/wandb/run-20240610_131754-hybcxzq4/files
+2024-06-10 13:19:05,964 INFO    SenderThread:781844 [dir_watcher.py:finish():402] scan save: /home/yunkwan/project/radarclip/wandb/run-20240610_131754-hybcxzq4/files/requirements.txt requirements.txt
+2024-06-10 13:19:05,964 INFO    SenderThread:781844 [dir_watcher.py:finish():402] scan save: /home/yunkwan/project/radarclip/wandb/run-20240610_131754-hybcxzq4/files/wandb-metadata.json wandb-metadata.json
+2024-06-10 13:19:05,964 INFO    SenderThread:781844 [dir_watcher.py:finish():402] scan save: /home/yunkwan/project/radarclip/wandb/run-20240610_131754-hybcxzq4/files/config.yaml config.yaml
+2024-06-10 13:19:05,964 INFO    SenderThread:781844 [dir_watcher.py:finish():402] scan save: /home/yunkwan/project/radarclip/wandb/run-20240610_131754-hybcxzq4/files/wandb-summary.json wandb-summary.json
+2024-06-10 13:19:05,964 INFO    SenderThread:781844 [dir_watcher.py:finish():402] scan save: /home/yunkwan/project/radarclip/wandb/run-20240610_131754-hybcxzq4/files/conda-environment.yaml conda-environment.yaml
+2024-06-10 13:19:05,964 INFO    SenderThread:781844 [dir_watcher.py:finish():402] scan save: /home/yunkwan/project/radarclip/wandb/run-20240610_131754-hybcxzq4/files/output.log output.log
+2024-06-10 13:19:05,964 INFO    SenderThread:781844 [sender.py:transition_state():613] send defer: 10
+2024-06-10 13:19:05,964 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: defer
+2024-06-10 13:19:05,966 INFO    HandlerThread:781844 [handler.py:handle_request_defer():184] handle defer: 10
+2024-06-10 13:19:05,970 DEBUG   SenderThread:781844 [sender.py:send_request():405] send_request: defer
+2024-06-10 13:19:05,971 INFO    SenderThread:781844 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-06-10 13:19:05,971 INFO    SenderThread:781844 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-10 13:19:06,441 INFO    wandb-upload_0:781844 [upload_job.py:push():130] Uploaded file /home/yunkwan/project/radarclip/wandb/run-20240610_131754-hybcxzq4/files/requirements.txt
+2024-06-10 13:19:06,495 INFO    wandb-upload_3:781844 [upload_job.py:push():130] Uploaded file /home/yunkwan/project/radarclip/wandb/run-20240610_131754-hybcxzq4/files/conda-environment.yaml
+2024-06-10 13:19:06,497 INFO    wandb-upload_1:781844 [upload_job.py:push():130] Uploaded file /home/yunkwan/project/radarclip/wandb/run-20240610_131754-hybcxzq4/files/config.yaml
+2024-06-10 13:19:06,564 INFO    wandb-upload_2:781844 [upload_job.py:push():130] Uploaded file /home/yunkwan/project/radarclip/wandb/run-20240610_131754-hybcxzq4/files/wandb-summary.json
+2024-06-10 13:19:06,577 INFO    wandb-upload_4:781844 [upload_job.py:push():130] Uploaded file /home/yunkwan/project/radarclip/wandb/run-20240610_131754-hybcxzq4/files/output.log
+2024-06-10 13:19:06,777 INFO    Thread-83 :781844 [sender.py:transition_state():613] send defer: 11
+2024-06-10 13:19:06,777 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: defer
+2024-06-10 13:19:06,777 INFO    HandlerThread:781844 [handler.py:handle_request_defer():184] handle defer: 11
+2024-06-10 13:19:06,778 DEBUG   SenderThread:781844 [sender.py:send_request():405] send_request: defer
+2024-06-10 13:19:06,778 INFO    SenderThread:781844 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-06-10 13:19:06,778 INFO    SenderThread:781844 [file_pusher.py:join():175] waiting for file pusher
+2024-06-10 13:19:06,778 INFO    SenderThread:781844 [sender.py:transition_state():613] send defer: 12
+2024-06-10 13:19:06,778 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: defer
+2024-06-10 13:19:06,778 INFO    HandlerThread:781844 [handler.py:handle_request_defer():184] handle defer: 12
+2024-06-10 13:19:06,778 DEBUG   SenderThread:781844 [sender.py:send_request():405] send_request: defer
+2024-06-10 13:19:06,778 INFO    SenderThread:781844 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-06-10 13:19:06,778 INFO    SenderThread:781844 [file_stream.py:finish():601] file stream finish called
+2024-06-10 13:19:06,858 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-10 13:19:07,389 INFO    SenderThread:781844 [file_stream.py:finish():605] file stream finish is done
+2024-06-10 13:19:07,389 INFO    SenderThread:781844 [sender.py:transition_state():613] send defer: 13
+2024-06-10 13:19:07,389 DEBUG   SenderThread:781844 [sender.py:send_request():405] send_request: poll_exit
+2024-06-10 13:19:07,389 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: defer
+2024-06-10 13:19:07,389 INFO    HandlerThread:781844 [handler.py:handle_request_defer():184] handle defer: 13
+2024-06-10 13:19:07,390 DEBUG   SenderThread:781844 [sender.py:send_request():405] send_request: defer
+2024-06-10 13:19:07,390 INFO    SenderThread:781844 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-06-10 13:19:07,390 INFO    SenderThread:781844 [sender.py:transition_state():613] send defer: 14
+2024-06-10 13:19:07,390 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: defer
+2024-06-10 13:19:07,390 INFO    HandlerThread:781844 [handler.py:handle_request_defer():184] handle defer: 14
+2024-06-10 13:19:07,390 DEBUG   SenderThread:781844 [sender.py:send():378] send: final
+2024-06-10 13:19:07,390 DEBUG   SenderThread:781844 [sender.py:send():378] send: footer
+2024-06-10 13:19:07,390 DEBUG   SenderThread:781844 [sender.py:send_request():405] send_request: defer
+2024-06-10 13:19:07,390 INFO    SenderThread:781844 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-06-10 13:19:07,391 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-10 13:19:07,391 DEBUG   SenderThread:781844 [sender.py:send_request():405] send_request: poll_exit
+2024-06-10 13:19:07,392 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-10 13:19:07,393 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: server_info
+2024-06-10 13:19:07,393 DEBUG   SenderThread:781844 [sender.py:send_request():405] send_request: server_info
+2024-06-10 13:19:07,433 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: get_summary
+2024-06-10 13:19:07,433 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: sampled_history
+2024-06-10 13:19:07,579 DEBUG   HandlerThread:781844 [handler.py:handle_request():158] handle_request: shutdown
+2024-06-10 13:19:07,579 INFO    HandlerThread:781844 [handler.py:finish():882] shutting down handler
+2024-06-10 13:19:08,393 INFO    WriterThread:781844 [datastore.py:close():296] close: /home/yunkwan/project/radarclip/wandb/run-20240610_131754-hybcxzq4/run-hybcxzq4.wandb
+2024-06-10 13:19:08,578 INFO    SenderThread:781844 [sender.py:finish():1545] shutting down sender
+2024-06-10 13:19:08,578 INFO    SenderThread:781844 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-10 13:19:08,578 INFO    SenderThread:781844 [file_pusher.py:join():175] waiting for file pusher

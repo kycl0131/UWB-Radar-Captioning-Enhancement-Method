@@ -1,0 +1,37 @@
+Epoch 1/100: 100%|██████████████████████████████████████████████████████████████████████████| 47/47 [05:31<00:00,  7.06s/it, loss=0.64]
+Epoch 1/100, Train Loss: 0.6403, Train_acc: 0.7138, Val Loss: 15.1382 , Val_acc: 0.3333
+Epoch 2/100: 100%|█████████████████████████████████████████████████████████████████████████| 47/47 [05:27<00:00,  6.97s/it, loss=0.215]
+Epoch 2/100, Train Loss: 0.2146, Train_acc: 0.9217, Val Loss: 6.5566 , Val_acc: 0.3340
+Epoch 3/100: 100%|█████████████████████████████████████████████████████████████████████████| 47/47 [05:25<00:00,  6.93s/it, loss=0.125]
+Epoch 3/100, Train Loss: 0.1252, Train_acc: 0.9554, Val Loss: 1.8690 , Val_acc: 0.5430
+Epoch 4/100: 100%|████████████████████████████████████████████████████████████████████████| 47/47 [05:25<00:00,  6.93s/it, loss=0.0697]
+Epoch 4/100, Train Loss: 0.0697, Train_acc: 0.9753, Val Loss: 1.6533 , Val_acc: 0.6160
+Epoch 5/100: 100%|████████████████████████████████████████████████████████████████████████| 47/47 [05:29<00:00,  7.01s/it, loss=0.0534]
+Epoch 5/100, Train Loss: 0.0534, Train_acc: 0.9815, Val Loss: 2.1789 , Val_acc: 0.5342
+Epoch 6/100: 100%|████████████████████████████████████████████████████████████████████████| 47/47 [05:26<00:00,  6.95s/it, loss=0.0372]
+Epoch 6/100, Train Loss: 0.0372, Train_acc: 0.9867, Val Loss: 1.9802 , Val_acc: 0.6037
+Epoch 7/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [05:27<00:00,  6.97s/it, loss=0.0343]
+Epoch 7/100, Train Loss: 0.0343, Train_acc: 0.9872, Val Loss: 1.8745 , Val_acc: 0.6067
+Epoch 8/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [05:30<00:00,  7.03s/it, loss=0.0305]
+Epoch 8/100, Train Loss: 0.0305, Train_acc: 0.9897, Val Loss: 1.7567 , Val_acc: 0.6048
+Epoch 9/100: 100%|████████████████████████████████████████████████████████████████████████| 47/47 [05:30<00:00,  7.03s/it, loss=0.0227]
+Epoch 9/100, Train Loss: 0.0227, Train_acc: 0.9922, Val Loss: 2.3993 , Val_acc: 0.5902
+Epoch 10/100: 100%|███████████████████████████████████████████████████████████████████████| 47/47 [05:27<00:00,  6.97s/it, loss=0.0199]
+Epoch 10/100, Train Loss: 0.0199, Train_acc: 0.9934, Val Loss: 2.3815 , Val_acc: 0.5710
+Epoch 11/100: 100%|███████████████████████████████████████████████████████████████████████| 47/47 [05:27<00:00,  6.96s/it, loss=0.0107]
+Epoch 11/100, Train Loss: 0.0107, Train_acc: 0.9964, Val Loss: 2.2484 , Val_acc: 0.6098
+Epoch 12/100: 100%|██████████████████████████████████████████████████████████████████████| 47/47 [05:25<00:00,  6.93s/it, loss=0.00494]
+Epoch 12/100, Train Loss: 0.0049, Train_acc: 0.9985, Val Loss: 2.7737 , Val_acc: 0.5897
+Epoch 13/100:  11%|███████▋                                                                | 5/47 [00:38<05:24,  7.72s/it, loss=0.0075]
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 498, in <module>
+    # num_ftrs = encoder_search_resnet1D_3.fc.in_features
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 485, in main
+    encoder_search_resnet1D_3 = models.resnet50(pretrained=False).to(device
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 242, in train_model
+    AutoModel.register(SmallCapConfig, SmallCap)
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 117, in prepro_image_features_1024
+    torch.cuda.empty_cache()
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/cuda/memory.py", line 162, in empty_cache
+    torch._C._cuda_emptyCache()
+KeyboardInterrupt

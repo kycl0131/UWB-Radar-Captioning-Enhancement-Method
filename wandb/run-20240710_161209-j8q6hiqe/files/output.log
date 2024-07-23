@@ -1,0 +1,27 @@
+Epoch 1/10: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:47<00:00,  7.95s/it, loss=0.339]
+Epoch 1/10, Train Loss: 0.3386, Val Loss: 0.0344
+Epoch 2/10:  17%|████████████████████████                                                                                                                        | 1/6 [00:08<00:40,  8.05s/it, loss=0.0115]
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 485, in <module>
+    main(args.train_1024, args.train_768, args.epochs, args.batch_size)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 425, in main
+    train_model(encoder_search_resnet1D_1024, retrieval_model, train_loader, val_loader, criterion, optimizer,scheduler, prepro_image_features_1024, num_epochs=num_epochs,filter = LearnableLogFilter_1024)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 226, in train_model
+    for images, radars,_,_ in train_loader_tqdm:
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/yunkwan/project/radarclip/dataload.py", line 107, in __getitem__
+    radar = np.load(radar_path)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/numpy/lib/npyio.py", line 456, in load
+    return format.read_array(fid, allow_pickle=allow_pickle,
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/numpy/lib/format.py", line 809, in read_array
+    array = numpy.fromfile(fp, dtype=dtype, count=count)
+KeyboardInterrupt

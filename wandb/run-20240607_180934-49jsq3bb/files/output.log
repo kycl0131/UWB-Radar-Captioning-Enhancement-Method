@@ -1,0 +1,3 @@
+Epoch 1/100:   0%|          | 0/20 [00:00<?, ?it/s]/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/conv.py:306: UserWarning: Plan failed with an OutOfMemoryError: CUDA out of memory. Tried to allocate 128.00 MiB. GPU  (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:924.)
+  return F.conv1d(input, weight, bias, self.stride,
+Epoch 1/100:   0%|          | 0/20 [00:00<?, ?it/s]

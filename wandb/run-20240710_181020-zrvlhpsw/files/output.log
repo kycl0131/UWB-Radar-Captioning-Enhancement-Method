@@ -1,0 +1,53 @@
+Some weights of SmallCap were not initialized from the model checkpoint at Yova/SmallCap7M and are newly initialized: ['encoder_radar.layer3.21.bn2.running_mean', 'encoder_radar.layer4.1.conv2.weight', 'encoder_radar.layer3.19.bn2.num_batches_tracked', 'encoder_radar.layer3.11.bn3.weight', 'encoder_radar.layer1.2.bn2.bias', 'encoder_radar.layer3.5.bn1.weight', 'encoder_radar.layer1.0.downsample.1.weight', 'encoder_radar.layer3.8.bn3.running_mean', 'encoder_radar.layer3.22.bn2.weight', 'encoder_radar.layer3.5.bn2.num_batches_tracked', 'encoder_radar.layer3.4.bn3.running_var', 'encoder_radar.layer3.0.bn3.bias', 'encoder_radar.layer1.1.conv3.weight', 'encoder_radar.layer3.6.bn3.weight', 'encoder_radar.layer1.1.conv2.weight', 'encoder_radar.layer3.18.bn3.weight', 'encoder_radar.layer3.18.bn1.running_mean', 'encoder_radar.layer2.3.bn2.weight', 'encoder_radar.layer3.14.conv3.weight', 'encoder_radar.layer3.10.bn1.bias', 'encoder_radar.layer3.18.conv2.weight', 'encoder_radar.layer3.1.bn3.num_batches_tracked', 'encoder_radar.layer3.17.bn1.num_batches_tracked', 'encoder_radar.layer3.15.bn3.running_mean', 'encoder_radar.layer2.0.bn3.running_var', 'encoder_radar.layer3.17.conv1.weight', 'encoder_radar.layer3.11.bn2.running_mean', 'encoder_radar.layer3.20.bn2.bias', 'encoder_radar.layer3.13.bn3.num_batches_tracked', 'encoder_radar.layer3.0.downsample.1.num_batches_tracked', 'encoder_radar.layer3.2.bn2.running_mean', 'encoder_radar.layer3.19.conv2.weight', 'encoder_radar.layer3.4.conv2.weight', 'encoder_radar.layer3.10.bn3.bias', 'encoder_radar.layer3.20.bn3.bias', 'encoder_radar.layer3.6.bn2.weight', 'encoder_radar.layer4.1.bn3.running_var', 'encoder_radar.layer1.1.bn3.running_var', 'encoder_radar.layer3.19.bn2.bias', 'encoder_radar.layer1.2.conv1.weight', 'encoder_radar.layer4.0.bn1.running_mean', 'encoder_radar.layer3.15.conv2.weight', 'encoder_radar.layer3.9.bn1.running_mean', 'encoder_radar.layer4.2.bn3.running_mean', 'encoder_radar.conv1.weight', 'encoder_radar.layer2.2.bn2.weight', 'encoder_radar.layer3.18.bn3.running_var', 'encoder_radar.layer3.9.bn2.num_batches_tracked', 'encoder_radar.layer3.17.bn1.running_mean', 'encoder_radar.layer1.2.bn3.running_var', 'encoder_radar.layer3.21.bn2.num_batches_tracked', 'encoder_radar.layer3.21.bn3.num_batches_tracked', 'encoder_radar.layer2.2.bn1.num_batches_tracked', 'encoder_radar.layer3.1.bn3.bias', 'encoder_radar.layer3.17.bn2.bias', 'encoder_radar.layer3.19.bn2.running_mean', 'encoder_radar.fc.weight', 'encoder_radar.layer3.22.bn3.num_batches_tracked', 'encoder_radar.layer3.1.bn3.weight', 'encoder_radar.layer3.17.conv3.weight', 'encoder_radar.bn1.bias', 'encoder_radar.layer4.0.bn2.bias', 'encoder_radar.layer3.17.bn2.running_var', 'encoder_radar.layer3.18.bn1.weight', 'encoder_radar.layer3.11.bn3.running_var', 'encoder_radar.layer3.3.bn1.num_batches_tracked', 'encoder_radar.layer3.14.bn2.weight', 'encoder_radar.layer3.15.bn1.weight', 'encoder_radar.layer3.5.conv2.weight', 'encoder_radar.layer3.11.conv1.weight', 'encoder_radar.layer4.2.bn3.num_batches_tracked', 'encoder_radar.layer3.3.bn1.running_var', 'encoder_radar.layer3.22.bn1.running_mean', 'encoder_radar.layer3.21.bn1.weight', 'encoder_radar.layer3.0.bn1.bias', 'encoder_radar.layer3.14.bn3.running_var', 'encoder_radar.layer1.0.conv2.weight', 'encoder_radar.layer3.12.conv2.weight', 'encoder_radar.layer3.3.conv1.weight', 'encoder_radar.layer3.2.bn1.num_batches_tracked', 'encoder_radar.layer1.0.bn1.weight', 'encoder_radar.layer2.3.bn1.bias', 'encoder_radar.layer3.4.bn1.weight', 'encoder_radar.layer3.7.bn3.bias', 'encoder_radar.layer3.0.bn1.running_var', 'encoder_radar.layer4.0.bn3.bias', 'encoder_radar.layer2.2.bn3.bias', 'encoder_radar.layer1.0.bn2.bias', 'encoder_radar.layer3.4.bn1.num_batches_tracked', 'encoder_radar.layer1.1.bn2.num_batches_tracked', 'encoder_radar.layer3.12.bn2.weight', 'encoder_radar.layer3.15.bn1.num_batches_tracked', 'encoder_radar.layer3.19.conv3.weight', 'encoder_radar.layer3.10.bn1.num_batches_tracked', 'encoder_radar.layer3.2.bn3.weight', 'encoder_radar.layer1.2.conv3.weight', 'encoder_radar.layer3.7.bn1.
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:12<00:00,  2.15s/it, loss=0.525]
+Epoch 1/100, Train Loss: 0.5253, Val Loss: 0.3015
+Epoch 2/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:11<00:00,  1.96s/it, loss=0.265]
+Epoch 2/100, Train Loss: 0.2646, Val Loss: 0.2510
+Epoch 3/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:12<00:00,  2.09s/it, loss=0.237]
+Epoch 3/100, Train Loss: 0.2375, Val Loss: 0.1749
+Epoch 4/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:12<00:00,  2.11s/it, loss=0.148]
+Epoch 4/100, Train Loss: 0.1481, Val Loss: 0.1433
+Epoch 5/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:11<00:00,  2.00s/it, loss=0.133]
+Epoch 5/100, Train Loss: 0.1328, Val Loss: 0.1305
+Epoch 6/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:11<00:00,  2.00s/it, loss=0.109]
+Epoch 6/100, Train Loss: 0.1085, Val Loss: 0.1105
+Epoch 7/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:11<00:00,  1.95s/it, loss=0.0959]
+Epoch 7/100, Train Loss: 0.0959, Val Loss: 0.0976
+Epoch 8/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:11<00:00,  1.95s/it, loss=0.0916]
+Epoch 8/100, Train Loss: 0.0916, Val Loss: 0.0889
+Epoch 9/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:11<00:00,  1.91s/it, loss=0.088]
+Epoch 9/100, Train Loss: 0.0880, Val Loss: 0.0851
+Epoch 10/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:11<00:00,  1.99s/it, loss=0.0871]
+Epoch 10/100, Train Loss: 0.0871, Val Loss: 0.0850
+Epoch 11/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:11<00:00,  1.96s/it, loss=0.0861]
+Epoch 11/100, Train Loss: 0.0861, Val Loss: 0.0839
+Epoch 12/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:13<00:00,  2.24s/it, loss=0.0853]
+Epoch 12/100, Train Loss: 0.0853, Val Loss: 0.0836
+Epoch 13/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:12<00:00,  2.08s/it, loss=0.0852]
+Epoch 13/100, Train Loss: 0.0852, Val Loss: 0.0836
+Epoch 14/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:12<00:00,  2.01s/it, loss=0.0851]
+Epoch 14/100, Train Loss: 0.0851, Val Loss: 0.0836
+Epoch 15/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:11<00:00,  1.89s/it, loss=0.0843]
+Epoch 15/100, Train Loss: 0.0843, Val Loss: 0.0831
+Epoch 16/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:11<00:00,  1.96s/it, loss=0.0847]
+Epoch 16/100, Train Loss: 0.0847, Val Loss: 0.0834
+Epoch 17/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:11<00:00,  1.95s/it, loss=0.085]
+Epoch 17/100, Train Loss: 0.0850, Val Loss: 0.0834
+Epoch 18/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:11<00:00,  1.96s/it, loss=0.0849]
+Epoch 18/100, Train Loss: 0.0849, Val Loss: 0.0836
+Epoch 19/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:11<00:00,  1.93s/it, loss=0.0843]
+Epoch 19/100, Train Loss: 0.0843, Val Loss: 0.0834
+Epoch 20/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:11<00:00,  1.91s/it, loss=0.0842]
+Epoch 20/100, Train Loss: 0.0842, Val Loss: 0.0834
+Epoch 21/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:11<00:00,  1.95s/it, loss=0.0862]
+Epoch 21/100, Train Loss: 0.0862, Val Loss: 0.0837
+Epoch 22/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:11<00:00,  1.86s/it, loss=0.085]
+Epoch 22/100, Train Loss: 0.0850, Val Loss: 0.0835
+Epoch 23/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:11<00:00,  1.98s/it, loss=0.0854]
+Epoch 23/100, Train Loss: 0.0854, Val Loss: 0.0838
+Epoch 24/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:11<00:00,  1.89s/it, loss=0.0865]
+Epoch 24/100, Train Loss: 0.0865, Val Loss: 0.0839
+Epoch 25/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:12<00:00,  2.00s/it, loss=0.0863]
+Epoch 25/100, Train Loss: 0.0863, Val Loss: 0.0843
+Early stopping triggered after 25 epochs.

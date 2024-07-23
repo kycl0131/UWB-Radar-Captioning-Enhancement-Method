@@ -1,0 +1,862 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1/100: 100%|██████████| 60/60 [00:46<00:00,  1.30it/s, loss=0.0367]
+Epoch 2/100:   0%|          | 0/60 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 2/100: 100%|██████████| 60/60 [00:44<00:00,  1.34it/s, loss=0.00511]
+Epoch 2/100, Train Loss: 0.0051, Val Loss: 0.0053
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 3/100: 100%|██████████| 60/60 [00:44<00:00,  1.35it/s, loss=0.00479]
+Epoch 3/100, Train Loss: 0.0048, Val Loss: 0.0050
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 4/100: 100%|██████████| 60/60 [00:44<00:00,  1.34it/s, loss=0.00474]
+Epoch 4/100, Train Loss: 0.0047, Val Loss: 0.0048
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 5/100: 100%|██████████| 60/60 [00:44<00:00,  1.35it/s, loss=0.00467]
+Epoch 5/100, Train Loss: 0.0047, Val Loss: 0.0049
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 6/100: 100%|██████████| 60/60 [00:44<00:00,  1.34it/s, loss=0.00464]
+Epoch 7/100:   0%|          | 0/60 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 7/100: 100%|██████████| 60/60 [00:44<00:00,  1.35it/s, loss=0.00461]
+Epoch 7/100, Train Loss: 0.0046, Val Loss: 0.0046
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 8/100: 100%|██████████| 60/60 [00:44<00:00,  1.34it/s, loss=0.0045]
+Epoch 9/100:   0%|          | 0/60 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 9/100: 100%|██████████| 60/60 [00:45<00:00,  1.33it/s, loss=0.00449]
+Epoch 10/100:   0%|          | 0/60 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 10/100: 100%|██████████| 60/60 [00:44<00:00,  1.34it/s, loss=0.00455]
+Epoch 10/100, Train Loss: 0.0045, Val Loss: 0.0089
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 11/100: 100%|██████████| 60/60 [00:44<00:00,  1.34it/s, loss=0.00451]
+Epoch 12/100:   0%|          | 0/60 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 12/100: 100%|██████████| 60/60 [00:44<00:00,  1.34it/s, loss=0.00442]
+Epoch 12/100, Train Loss: 0.0044, Val Loss: 0.0044
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 13/100: 100%|██████████| 60/60 [00:44<00:00,  1.34it/s, loss=0.00438]
+Epoch 13/100, Train Loss: 0.0044, Val Loss: 0.0045
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 14/100: 100%|██████████| 60/60 [00:44<00:00,  1.34it/s, loss=0.00437]
+Epoch 15/100:   0%|          | 0/60 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 15/100: 100%|██████████| 60/60 [00:44<00:00,  1.34it/s, loss=0.00441]
+Epoch 15/100, Train Loss: 0.0044, Val Loss: 0.0044
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 16/100: 100%|██████████| 60/60 [00:44<00:00,  1.34it/s, loss=0.0044]
+Epoch 16/100, Train Loss: 0.0044, Val Loss: 0.0044
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 17/100: 100%|██████████| 60/60 [00:44<00:00,  1.33it/s, loss=0.00438]
+Epoch 18/100:   0%|          | 0/60 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 18/100: 100%|██████████| 60/60 [00:44<00:00,  1.34it/s, loss=0.00522]
+Epoch 18/100, Train Loss: 0.0052, Val Loss: 0.0047
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 19/100: 100%|██████████| 60/60 [00:44<00:00,  1.34it/s, loss=0.00467]
+Epoch 19/100, Train Loss: 0.0047, Val Loss: 0.0056
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 20/100: 100%|██████████| 60/60 [00:44<00:00,  1.34it/s, loss=0.00454]
+Epoch 21/100:   0%|          | 0/60 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 21/100: 100%|██████████| 60/60 [00:44<00:00,  1.34it/s, loss=0.00452]
+Epoch 22/100:   2%|▏         | 1/60 [00:00<00:44,  1.32it/s, loss=7.6e-5]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 22/100: 100%|██████████| 60/60 [00:45<00:00,  1.33it/s, loss=0.00446]
+Model saved to /home/yunkwan/project/radarclip/model_save/encoder_search_resnet1D_1024.pth
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091194618.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091209946.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091167643.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091182353.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091191297.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091196162.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091170802.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091193062.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091191970.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091181704.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091181980.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091183192.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091192021.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091194921.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091192969.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091171305.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091184089.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091192644.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091192698.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091169159.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091168774.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091167136.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091193217.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091167528.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091180509.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091170962.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091180252.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091186813.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091190913.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091191188.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091181882.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091168505.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091182242.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091187865.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091194020.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1717750583214.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091182303.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091191138.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1717750583683.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091171878.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091209476.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091187386.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091171587.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091167918.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091181377.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1717750583560.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091170523.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091182518.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091190803.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091194559.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091183992.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091169310.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091187551.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091171016.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091191393.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091192492.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091180668.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091196642.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091167583.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091168996.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091186607.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091181005.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091194770.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091167353.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091168825.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091181481.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091180896.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091182076.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091171073.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091187602.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091193747.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091187815.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091209740.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091195582.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091183883.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091170904.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091196377.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091195203.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091182662.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091209527.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091171472.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091196479.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091181587.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091187706.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091196011.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091182976.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091180783.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091183830.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091193442.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091195788.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091195847.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091194509.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091180725.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091168352.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091181115.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091169423.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091167855.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091180839.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1717750583089.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091186344.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091192439.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091191697.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091167191.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1717750583391.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1717750583508.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091187917.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1717750583625.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091170749.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091171811.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091181431.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091167420.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091192920.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091180558.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091187122.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091168295.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091191344.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091195364.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091181223.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091186551.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091191797.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091180200.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091187273.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091168072.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091191915.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091169257.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1717750583853.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091194384.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091180354.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091187656.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091192754.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1717750583154.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1717750583272.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091171249.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091180409.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091193800.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091192228.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091191746.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091196536.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091183776.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091167477.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091181531.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091182135.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091194072.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091195251.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091187968.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091187438.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091168561.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091192589.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091169366.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1717750582907.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091168452.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091187495.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091209685.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091193163.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091196214.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1717750583965.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091193343.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091170645.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091182616.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091194874.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091194229.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091209840.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091191600.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091194283.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091183136.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091194667.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091187017.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091170693.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091192070.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091168665.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091192867.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091195021.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091191446.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091196312.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091171136.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091193695.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091181056.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091192540.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091180952.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1717750584015.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091191080.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091171753.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091182866.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091168404.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091168876.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091209790.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091192118.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091183030.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091192172.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091190966.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091187332.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091181768.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091181271.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091195739.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091195422.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091195478.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091169102.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091209897.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1717750583907.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091183247.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091170576.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091193854.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091181824.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091183515.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091183300.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091167290.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091183081.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1717750582657.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091187225.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091167968.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091181646.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091196063.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091192289.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091186709.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091192816.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091167806.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091193643.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091196262.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091190853.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091180457.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091194968.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091180610.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091182712.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091182411.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1717750583451.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091184041.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091191496.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091186916.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091193917.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091183460.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091168023.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091170854.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1717750583018.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091195959.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091187069.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091182567.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091181171.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091195088.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091168725.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091183725.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091191648.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091170468.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091194716.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1717750583330.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1717750584067.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091167751.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091209632.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091183353.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091183668.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091187171.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091195906.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091209582.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091168611.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091182028.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091183618.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1717750582964.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091192340.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091195683.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091186761.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091180305.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091168179.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091186396.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091186451.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091171196.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091191851.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091193549.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091169597.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091191244.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091193597.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091193016.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091186660.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091187765.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091169544.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091182467.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091171636.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091169478.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091193113.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091183944.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091182187.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091194331.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091193969.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091171695.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091196115.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091194176.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091167241.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091194449.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1717750583792.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091192390.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091193393.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091193496.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091195634.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091184135.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091181322.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091196428.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091195307.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091167081.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091168126.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091182923.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091184193.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091168236.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091186861.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091167023.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091171526.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091196588.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091182816.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091168940.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091169053.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091186499.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091171411.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091194823.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091195146.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091169208.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091183409.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091191544.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091171357.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091195530.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091191024.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091210004.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091186964.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091183567.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091182766.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091194121.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1718091181932.npy
+Removed: /home/yunkwan/project/radarclip/data_train/radar/random/Radar_frame_1717750583739.npy

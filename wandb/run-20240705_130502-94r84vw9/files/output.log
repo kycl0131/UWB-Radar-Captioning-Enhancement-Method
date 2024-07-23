@@ -1,0 +1,27 @@
+Epoch 1/10: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2726/2726 [06:30<00:00,  6.98it/s, loss=0.00586]
+Epoch 1/10, Train Loss: 0.0059, Val Loss: 0.0048
+Epoch 2/10: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2726/2726 [06:25<00:00,  7.06it/s, loss=0.00512]
+Epoch 2/10, Train Loss: 0.0051, Val Loss: 0.0048
+Epoch 3/10: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2726/2726 [06:24<00:00,  7.10it/s, loss=0.005]
+Epoch 3/10, Train Loss: 0.0050, Val Loss: 0.0049
+Epoch 4/10: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2726/2726 [06:21<00:00,  7.14it/s, loss=0.00497]
+Epoch 4/10, Train Loss: 0.0050, Val Loss: 0.0047
+Epoch 5/10: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2726/2726 [06:23<00:00,  7.12it/s, loss=0.00498]
+Epoch 5/10, Train Loss: 0.0050, Val Loss: 0.0048
+Epoch 6/10:  84%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                          | 2302/2726 [05:30<01:00,  6.97it/s, loss=0.00419]
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 447, in <module>
+    main(args.train_1024, args.train_768, args.epochs, args.batch_size)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 395, in main
+    train_model(encoder_search_resnet1D_1024, retrieval_model, train_loader, val_loader, criterion, optimizer, prepro_image_features_1024, num_epochs=num_epochs,filter = LearnableLogFilter_1024)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 265, in train_model
+    optimizer.step()
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/optim/optimizer.py", line 391, in wrapper
+    out = func(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/optim/optimizer.py", line 76, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/optim/adam.py", line 168, in step
+    adam(
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/optim/adam.py", line 318, in adam
+    func(params,
+KeyboardInterrupt

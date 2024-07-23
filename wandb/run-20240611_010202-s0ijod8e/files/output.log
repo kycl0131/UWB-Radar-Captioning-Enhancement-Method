@@ -1,0 +1,6 @@
+
+Epoch 1/200:   0%|          | 0/20 [00:00<?, ?it/s]
+torch.Size([10, 50, 768])
+torch.Size([10, 13, 768])
+torch.Size([10, 31, 768])
+torch.Size([10, 50, 768])

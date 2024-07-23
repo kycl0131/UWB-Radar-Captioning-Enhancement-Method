@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 380, in <module>
+    main(args.train_1024, args.train_768, args.epochs, args.batch_size)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 334, in main
+    retrieval_model, feature_extractor_retrieval = clip.load("RN50x64", device=device)  #1024 size 448
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/clip/clip.py", line 139, in load
+    model = build_model(state_dict or model.state_dict()).to(device)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/clip/model.py", line 424, in build_model
+    model = CLIP(
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/clip/model.py", line 282, in __init__
+    self.transformer = Transformer(
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/clip/model.py", line 200, in __init__
+    self.resblocks = nn.Sequential(*[ResidualAttentionBlock(width, heads, attn_mask) for _ in range(layers)])
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/clip/model.py", line 200, in <listcomp>
+    self.resblocks = nn.Sequential(*[ResidualAttentionBlock(width, heads, attn_mask) for _ in range(layers)])
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/clip/model.py", line 180, in __init__
+    ("c_proj", nn.Linear(d_model * 4, d_model))
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/linear.py", line 103, in __init__
+    self.reset_parameters()
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/linear.py", line 109, in reset_parameters
+    init.kaiming_uniform_(self.weight, a=math.sqrt(5))
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/init.py", line 459, in kaiming_uniform_
+    return tensor.uniform_(-bound, bound, generator=generator)
+KeyboardInterrupt

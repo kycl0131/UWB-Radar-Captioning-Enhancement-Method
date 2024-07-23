@@ -1,0 +1,25 @@
+
+Epoch 1/10: 100%|██████████| 25/25 [00:02<00:00, 11.04it/s, decoder_loss=0.683, loss=0.707]
+Epoch 2/10:  48%|████▊     | 12/25 [00:01<00:01, 11.44it/s, decoder_loss=0.329, loss=0.332]
+Epoch 2/10: 100%|██████████| 25/25 [00:02<00:00, 11.39it/s, decoder_loss=0.665, loss=0.67]
+Epoch 3/10:  12%|█▏        | 3/25 [00:00<00:02, 10.83it/s, decoder_loss=0.133, loss=0.134]
+
+Epoch 3/10: 100%|██████████| 25/25 [00:02<00:00, 11.32it/s, decoder_loss=0.667, loss=0.672]
+Epoch 3/10, Train Loss: 0.6717, Val Loss: 0.6467, Decoder Train Loss: 0.6671, Decoder Val Loss: 0.6407
+Epoch 4/10: 100%|██████████| 25/25 [00:02<00:00, 10.74it/s, decoder_loss=0.661, loss=0.666]
+Epoch 5/10:  40%|████      | 10/25 [00:01<00:01,  9.70it/s, decoder_loss=0.306, loss=0.308]
+Epoch 5/10: 100%|██████████| 25/25 [00:02<00:00, 10.05it/s, decoder_loss=0.66, loss=0.664]
+Epoch 6/10:   0%|          | 0/25 [00:00<?, ?it/s, decoder_loss=0.0374, loss=0.0375]
+
+Epoch 6/10:  88%|████████▊ | 22/25 [00:02<00:00, 11.25it/s, decoder_loss=0.615, loss=0.619]
+Epoch 6/10: 100%|██████████| 25/25 [00:02<00:00, 11.13it/s, decoder_loss=0.66, loss=0.664]
+Epoch 7/10: 100%|██████████| 25/25 [00:02<00:00, 10.60it/s, decoder_loss=0.66, loss=0.665]
+Epoch 8/10:  32%|███▏      | 8/25 [00:00<00:01, 11.05it/s, decoder_loss=0.208, loss=0.21]
+Epoch 8/10: 100%|██████████| 25/25 [00:02<00:00, 11.06it/s, decoder_loss=0.659, loss=0.664]
+Epoch 9/10:   0%|          | 0/25 [00:00<?, ?it/s]
+
+Epoch 9/10:  88%|████████▊ | 22/25 [00:02<00:00, 10.11it/s, decoder_loss=0.582, loss=0.588]
+Epoch 9/10: 100%|██████████| 25/25 [00:02<00:00, 10.80it/s, decoder_loss=0.658, loss=0.665]
+
+Epoch 10/10: 100%|██████████| 25/25 [00:02<00:00, 11.25it/s, decoder_loss=0.659, loss=0.664]
+Epoch 10/10, Train Loss: 0.6637, Val Loss: 0.6470, Decoder Train Loss: 0.6590, Decoder Val Loss: 0.6424

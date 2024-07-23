@@ -1,0 +1,16 @@
+{"time":"2024-07-10T20:28:08.860258361+09:00","level":"INFO","msg":"using version","core version":"0.17.3"}
+{"time":"2024-07-10T20:28:08.860272668+09:00","level":"INFO","msg":"created symlink","path":"/home/yunkwan/project/radarclip/wandb/run-20240710_202808-uix6widr/logs/debug-core.log"}
+{"time":"2024-07-10T20:28:08.863464893+09:00","level":"INFO","msg":"created new stream","id":"uix6widr"}
+{"time":"2024-07-10T20:28:08.863512705+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"uix6widr"}}
+{"time":"2024-07-10T20:28:08.863532105+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"uix6widr"}}
+{"time":"2024-07-10T20:28:08.863559689+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"uix6widr"}}
+{"time":"2024-07-10T20:28:09.127005141+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-07-10T20:28:09.167215971+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-07-10T20:34:47.677661472+09:00","level":"INFO","msg":"sender: getServerInfo: got server info","serverInfo":{"cliVersionInfo":{"max_cli_version":"0.17.2","min_cli_version":"0.8.20"},"latestLocalVersionInfo":null}}
+{"time":"2024-07-10T20:34:47.678253621+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-07-10T20:34:47.679254571+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-07-10T20:34:47.892763594+09:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-07-10T20:34:47.89279057+09:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-07-10T20:34:47.89279416+09:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-07-10T20:34:49.641890167+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"uix6widr"}}
+{"time":"2024-07-10T20:34:49.641897559+09:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"uix6widr"}}

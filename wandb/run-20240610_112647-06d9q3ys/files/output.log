@@ -1,0 +1,591 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1/30: 100%|██████████| 49/49 [01:39<00:00,  2.03s/it, loss=0.151]
+Epoch 2/30:   0%|          | 0/49 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 2/30: 100%|██████████| 49/49 [01:40<00:00,  2.06s/it, loss=0.0613]
+Epoch 3/30:   0%|          | 0/49 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 3/30: 100%|██████████| 49/49 [01:39<00:00,  2.03s/it, loss=0.0594]
+Epoch 3/30, Train Loss: 0.0594, Val Loss: 0.0604
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 4/30: 100%|██████████| 49/49 [01:41<00:00,  2.06s/it, loss=0.0573]
+Epoch 5/30:   0%|          | 0/49 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 5/30: 100%|██████████| 49/49 [01:40<00:00,  2.06s/it, loss=0.0556]
+Epoch 6/30:   0%|          | 0/49 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 6/30: 100%|██████████| 49/49 [01:41<00:00,  2.07s/it, loss=0.0556]
+Epoch 6/30, Train Loss: 0.0556, Val Loss: 0.0616
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 7/30: 100%|██████████| 49/49 [01:40<00:00,  2.05s/it, loss=0.0545]
+Epoch 7/30, Train Loss: 0.0545, Val Loss: 0.0602
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 8/30: 100%|██████████| 49/49 [01:40<00:00,  2.05s/it, loss=0.0534]
+Epoch 8/30, Train Loss: 0.0534, Val Loss: 0.0621
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 9/30: 100%|██████████| 49/49 [01:40<00:00,  2.04s/it, loss=0.0535]
+Epoch 9/30, Train Loss: 0.0535, Val Loss: 0.0631
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 10/30: 100%|██████████| 49/49 [01:39<00:00,  2.04s/it, loss=0.0521]
+Epoch 11/30:   0%|          | 0/49 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 11/30:  29%|██▊       | 14/49 [00:30<01:15,  2.17s/it, loss=0.0149]
+Model saved to /home/yunkwan/project/radarclip/model_save/model_save_path_encoder_search_resnet1D_768.pth
+torch.Size([10, 768])
+torch.Size([10, 768])
+torch.Size([10, 512])
+torch.Size([1, 512])
+torch.Size([1, 512])
+Requirement already satisfied: transformers in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (4.21.1)
+Requirement already satisfied: filelock in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from transformers) (3.14.0)
+Requirement already satisfied: huggingface-hub<1.0,>=0.1.0 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from transformers) (0.8.1)
+Requirement already satisfied: numpy>=1.17 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from transformers) (1.26.4)
+Requirement already satisfied: packaging>=20.0 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from transformers) (24.0)
+Requirement already satisfied: pyyaml>=5.1 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from transformers) (6.0)
+Requirement already satisfied: regex!=2019.12.17 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from transformers) (2024.5.15)
+Requirement already satisfied: requests in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from transformers) (2.32.2)
+Requirement already satisfied: tokenizers!=0.11.3,<0.13,>=0.11.1 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from transformers) (0.12.1)
+Requirement already satisfied: tqdm>=4.27 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from transformers) (4.64.0)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from huggingface-hub<1.0,>=0.1.0->transformers) (4.11.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from requests->transformers) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from requests->transformers) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from requests->transformers) (2.2.1)
+Requirement already satisfied: certifi>=2017.4.17 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from requests->transformers) (2024.2.2)
+Requirement already satisfied: torch in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (2.3.0+cu118)
+Requirement already satisfied: torchvision in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (0.18.0+cu118)
+Requirement already satisfied: filelock in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from torch) (3.14.0)
+Requirement already satisfied: typing-extensions>=4.8.0 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from torch) (4.11.0)
+Requirement already satisfied: sympy in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from torch) (1.12)
+Requirement already satisfied: networkx in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from torch) (3.2.1)
+Requirement already satisfied: jinja2 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from torch) (3.1.3)
+Requirement already satisfied: fsspec in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from torch) (2024.5.0)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu11==11.8.89 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from torch) (11.8.89)
+Requirement already satisfied: nvidia-cuda-runtime-cu11==11.8.89 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from torch) (11.8.89)
+Requirement already satisfied: nvidia-cuda-cupti-cu11==11.8.87 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from torch) (11.8.87)
+Requirement already satisfied: nvidia-cudnn-cu11==8.7.0.84 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from torch) (8.7.0.84)
+Requirement already satisfied: nvidia-cublas-cu11==11.11.3.6 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from torch) (11.11.3.6)
+Requirement already satisfied: nvidia-cufft-cu11==10.9.0.58 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from torch) (10.9.0.58)
+Requirement already satisfied: nvidia-curand-cu11==10.3.0.86 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from torch) (10.3.0.86)
+Requirement already satisfied: nvidia-cusolver-cu11==11.4.1.48 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from torch) (11.4.1.48)
+Requirement already satisfied: nvidia-cusparse-cu11==11.7.5.86 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from torch) (11.7.5.86)
+Requirement already satisfied: nvidia-nccl-cu11==2.20.5 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from torch) (2.20.5)
+Requirement already satisfied: nvidia-nvtx-cu11==11.8.86 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from torch) (11.8.86)
+Requirement already satisfied: triton==2.3.0 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from torch) (2.3.0)
+Requirement already satisfied: numpy in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from torchvision) (1.26.4)
+Requirement already satisfied: pillow!=8.3.*,>=5.3.0 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from torchvision) (9.2.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from jinja2->torch) (2.1.5)
+Requirement already satisfied: mpmath>=0.19 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from sympy->torch) (1.3.0)
+torch.Size([10, 512])
+torch.Size([10, 768])
+torch.Size([1285, 2, 1024])
+torch.Size([1285, 2, 1024])
+torch.Size([1285, 2, 1024])
+torch.Size([1285, 2, 1024])
+torch.Size([1285, 2, 1024])
+torch.Size([1285, 2, 1024])
+torch.Size([1285, 2, 1024])
+torch.Size([1285, 2, 1024])
+torch.Size([1285, 2, 1024])
+torch.Size([1285, 2, 1024])
+torch.Size([1285, 2, 1024])
+torch.Size([1285, 2, 1024])
+torch.Size([1285, 2, 1024])
+torch.Size([1285, 2, 1024])
+torch.Size([1285, 2, 1024])
+torch.Size([1285, 2, 1024])
+torch.Size([1285, 2, 1024])
+torch.Size([1285, 2, 1024])
+torch.Size([1285, 2, 1024])
+torch.Size([10, 1024, 16, 16])
+torch.Size([10, 257, 1024])
+torch.Size([10, 1024])

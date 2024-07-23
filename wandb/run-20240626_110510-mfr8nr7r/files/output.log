@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 276, in <module>
+    parser.add_argument('--epochs', type=int, default=100, help="Number of epochs to train")
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 242, in main
+    criterion = nn.MSELoss()
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/clip/clip.py", line 139, in load
+    model = build_model(state_dict or model.state_dict()).to(device)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/clip/model.py", line 424, in build_model
+    model = CLIP(
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/clip/model.py", line 290, in __init__
+    self.token_embedding = nn.Embedding(vocab_size, transformer_width)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/sparse.py", line 145, in __init__
+    self.reset_parameters()
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/sparse.py", line 154, in reset_parameters
+    init.normal_(self.weight)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/init.py", line 175, in normal_
+    return _no_grad_normal_(tensor, mean, std, generator)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/init.py", line 20, in _no_grad_normal_
+    return tensor.normal_(mean, std, generator=generator)
+KeyboardInterrupt

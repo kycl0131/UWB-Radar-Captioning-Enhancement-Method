@@ -1,0 +1,59 @@
+Epoch 1/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 43/43 [02:46<00:00,  3.88s/it, loss=12.8]
+Epoch 1/100, Train Loss: 12.7864, Val Loss: 0.7791
+Epoch 2/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 43/43 [02:41<00:00,  3.76s/it, loss=0.62]
+Epoch 2/100, Train Loss: 0.6199, Val Loss: 0.8885
+Epoch 3/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 43/43 [02:40<00:00,  3.74s/it, loss=0.643]
+Epoch 3/100, Train Loss: 0.6432, Val Loss: 0.7065
+Epoch 4/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 43/43 [02:40<00:00,  3.74s/it, loss=0.62]
+Epoch 4/100, Train Loss: 0.6196, Val Loss: 0.9795
+Epoch 5/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 43/43 [02:41<00:00,  3.74s/it, loss=0.653]
+Epoch 5/100, Train Loss: 0.6534, Val Loss: 1.0246
+Epoch 6/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 43/43 [02:40<00:00,  3.74s/it, loss=0.649]
+Epoch 6/100, Train Loss: 0.6488, Val Loss: 0.9323
+Epoch 7/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 43/43 [02:40<00:00,  3.74s/it, loss=0.627]
+Epoch 7/100, Train Loss: 0.6269, Val Loss: 0.7495
+Epoch 8/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 43/43 [02:40<00:00,  3.74s/it, loss=0.626]
+Epoch 8/100, Train Loss: 0.6263, Val Loss: 0.9863
+Epoch 9/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 43/43 [02:40<00:00,  3.74s/it, loss=0.643]
+Epoch 9/100, Train Loss: 0.6425, Val Loss: 0.8657
+Epoch 10/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 43/43 [02:40<00:00,  3.73s/it, loss=0.639]
+Epoch 10/100, Train Loss: 0.6385, Val Loss: 0.7324
+Epoch 11/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 43/43 [02:40<00:00,  3.74s/it, loss=0.615]
+Epoch 11/100, Train Loss: 0.6154, Val Loss: 0.6563
+Epoch 12/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 43/43 [02:41<00:00,  3.75s/it, loss=0.617]
+Epoch 12/100, Train Loss: 0.6174, Val Loss: 0.8545
+Epoch 13/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 43/43 [02:40<00:00,  3.74s/it, loss=0.635]
+Epoch 13/100, Train Loss: 0.6345, Val Loss: 0.6925
+Epoch 14/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 43/43 [02:40<00:00,  3.74s/it, loss=0.642]
+Epoch 14/100, Train Loss: 0.6415, Val Loss: 0.9375
+Epoch 15/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 43/43 [02:40<00:00,  3.73s/it, loss=0.627]
+Epoch 15/100, Train Loss: 0.6270, Val Loss: 0.9522
+Epoch 16/100:  60%|████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                                                    | 26/43 [01:40<01:05,  3.86s/it, loss=0.386]
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 454, in <module>
+    main(args.train_1024, args.train_768, args.epochs, args.batch_size)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 398, in main
+    train_model(encoder_search_resnet1D_1024, retrieval_model, train_loader, val_loader, criterion, optimizer,scheduler, prepro_image_features_1024, num_epochs=num_epochs,filter = LearnableLogFilter_1024)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 259, in train_model
+    images_features = prepro_image_fn(images, retrieval_model, device, batch_size=32)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 190, in prepro_image_features_1024
+    image_features_batch = retrieval_model.encode_image(batch_images) #.cpu().detach().numpy()
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/clip/model.py", line 341, in encode_image
+    return self.visual(image.type(self.dtype))
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/clip/model.py", line 147, in forward
+    x = stem(x)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/clip/model.py", line 142, in stem
+    x = self.relu3(self.bn3(self.conv3(x)))
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 460, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 456, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+KeyboardInterrupt

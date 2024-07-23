@@ -1,0 +1,53 @@
+Epoch 1/200: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:49<00:00,  1.16s/it, loss=0.109]
+Epoch 1/200, Train Loss: 0.1087, Train_acc: 0.4376, Val Loss: 1.1039, Val_acc: 0.3338
+Epoch 2/200: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:47<00:00,  1.15s/it, loss=0.0999]
+Epoch 2/200, Train Loss: 0.0999, Train_acc: 0.6155, Val Loss: 0.9621, Val_acc: 0.5922
+Epoch 3/200: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:46<00:00,  1.13s/it, loss=0.0868]
+Epoch 3/200, Train Loss: 0.0868, Train_acc: 0.7629, Val Loss: 0.8948, Val_acc: 0.6112
+Epoch 4/200: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:46<00:00,  1.13s/it, loss=0.0717]
+Epoch 4/200, Train Loss: 0.0717, Train_acc: 0.8545, Val Loss: 0.8725, Val_acc: 0.6063
+Epoch 5/200: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:48<00:00,  1.16s/it, loss=0.0594]
+Epoch 5/200, Train Loss: 0.0594, Train_acc: 0.9044, Val Loss: 0.8584, Val_acc: 0.6200
+Epoch 6/200: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:48<00:00,  1.15s/it, loss=0.052]
+Epoch 6/200, Train Loss: 0.0520, Train_acc: 0.9323, Val Loss: 0.8767, Val_acc: 0.6083
+Epoch 7/200: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:44<00:00,  1.12s/it, loss=0.045]
+Epoch 7/200, Train Loss: 0.0450, Train_acc: 0.9484, Val Loss: 0.8695, Val_acc: 0.6117
+Epoch 8/200: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:52<00:00,  1.20s/it, loss=0.0419]
+Epoch 8/200, Train Loss: 0.0419, Train_acc: 0.9578, Val Loss: 0.8861, Val_acc: 0.6080
+Epoch 9/200: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:48<00:00,  1.16s/it, loss=0.039]
+Epoch 9/200, Train Loss: 0.0390, Train_acc: 0.9667, Val Loss: 0.9051, Val_acc: 0.6013
+Epoch 10/200: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:50<00:00,  1.17s/it, loss=0.0342]
+Epoch 10/200, Train Loss: 0.0342, Train_acc: 0.9722, Val Loss: 0.8934, Val_acc: 0.5983
+Epoch 11/200: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:45<00:00,  1.12s/it, loss=0.036]
+Epoch 11/200, Train Loss: 0.0360, Train_acc: 0.9753, Val Loss: 0.8809, Val_acc: 0.5972
+Epoch 12/200: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:46<00:00,  1.14s/it, loss=0.0305]
+Epoch 12/200, Train Loss: 0.0305, Train_acc: 0.9783, Val Loss: 0.8632, Val_acc: 0.6138
+Epoch 13/200: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94/94 [01:50<00:00,  1.18s/it, loss=0.0309]
+Epoch 13/200, Train Loss: 0.0309, Train_acc: 0.9813, Val Loss: 0.9231, Val_acc: 0.6085
+Epoch 14/200:  48%|███████████████████████████████████████████████████████████████▏                                                                    | 45/94 [00:52<00:57,  1.17s/it, loss=0.0306]
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/distillation.py", line 391, in <module>
+    main(args.train_3, args.epochs, args.batch_size, args.test_mode)
+  File "/home/yunkwan/project/radarclip/distillation.py", line 376, in main
+    train_model(teacher_model, student_model, retrieval_model,train_loader, val_loader, criterion, optimizer, warmup_scheduler, cosine_scheduler, prepro_image_fn=prepro_image_features, num_epochs=num_epochs, filter=LearnableLogFilter_3)
+  File "/home/yunkwan/project/radarclip/distillation.py", line 175, in train_model
+    for images, radars, _, _, labels in train_loader_tqdm:
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 54, in fetch
+    return self.collate_fn(data)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/_utils/collate.py", line 316, in default_collate
+    return collate(batch, collate_fn_map=default_collate_fn_map)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/_utils/collate.py", line 173, in collate
+    return [collate(samples, collate_fn_map=collate_fn_map) for samples in transposed]  # Backwards compatibility.
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/_utils/collate.py", line 173, in <listcomp>
+    return [collate(samples, collate_fn_map=collate_fn_map) for samples in transposed]  # Backwards compatibility.
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/_utils/collate.py", line 141, in collate
+    return collate_fn_map[elem_type](batch, collate_fn_map=collate_fn_map)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/utils/data/_utils/collate.py", line 213, in collate_tensor_fn
+    return torch.stack(batch, 0, out=out)
+KeyboardInterrupt

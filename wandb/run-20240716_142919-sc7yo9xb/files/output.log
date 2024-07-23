@@ -1,0 +1,20 @@
+Epoch 1/100:   0%|                                                                                              | 0/94 [01:02<?, ?it/s]
+[2] > [33;01m/home/yunkwan/project/radarclip/Radarcap_main_cl.py[00m([36;01m238[00m)train_model()
+-> cross_attn_output, cross_attn_weights = cross_attention(radars_features, images_features, images_features)
+torch.Size([1, 256, 1024])
+torch.Size([1, 256, 3])
+--KeyboardInterrupt--
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 455, in <module>
+    main(args.train_3, args.epochs, args.batch_size, args.test_mode)
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 442, in main
+    train_model(encoder_search_resnet1D_3, train_loader, val_loader, criterion, optimizer,warmup_scheduler,cosine_scheduler, prepro_image_fn= prepro_image_features_1024,num_epochs=num_epochs,filter = LearnableLogFilter_3)
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 238, in train_model
+    cross_attn_output, cross_attn_weights = cross_attention(radars_features, images_features, images_features)
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 238, in train_model
+    cross_attn_output, cross_attn_weights = cross_attention(radars_features, images_features, images_features)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

@@ -1,0 +1,42 @@
+_wandb:
+    value:
+        cli_version: 0.17.3
+        python_version: 3.9.19
+        t:
+            1:
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+                - 55
+            2:
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+                - 55
+            3:
+                - 2
+                - 23
+                - 55
+            4: 3.9.19
+            5: 0.17.3
+            6: 4.21.1
+            8:
+                - 5
+            12: 0.17.3
+            13: linux-x86_64
+alpha:
+    value: 0.7
+batch_size:
+    value: 32
+epochs:
+    value: 30
+feature_loss_weight:
+    value: 0.9
+temperature:
+    value: 9

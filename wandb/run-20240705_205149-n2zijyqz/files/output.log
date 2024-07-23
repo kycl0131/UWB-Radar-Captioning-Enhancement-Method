@@ -1,0 +1,36 @@
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 454, in <module>
+    main(args.train_1024, args.train_768, args.epochs, args.batch_size)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 429, in main
+    model = AutoModel.from_pretrained("Yova/SmallCap7M")
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py", line 446, in from_pretrained
+    return model_class.from_pretrained(pretrained_model_name_or_path, *model_args, config=config, **kwargs)
+  File "/home/yunkwan/project/radarclip/smallcap/src/vision_encoder_decoder.py", line 278, in from_pretrained
+    return super().from_pretrained(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/transformers/modeling_utils.py", line 2106, in from_pretrained
+    model = cls(config, *model_args, **model_kwargs)
+  File "/home/yunkwan/project/radarclip/smallcap/src/vision_encoder_decoder.py", line 208, in __init__
+    encoder = AutoModel.from_config(config.encoder)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py", line 410, in from_config
+    return model_class._from_config(config, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/transformers/modeling_utils.py", line 969, in _from_config
+    model = cls(config, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/transformers/models/clip/modeling_clip.py", line 875, in __init__
+    self.vision_model = CLIPVisionTransformer(vision_config)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/transformers/models/clip/modeling_clip.py", line 746, in __init__
+    self.encoder = CLIPEncoder(config)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/transformers/models/clip/modeling_clip.py", line 509, in __init__
+    self.layers = nn.ModuleList([CLIPEncoderLayer(config) for _ in range(config.num_hidden_layers)])
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/transformers/models/clip/modeling_clip.py", line 509, in <listcomp>
+    self.layers = nn.ModuleList([CLIPEncoderLayer(config) for _ in range(config.num_hidden_layers)])
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/transformers/models/clip/modeling_clip.py", line 298, in __init__
+    self.mlp = CLIPMLP(config)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/transformers/models/clip/modeling_clip.py", line 282, in __init__
+    self.fc1 = nn.Linear(config.hidden_size, config.intermediate_size)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/linear.py", line 103, in __init__
+    self.reset_parameters()
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/modules/linear.py", line 109, in reset_parameters
+    init.kaiming_uniform_(self.weight, a=math.sqrt(5))
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/torch/nn/init.py", line 459, in kaiming_uniform_
+    return tensor.uniform_(-bound, bound, generator=generator)
+KeyboardInterrupt

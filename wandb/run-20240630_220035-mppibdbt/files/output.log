@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 288, in <module>
+    main(args.train_1024, args.train_768, args.epochs, args.batch_size)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 250, in main
+    retrieval_model, feature_extractor_retrieval = clip.load("RN50x64", device=device)  #1024 size 448
+UnboundLocalError: local variable 'clip' referenced before assignment

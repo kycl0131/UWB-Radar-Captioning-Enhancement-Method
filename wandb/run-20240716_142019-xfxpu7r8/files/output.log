@@ -1,0 +1,37 @@
+Epoch 1/100:   0%|                                                                                              | 0/94 [06:41<?, ?it/s]
+[2] > [33;01m/home/yunkwan/project/radarclip/Radarcap_main_cl.py[00m([36;01m217[00m)train_model()
+-> print(images_features.shape)
+*** SyntaxError: unexpected EOF while parsing
+tensor([[-0.0784,  0.0760, -0.0771,  ..., -0.0811, -0.0776, -0.0293],
+        [-0.0369,  0.1582, -0.0714,  ..., -0.0235,  0.1053, -0.1287],
+        [ 0.0449,  0.1360, -0.1340,  ..., -0.0230,  0.0653, -0.1256],
+        ...,
+        [-0.0634,  0.1134, -0.0115,  ...,  0.1215,  0.0820, -0.2231],
+        [-0.0368,  0.0744, -0.0013,  ...,  0.0667,  0.0489, -0.2410],
+        [-0.0269,  0.1215, -0.0476,  ..., -0.0187,  0.0567, -0.1859]],
+       device='cuda:0')
+tensor([[-0.0784,  0.0760, -0.0771,  ..., -0.0811, -0.0776, -0.0293],
+        [-0.0369,  0.1582, -0.0714,  ..., -0.0235,  0.1053, -0.1287],
+        [ 0.0449,  0.1360, -0.1340,  ..., -0.0230,  0.0653, -0.1256],
+        ...,
+        [-0.0634,  0.1134, -0.0115,  ...,  0.1215,  0.0820, -0.2231],
+        [-0.0368,  0.0744, -0.0013,  ...,  0.0667,  0.0489, -0.2410],
+        [-0.0269,  0.1215, -0.0476,  ..., -0.0187,  0.0567, -0.1859]],
+       device='cuda:0')
+torch.Size([256, 1024])
+torch.Size([256, 1024])
+torch.Size([256, 3])
+--KeyboardInterrupt--
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 432, in <module>
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 419, in main
+    encoder_search_resnet1D_3 = ResNet1D_101(Bottleneck1D_101, [3, 4, 23, 3], 3)
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 217, in train_model
+    images = images.to(device).float()
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 217, in train_model
+    images = images.to(device).float()
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

@@ -1,0 +1,1 @@
+{"train_loss": 0.663662020606224, "decoder_loss": 0.6589539183510674, "epoch": 10, "_timestamp": 1717739278.039985, "_runtime": 31.310070991516113, "_step": 19, "val_loss": 0.6469679705558284, "val_decoder_loss": 0.6424422225644512, "_wandb": {"runtime": 29}}

@@ -1,0 +1,46 @@
+Epoch 1/100:   0%|                                                                                              | 0/94 [12:32<?, ?it/s]
+[2] > [33;01m/home/yunkwan/project/radarclip/Radarcap_main_cl.py[00m([36;01m238[00m)train_model()
+-> cross_attn_output, cross_attn_weights = cross_attention(radars_features, images_features, images_features)
+[2] > [33;01m/home/yunkwan/project/radarclip/Radarcap_main_cl.py[00m([36;01m239[00m)train_model()
+-> pdb.set_trace()
+[94m234[39;49;00m  	[90m[39;49;00m
+[94m235[39;49;00m  	            radars_features = radars_features.permute([94m1[39;49;00m, [94m0[39;49;00m, [94m2[39;49;00m)  [90m# [seq_len, batch_size, embed_dim][39;49;00m[90m[39;49;00m
+[94m236[39;49;00m  	            images_features = images_features.permute([94m1[39;49;00m, [94m0[39;49;00m, [94m2[39;49;00m)  [90m# [seq_len, batch_size, embed_dim][39;49;00m[90m[39;49;00m
+[94m237[39;49;00m  	            pdb.set_trace()[90m[39;49;00m
+[94m238[39;49;00m  	            cross_attn_output, cross_attn_weights = cross_attention(radars_features, images_features, images_features)[90m[39;49;00m
+[94m239[39;49;00m  ->	            pdb.set_trace()[90m[39;49;00m
+[94m240[39;49;00m  	[90m[39;49;00m
+[94m241[39;49;00m  	            [90m# radars_features = model(images)[39;49;00m[90m[39;49;00m
+[94m242[39;49;00m  	[90m[39;49;00m
+[94m243[39;49;00m  	            loss = criterion(radars_features, labels)[90m[39;49;00m
+[94m244[39;49;00m  	            loss.backward()[90m[39;49;00m
+*** NameError: name 'cross_att_output' is not defined
+tensor([[[ 0.0381,  0.0356, -0.0412,  ..., -0.0528,  0.0287, -0.0738],
+         [-0.0043,  0.0252, -0.0835,  ..., -0.0422,  0.0974, -0.0409],
+         [ 0.0389,  0.0502, -0.0185,  ..., -0.0507,  0.0232, -0.0823],
+         ...,
+         [-0.0003,  0.1459, -0.1536,  ..., -0.0324,  0.0750, -0.0858],
+         [ 0.0020,  0.0356, -0.0734,  ..., -0.0746,  0.0109, -0.0716],
+         [ 0.0779,  0.0501, -0.0972,  ..., -0.0455,  0.0477, -0.0229]]],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+torch.Size([1, 256, 1024])
+torch.Size([1, 256, 1024])
+torch.Size([1, 256, 1024])
+torch.Size([256, 1, 1])
+torch.Size([256, 1, 1])
+torch.Size([1, 256, 1024])
+torch.Size([1, 256, 1024])
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 455, in <module>
+    save_model(encoder_search_resnet1D_3, "/home/yunkwan/project/radarclip/model_save/encoder_search_resnet1D_3.pth")
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 442, in main
+    LearnableLogFilter_3 = LearnableLogFilter((1,1,radar_range[1]-radar_range[0]),device)
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 239, in train_model
+    radars_features = radars_features.unsqueeze(1)
+  File "/home/yunkwan/project/radarclip/Radarcap_main_cl.py", line 239, in train_model
+    radars_features = radars_features.unsqueeze(1)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

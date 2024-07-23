@@ -1,0 +1,29 @@
+2024-07-18 10:41:11,120 INFO    Thread-9  :1522699 [wandb_setup.py:_flush():76] Current SDK version is 0.17.3
+2024-07-18 10:41:11,120 INFO    Thread-9  :1522699 [wandb_setup.py:_flush():76] Configure stats pid to 1522699
+2024-07-18 10:41:11,120 INFO    Thread-9  :1522699 [wandb_setup.py:_flush():76] Loading settings from /home/yunkwan/.config/wandb/settings
+2024-07-18 10:41:11,120 INFO    Thread-9  :1522699 [wandb_setup.py:_flush():76] Loading settings from /home/yunkwan/project/radarclip/wandb/settings
+2024-07-18 10:41:11,120 INFO    Thread-9  :1522699 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'_require_core': 'true', 'project': 'teacher_student_distillation', 'entity': 'kycl0131', 'root_dir': '/home/yunkwan/project/radarclip', 'run_id': 'h75uuenw', 'sweep_param_path': '/home/yunkwan/project/radarclip/wandb/sweep-l608gziy/config-h75uuenw.yaml', 'sweep_id': 'l608gziy'}
+2024-07-18 10:41:11,120 INFO    Thread-9  :1522699 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-07-18 10:41:11,120 INFO    Thread-9  :1522699 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'distillation.py', 'program_abspath': '/home/yunkwan/project/radarclip/distillation.py', 'program': '/home/yunkwan/project/radarclip/distillation.py'}
+2024-07-18 10:41:11,120 INFO    Thread-9  :1522699 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-18 10:41:11,120 INFO    Thread-9  :1522699 [wandb_init.py:_log_setup():520] Logging user logs to /home/yunkwan/project/radarclip/wandb/run-20240718_104111-h75uuenw/logs/debug.log
+2024-07-18 10:41:11,120 INFO    Thread-9  :1522699 [wandb_init.py:_log_setup():521] Logging internal logs to /home/yunkwan/project/radarclip/wandb/run-20240718_104111-h75uuenw/logs/debug-internal.log
+2024-07-18 10:41:11,120 INFO    Thread-9  :1522699 [wandb_init.py:init():560] calling init triggers
+2024-07-18 10:41:11,120 INFO    Thread-9  :1522699 [wandb_init.py:init():567] wandb.init called with sweep_config: {'alpha': 0.5, 'batch_size': 128, 'epochs': 1, 'feature_loss_weight': 1, 'temperature': 4}
+config: {}
+2024-07-18 10:41:11,120 INFO    Thread-9  :1522699 [wandb_init.py:init():610] starting backend
+2024-07-18 10:41:11,120 INFO    Thread-9  :1522699 [wandb_init.py:init():614] setting up manager
+2024-07-18 10:41:11,123 INFO    Thread-9  :1522699 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-07-18 10:41:11,123 INFO    Thread-9  :1522699 [wandb_init.py:init():622] backend started and connected
+2024-07-18 10:41:11,129 INFO    Thread-9  :1522699 [wandb_run.py:_config_callback():1382] config_cb None None {'alpha': 0.5, 'batch_size': 128, 'epochs': 1, 'feature_loss_weight': 1, 'temperature': 4}
+2024-07-18 10:41:11,131 INFO    Thread-9  :1522699 [wandb_init.py:init():711] updated telemetry
+2024-07-18 10:41:11,132 INFO    Thread-9  :1522699 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-07-18 10:41:11,376 INFO    Thread-9  :1522699 [wandb_run.py:_on_init():2402] communicating current version
+2024-07-18 10:41:11,377 INFO    Thread-9  :1522699 [wandb_run.py:_on_init():2411] got version response 
+2024-07-18 10:41:11,377 INFO    Thread-9  :1522699 [wandb_init.py:init():795] starting run threads in backend
+2024-07-18 10:41:11,524 INFO    Thread-9  :1522699 [wandb_run.py:_console_start():2380] atexit reg
+2024-07-18 10:41:11,524 INFO    Thread-9  :1522699 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2024-07-18 10:41:11,524 INFO    Thread-9  :1522699 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2024-07-18 10:41:11,525 INFO    Thread-9  :1522699 [wandb_run.py:_redirect():2325] Redirects installed.
+2024-07-18 10:41:11,525 INFO    Thread-9  :1522699 [wandb_init.py:init():838] run started, returning control to user process
+2024-07-18 10:42:21,210 WARNING MsgRouterThr:1522699 [router.py:message_loop():77] message_loop has been closed

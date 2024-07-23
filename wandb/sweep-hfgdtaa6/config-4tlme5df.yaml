@@ -1,0 +1,12 @@
+wandb_version: 1
+
+alpha:
+  value: 0.5
+batch_size:
+  value: 32
+epochs:
+  value: 100
+feature_loss_weight:
+  value: 1
+temperature:
+  value: 2

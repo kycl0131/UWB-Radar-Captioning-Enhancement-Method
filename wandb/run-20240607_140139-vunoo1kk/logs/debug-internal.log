@@ -1,0 +1,52 @@
+2024-06-07 14:01:39,239 INFO    StreamThr :354325 [internal.py:wandb_internal():85] W&B internal server running at pid: 354325, started at: 2024-06-07 14:01:39.239250
+2024-06-07 14:01:39,240 DEBUG   HandlerThread:354325 [handler.py:handle_request():158] handle_request: status
+2024-06-07 14:01:39,247 INFO    WriterThread:354325 [datastore.py:open_for_write():87] open: /home/yunkwan/project/radarclip/wandb/run-20240607_140139-vunoo1kk/run-vunoo1kk.wandb
+2024-06-07 14:01:39,248 DEBUG   SenderThread:354325 [sender.py:send():378] send: header
+2024-06-07 14:01:39,521 DEBUG   SenderThread:354325 [sender.py:send():378] send: run
+2024-06-07 14:01:40,009 INFO    SenderThread:354325 [dir_watcher.py:__init__():211] watching files in: /home/yunkwan/project/radarclip/wandb/run-20240607_140139-vunoo1kk/files
+2024-06-07 14:01:40,009 INFO    SenderThread:354325 [sender.py:_start_run_threads():1123] run started: vunoo1kk with start time 1717736499.239514
+2024-06-07 14:01:40,015 DEBUG   HandlerThread:354325 [handler.py:handle_request():158] handle_request: check_version
+2024-06-07 14:01:40,016 DEBUG   SenderThread:354325 [sender.py:send_request():405] send_request: check_version
+2024-06-07 14:01:40,089 DEBUG   HandlerThread:354325 [handler.py:handle_request():158] handle_request: run_start
+2024-06-07 14:01:40,096 DEBUG   HandlerThread:354325 [system_info.py:__init__():26] System info init
+2024-06-07 14:01:40,096 DEBUG   HandlerThread:354325 [system_info.py:__init__():41] System info init done
+2024-06-07 14:01:40,096 INFO    HandlerThread:354325 [system_monitor.py:start():194] Starting system monitor
+2024-06-07 14:01:40,096 INFO    SystemMonitor:354325 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-07 14:01:40,097 INFO    HandlerThread:354325 [system_monitor.py:probe():214] Collecting system info
+2024-06-07 14:01:40,098 INFO    SystemMonitor:354325 [interfaces.py:start():188] Started cpu monitoring
+2024-06-07 14:01:40,098 INFO    SystemMonitor:354325 [interfaces.py:start():188] Started disk monitoring
+2024-06-07 14:01:40,099 INFO    SystemMonitor:354325 [interfaces.py:start():188] Started gpu monitoring
+2024-06-07 14:01:40,099 INFO    SystemMonitor:354325 [interfaces.py:start():188] Started memory monitoring
+2024-06-07 14:01:40,099 INFO    SystemMonitor:354325 [interfaces.py:start():188] Started network monitoring
+2024-06-07 14:01:40,107 DEBUG   HandlerThread:354325 [system_info.py:probe():150] Probing system
+2024-06-07 14:01:40,112 DEBUG   HandlerThread:354325 [gitlib.py:_init_repo():56] git repository is invalid
+2024-06-07 14:01:40,112 DEBUG   HandlerThread:354325 [system_info.py:probe():198] Probing system done
+2024-06-07 14:01:40,112 DEBUG   HandlerThread:354325 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-28-generic-x86_64-with-glibc2.35', 'python': '3.9.19', 'heartbeatAt': '2024-06-07T05:01:40.107905', 'startedAt': '2024-06-07T05:01:39.226342', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'rfad', 'username': 'yunkwan', 'executable': '/home/yunkwan/anaconda3/envs/smallcap/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2.5635000000000003, 'min': 800.0, 'max': 4600.0}, 'cpu_freq_per_core': [{'current': 4.313, 'min': 800.0, 'max': 4600.0}, {'current': 4.31, 'min': 800.0, 'max': 4600.0}, {'current': 4.357, 'min': 800.0, 'max': 4600.0}, {'current': 0.8, 'min': 800.0, 'max': 4600.0}, {'current': 4.303, 'min': 800.0, 'max': 4600.0}, {'current': 4.308, 'min': 800.0, 'max': 4600.0}, {'current': 0.8, 'min': 800.0, 'max': 4600.0}, {'current': 0.8, 'min': 800.0, 'max': 4600.0}, {'current': 4.301, 'min': 800.0, 'max': 4600.0}, {'current': 4.323, 'min': 800.0, 'max': 4600.0}, {'current': 0.8, 'min': 800.0, 'max': 4600.0}, {'current': 4.299, 'min': 800.0, 'max': 4600.0}], 'disk': {'/': {'total': 478.46307373046875, 'used': 56.168697357177734}}, 'gpu': 'NVIDIA GeForce RTX 4080', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4080', 'memory_total': 17171480576}], 'memory': {'total': 31.27035140991211}}
+2024-06-07 14:01:40,112 INFO    HandlerThread:354325 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-07 14:01:40,112 INFO    HandlerThread:354325 [system_monitor.py:probe():227] Publishing system info
+2024-06-07 14:01:40,112 DEBUG   HandlerThread:354325 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-06-07 14:01:41,010 INFO    Thread-12 :354325 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240607_140139-vunoo1kk/files/conda-environment.yaml
+2024-06-07 14:01:42,835 DEBUG   HandlerThread:354325 [system_info.py:_save_conda():222] Saving conda packages done
+2024-06-07 14:01:42,836 INFO    HandlerThread:354325 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-07 14:01:42,838 DEBUG   SenderThread:354325 [sender.py:send():378] send: files
+2024-06-07 14:01:42,838 INFO    SenderThread:354325 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-06-07 14:01:42,924 DEBUG   HandlerThread:354325 [handler.py:handle_request():158] handle_request: python_packages
+2024-06-07 14:01:42,925 DEBUG   SenderThread:354325 [sender.py:send_request():405] send_request: python_packages
+2024-06-07 14:01:42,925 DEBUG   HandlerThread:354325 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-07 14:01:42,925 DEBUG   SenderThread:354325 [sender.py:send_request():405] send_request: stop_status
+2024-06-07 14:01:43,010 INFO    Thread-12 :354325 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240607_140139-vunoo1kk/files/conda-environment.yaml
+2024-06-07 14:01:43,010 INFO    Thread-12 :354325 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240607_140139-vunoo1kk/files/wandb-metadata.json
+2024-06-07 14:01:43,010 INFO    Thread-12 :354325 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240607_140139-vunoo1kk/files/requirements.txt
+2024-06-07 14:01:43,219 DEBUG   SenderThread:354325 [sender.py:send():378] send: telemetry
+2024-06-07 14:01:43,599 INFO    wandb-upload_0:354325 [upload_job.py:push():130] Uploaded file /tmp/tmp9h8q5v2cwandb/mq74n477-wandb-metadata.json
+2024-06-07 14:01:44,010 INFO    Thread-12 :354325 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240607_140139-vunoo1kk/files/output.log
+2024-06-07 14:01:45,220 DEBUG   HandlerThread:354325 [handler.py:handle_request():158] handle_request: status_report
+2024-06-07 14:01:46,011 INFO    Thread-12 :354325 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240607_140139-vunoo1kk/files/output.log
+2024-06-07 14:01:51,554 DEBUG   HandlerThread:354325 [handler.py:handle_request():158] handle_request: status_report
+2024-06-07 14:01:53,557 INFO    cpu       :354325 [interfaces.py:monitor():138] Process cpu has exited.
+2024-06-07 14:01:53,558 INFO    memory    :354325 [interfaces.py:monitor():138] Process proc.memory.rssMB has exited.
+2024-06-07 14:01:53,558 DEBUG   SystemMonitor:354325 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-07 14:01:53,558 DEBUG   SystemMonitor:354325 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-07 14:01:53,558 DEBUG   SystemMonitor:354325 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-07 14:01:53,560 DEBUG   SenderThread:354325 [sender.py:send():378] send: stats
+2024-06-07 14:01:54,563 INFO    MainThread:354325 [internal.py:handle_exit():75] Internal process exited

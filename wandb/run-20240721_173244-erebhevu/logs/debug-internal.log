@@ -1,0 +1,16 @@
+{"time":"2024-07-21T17:32:44.951938095+09:00","level":"INFO","msg":"using version","core version":"0.17.3"}
+{"time":"2024-07-21T17:32:44.951948386+09:00","level":"INFO","msg":"created symlink","path":"/home/yunkwan/project/radarclip/wandb/run-20240721_173244-erebhevu/logs/debug-core.log"}
+{"time":"2024-07-21T17:32:44.959892525+09:00","level":"INFO","msg":"created new stream","id":"erebhevu"}
+{"time":"2024-07-21T17:32:44.959957481+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"erebhevu"}}
+{"time":"2024-07-21T17:32:44.959984714+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"erebhevu"}}
+{"time":"2024-07-21T17:32:44.959958017+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"erebhevu"}}
+{"time":"2024-07-21T17:32:45.312571417+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-07-21T17:32:45.35552956+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-07-21T19:22:08.213242243+09:00","level":"INFO","msg":"sender: getServerInfo: got server info","serverInfo":{"cliVersionInfo":{"max_cli_version":"0.17.4","min_cli_version":"0.8.20"},"latestLocalVersionInfo":null}}
+{"time":"2024-07-21T19:22:08.21374206+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-07-21T19:22:08.214590087+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-07-21T19:22:08.413919817+09:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-07-21T19:22:08.41392844+09:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-07-21T19:22:08.413931684+09:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-07-21T19:22:10.402642667+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"erebhevu"}}
+{"time":"2024-07-21T19:22:10.402658129+09:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"erebhevu"}}

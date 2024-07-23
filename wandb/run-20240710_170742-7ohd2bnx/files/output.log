@@ -1,0 +1,13 @@
+Epoch 1/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:51<00:00, 17.23s/it, loss=0.784]
+Epoch 1/100, Train Loss: 0.7840, Val Loss: 0.0334
+Epoch 2/100:  33%|██████████████████████████████████████████▋                                                                                     | 1/3 [00:19<00:39, 19.73s/it, loss=0.0261]
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 485, in <module>
+    main(args.train_1024, args.train_768, args.epochs, args.batch_size)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 425, in main
+    train_model(encoder_search_resnet1D_1024, retrieval_model, train_loader, val_loader, criterion, optimizer,scheduler, prepro_image_features_1024, num_epochs=num_epochs,filter = LearnableLogFilter_1024)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 258, in train_model
+    images_features = prepro_image_fn(images, retrieval_model, device, batch_size=32)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 175, in prepro_image_features_1024
+    resized_images = torch.stack([resize_transform(image) for image in images])
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.30 GiB. GPU

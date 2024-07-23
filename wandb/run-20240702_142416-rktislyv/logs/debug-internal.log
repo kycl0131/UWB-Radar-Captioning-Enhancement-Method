@@ -1,0 +1,15 @@
+{"time":"2024-07-02T14:24:16.920862504+09:00","level":"INFO","msg":"using version","core version":"0.17.3"}
+{"time":"2024-07-02T14:24:16.920875806+09:00","level":"INFO","msg":"created symlink","path":"/home/yunkwan/project/radarclip/wandb/run-20240702_142416-rktislyv/logs/debug-core.log"}
+{"time":"2024-07-02T14:24:16.928358204+09:00","level":"INFO","msg":"created new stream","id":"rktislyv"}
+{"time":"2024-07-02T14:24:16.928423127+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"rktislyv"}}
+{"time":"2024-07-02T14:24:16.928466355+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"rktislyv"}}
+{"time":"2024-07-02T14:24:16.928423296+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"rktislyv"}}
+{"time":"2024-07-02T14:24:17.421912943+09:00","level":"WARN","msg":"No requirements.txt found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job"}
+{"time":"2024-07-02T14:24:17.421922867+09:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-07-02T14:24:17.429474818+09:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2024-07-02T14:24:17.429504823+09:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"project /encoder_search_resnet1D_1024 not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2024-07-02T14:24:17.671969266+09:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2024-07-02T14:24:17.671997986+09:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"project /encoder_search_resnet1D_1024 not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2024-07-02T14:24:17.672124621+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"rktislyv"}}
+{"time":"2024-07-02T14:24:17.672136228+09:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"rktislyv"}}
+{"time":"2024-07-02T14:24:17.672175224+09:00","level":"INFO","msg":"closed stream","id":"rktislyv"}

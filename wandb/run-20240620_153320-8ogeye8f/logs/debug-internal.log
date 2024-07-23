@@ -1,0 +1,895 @@
+2024-06-20 15:33:26,660 INFO    StreamThr :1347284 [internal.py:wandb_internal():85] W&B internal server running at pid: 1347284, started at: 2024-06-20 15:33:26.659539
+2024-06-20 15:33:26,660 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status
+2024-06-20 15:33:26,661 INFO    WriterThread:1347284 [datastore.py:open_for_write():87] open: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/run-8ogeye8f.wandb
+2024-06-20 15:33:26,662 DEBUG   SenderThread:1347284 [sender.py:send():378] send: header
+2024-06-20 15:33:26,662 DEBUG   SenderThread:1347284 [sender.py:send():378] send: run
+2024-06-20 15:33:27,322 INFO    SenderThread:1347284 [dir_watcher.py:__init__():211] watching files in: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files
+2024-06-20 15:33:27,322 INFO    SenderThread:1347284 [sender.py:_start_run_threads():1123] run started: 8ogeye8f with start time 1718865206.178118
+2024-06-20 15:33:27,324 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: check_version
+2024-06-20 15:33:27,324 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: check_version
+2024-06-20 15:33:27,610 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: run_start
+2024-06-20 15:33:27,610 DEBUG   HandlerThread:1347284 [system_info.py:__init__():26] System info init
+2024-06-20 15:33:27,610 DEBUG   HandlerThread:1347284 [system_info.py:__init__():41] System info init done
+2024-06-20 15:33:27,610 INFO    HandlerThread:1347284 [system_monitor.py:start():194] Starting system monitor
+2024-06-20 15:33:27,611 INFO    SystemMonitor:1347284 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-20 15:33:27,611 INFO    SystemMonitor:1347284 [interfaces.py:start():188] Started cpu monitoring
+2024-06-20 15:33:27,611 INFO    SystemMonitor:1347284 [interfaces.py:start():188] Started disk monitoring
+2024-06-20 15:33:27,611 INFO    HandlerThread:1347284 [system_monitor.py:probe():214] Collecting system info
+2024-06-20 15:33:27,612 INFO    SystemMonitor:1347284 [interfaces.py:start():188] Started gpu monitoring
+2024-06-20 15:33:27,612 INFO    SystemMonitor:1347284 [interfaces.py:start():188] Started memory monitoring
+2024-06-20 15:33:27,612 INFO    SystemMonitor:1347284 [interfaces.py:start():188] Started network monitoring
+2024-06-20 15:33:27,618 DEBUG   HandlerThread:1347284 [system_info.py:probe():150] Probing system
+2024-06-20 15:33:27,619 DEBUG   HandlerThread:1347284 [gitlib.py:_init_repo():56] git repository is invalid
+2024-06-20 15:33:27,619 DEBUG   HandlerThread:1347284 [system_info.py:probe():198] Probing system done
+2024-06-20 15:33:27,619 DEBUG   HandlerThread:1347284 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-28-generic-x86_64-with-glibc2.35', 'python': '3.9.19', 'heartbeatAt': '2024-06-20T06:33:27.618963', 'startedAt': '2024-06-20T06:33:20.086802', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'rfad', 'username': 'yunkwan', 'executable': '/home/yunkwan/anaconda3/envs/smallcap/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3.1947500000000004, 'min': 800.0, 'max': 4600.0}, 'cpu_freq_per_core': [{'current': 4.297, 'min': 800.0, 'max': 4600.0}, {'current': 4.299, 'min': 800.0, 'max': 4600.0}, {'current': 0.8, 'min': 800.0, 'max': 4600.0}, {'current': 4.299, 'min': 800.0, 'max': 4600.0}, {'current': 4.299, 'min': 800.0, 'max': 4600.0}, {'current': 4.299, 'min': 800.0, 'max': 4600.0}, {'current': 4.299, 'min': 800.0, 'max': 4600.0}, {'current': 0.8, 'min': 800.0, 'max': 4600.0}, {'current': 4.3, 'min': 800.0, 'max': 4600.0}, {'current': 0.8, 'min': 800.0, 'max': 4600.0}, {'current': 4.299, 'min': 800.0, 'max': 4600.0}, {'current': 0.8, 'min': 800.0, 'max': 4600.0}], 'disk': {'/': {'total': 478.46307373046875, 'used': 56.18701171875}}, 'gpu': 'NVIDIA GeForce RTX 4080', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4080', 'memory_total': 17171480576}], 'memory': {'total': 31.27035140991211}}
+2024-06-20 15:33:27,619 INFO    HandlerThread:1347284 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-20 15:33:27,619 INFO    HandlerThread:1347284 [system_monitor.py:probe():227] Publishing system info
+2024-06-20 15:33:27,619 DEBUG   HandlerThread:1347284 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-06-20 15:33:28,324 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/conda-environment.yaml
+2024-06-20 15:33:30,904 DEBUG   HandlerThread:1347284 [system_info.py:_save_conda():222] Saving conda packages done
+2024-06-20 15:33:30,904 INFO    HandlerThread:1347284 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-20 15:33:30,905 DEBUG   SenderThread:1347284 [sender.py:send():378] send: files
+2024-06-20 15:33:30,905 INFO    SenderThread:1347284 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-06-20 15:33:31,001 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: python_packages
+2024-06-20 15:33:31,001 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: python_packages
+2024-06-20 15:33:31,002 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:33:31,002 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:33:31,323 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/conda-environment.yaml
+2024-06-20 15:33:31,324 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/wandb-metadata.json
+2024-06-20 15:33:31,324 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/requirements.txt
+2024-06-20 15:33:31,378 DEBUG   SenderThread:1347284 [sender.py:send():378] send: telemetry
+2024-06-20 15:33:31,660 INFO    wandb-upload_0:1347284 [upload_job.py:push():130] Uploaded file /tmp/tmp_tg5w8kdwandb/fvvvzycm-wandb-metadata.json
+2024-06-20 15:33:32,123 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:33:32,324 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:33:34,324 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:33:36,325 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:33:37,269 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:33:38,325 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:33:40,326 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:33:42,326 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:33:42,402 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:33:44,327 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:33:46,002 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:33:46,002 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:33:46,328 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:33:47,490 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:33:48,328 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:33:50,329 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:33:52,329 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:33:52,540 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:33:54,330 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:33:56,330 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:33:57,793 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:33:58,331 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:33:58,331 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/config.yaml
+2024-06-20 15:34:00,331 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:01,002 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:34:01,002 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:34:02,332 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:03,457 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:34:04,332 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:06,333 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:08,333 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:08,631 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:34:10,334 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:12,334 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:13,936 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:34:14,335 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:16,002 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:34:16,002 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:34:16,336 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:18,336 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:18,973 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:34:20,337 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:22,337 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:23,994 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:34:24,338 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:26,338 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:27,612 DEBUG   SystemMonitor:1347284 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-20 15:34:27,613 DEBUG   SenderThread:1347284 [sender.py:send():378] send: stats
+2024-06-20 15:34:28,339 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:29,225 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:34:30,339 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:31,002 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:34:31,002 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:34:32,340 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:34,340 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:34,497 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:34:36,341 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:38,341 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:39,768 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:34:40,342 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:42,342 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:44,343 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:45,034 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:34:46,002 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:34:46,002 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:34:46,343 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:48,344 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:50,051 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:34:50,344 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:52,344 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:54,345 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:55,146 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:34:56,346 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:34:57,614 DEBUG   SenderThread:1347284 [sender.py:send():378] send: stats
+2024-06-20 15:34:58,346 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:35:00,186 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:35:00,347 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:35:01,002 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:35:01,002 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:35:02,347 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:35:04,347 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:35:05,273 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:35:06,348 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:35:08,348 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:35:10,349 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:35:10,405 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:35:12,350 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:35:14,350 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:35:15,681 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:35:16,002 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:35:16,003 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:35:16,351 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:35:18,351 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:35:20,351 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:35:20,816 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:35:22,352 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:35:24,352 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:35:26,060 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:35:26,353 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:35:27,615 DEBUG   SenderThread:1347284 [sender.py:send():378] send: stats
+2024-06-20 15:35:28,353 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:35:30,354 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:35:31,002 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:35:31,003 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:35:31,295 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:35:32,355 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:35:34,355 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:35:36,356 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:35:36,583 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:35:38,356 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:35:40,357 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:35:41,785 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:35:42,358 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:35:44,358 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:35:46,003 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:35:46,003 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:35:46,359 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:35:46,845 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:35:48,360 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:35:48,403 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-20 15:35:48,404 DEBUG   SenderThread:1347284 [sender.py:send():378] send: history
+2024-06-20 15:35:48,404 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: summary_record
+2024-06-20 15:35:48,404 INFO    SenderThread:1347284 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-20 15:35:49,360 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/wandb-summary.json
+2024-06-20 15:35:50,360 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:35:52,405 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:35:57,405 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:35:57,615 DEBUG   SenderThread:1347284 [sender.py:send():378] send: stats
+2024-06-20 15:36:01,003 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:36:01,003 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:36:03,279 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:36:08,279 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:36:13,280 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:36:16,003 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:36:16,003 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:36:19,251 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:36:24,251 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:36:27,616 DEBUG   SenderThread:1347284 [sender.py:send():378] send: stats
+2024-06-20 15:36:29,616 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:36:31,003 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:36:31,003 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:36:35,310 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:36:40,311 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:36:43,862 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-20 15:36:43,863 DEBUG   SenderThread:1347284 [sender.py:send():378] send: history
+2024-06-20 15:36:43,863 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: summary_record
+2024-06-20 15:36:43,864 INFO    SenderThread:1347284 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-20 15:36:44,373 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/wandb-summary.json
+2024-06-20 15:36:45,398 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:36:46,003 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:36:46,003 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:36:46,374 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:36:48,374 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:36:50,375 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:36:50,406 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:36:52,375 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:36:54,376 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:36:55,701 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:36:56,376 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:36:57,616 DEBUG   SenderThread:1347284 [sender.py:send():378] send: stats
+2024-06-20 15:36:58,377 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:00,377 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:00,946 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:37:01,003 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:37:01,003 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:37:02,378 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:04,378 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:06,053 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:37:06,379 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:08,379 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:10,380 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:11,353 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:37:12,381 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:14,381 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:16,003 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:37:16,003 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:37:16,382 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:16,610 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:37:18,382 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:20,383 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:21,861 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:37:22,383 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:24,384 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:26,384 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:26,953 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:37:27,617 DEBUG   SenderThread:1347284 [sender.py:send():378] send: stats
+2024-06-20 15:37:28,384 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:30,385 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:31,003 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:37:31,004 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:37:32,202 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:37:32,386 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:34,386 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:36,387 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:37,493 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:37:38,387 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:40,388 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:42,388 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:42,769 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:37:44,389 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:46,003 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:37:46,004 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:37:46,389 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:47,823 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:37:48,390 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:50,391 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:52,391 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:53,019 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:37:54,392 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:56,392 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:37:57,617 DEBUG   SenderThread:1347284 [sender.py:send():378] send: stats
+2024-06-20 15:37:58,221 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:37:58,393 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:00,394 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:01,003 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:38:01,004 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:38:02,394 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:03,318 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:38:04,395 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:06,396 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:08,350 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:38:08,396 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:10,397 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:12,397 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:13,621 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:38:14,398 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:16,003 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:38:16,004 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:38:16,398 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:18,399 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:18,880 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:38:20,399 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:22,400 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:24,009 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:38:24,401 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:26,401 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:27,618 DEBUG   SenderThread:1347284 [sender.py:send():378] send: stats
+2024-06-20 15:38:28,402 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:29,092 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:38:30,402 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:31,004 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:38:31,004 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:38:32,403 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:34,148 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:38:34,403 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:36,404 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:38,404 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:39,202 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:38:40,405 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:42,405 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:44,406 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:44,456 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:38:46,004 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:38:46,004 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:38:46,406 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:48,407 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:49,464 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:38:50,407 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:52,408 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:54,408 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:54,690 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:38:56,409 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:57,618 DEBUG   SenderThread:1347284 [sender.py:send():378] send: stats
+2024-06-20 15:38:58,410 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:38:59,776 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:38:59,778 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-20 15:38:59,778 DEBUG   SenderThread:1347284 [sender.py:send():378] send: history
+2024-06-20 15:38:59,779 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: summary_record
+2024-06-20 15:38:59,779 INFO    SenderThread:1347284 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-20 15:39:00,410 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:39:00,410 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/wandb-summary.json
+2024-06-20 15:39:01,004 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:39:01,004 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:39:02,411 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:39:05,272 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:39:10,273 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:39:15,273 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:39:16,004 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:39:16,005 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:39:20,301 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:39:25,302 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:39:27,619 DEBUG   SenderThread:1347284 [sender.py:send():378] send: stats
+2024-06-20 15:39:30,620 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:39:31,004 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:39:31,004 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:39:36,264 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:39:41,265 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:39:46,004 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:39:46,004 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:39:46,285 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:39:51,285 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:39:56,266 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-20 15:39:56,267 DEBUG   SenderThread:1347284 [sender.py:send():378] send: history
+2024-06-20 15:39:56,267 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: summary_record
+2024-06-20 15:39:56,267 INFO    SenderThread:1347284 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-20 15:39:56,425 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/wandb-summary.json
+2024-06-20 15:39:56,559 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:39:57,620 DEBUG   SenderThread:1347284 [sender.py:send():378] send: stats
+2024-06-20 15:39:58,425 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:00,426 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:01,004 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:40:01,004 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:40:01,828 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:40:02,427 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:04,427 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:06,428 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:07,103 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:40:08,428 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:10,429 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:12,322 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:40:12,429 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:14,430 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:16,004 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:40:16,004 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:40:16,430 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:17,342 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:40:18,431 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:20,431 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:22,424 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:40:22,432 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:24,432 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:26,433 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:27,620 DEBUG   SenderThread:1347284 [sender.py:send():378] send: stats
+2024-06-20 15:40:27,622 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:40:28,433 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:30,434 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:31,004 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:40:31,005 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:40:32,435 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:32,698 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:40:34,435 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:36,436 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:37,940 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:40:38,437 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:40,437 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:42,438 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:42,957 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:40:44,438 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:46,004 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:40:46,005 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:40:46,439 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:47,992 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:40:48,439 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:50,440 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:52,440 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:53,164 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:40:54,441 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:56,441 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:40:57,621 DEBUG   SenderThread:1347284 [sender.py:send():378] send: stats
+2024-06-20 15:40:58,260 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:40:58,442 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:00,442 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:01,004 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:41:01,005 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:41:02,443 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:03,446 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:41:04,444 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:06,444 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:08,445 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:08,737 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:41:10,445 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:12,446 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:13,994 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:41:14,446 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:16,004 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:41:16,005 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:41:16,447 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:18,447 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:19,243 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:41:20,448 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:22,448 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:24,254 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:41:24,477 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:26,449 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:27,622 DEBUG   SenderThread:1347284 [sender.py:send():378] send: stats
+2024-06-20 15:41:28,450 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:29,496 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:41:30,451 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:31,005 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:41:31,005 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:41:32,451 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:34,451 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:34,566 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:41:36,452 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:38,453 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:39,778 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:41:40,453 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:42,454 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:44,455 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:44,859 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:41:46,005 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:41:46,005 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:41:46,455 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:48,456 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:50,158 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:41:50,457 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:52,457 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:54,457 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:55,381 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:41:56,458 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:41:57,622 DEBUG   SenderThread:1347284 [sender.py:send():378] send: stats
+2024-06-20 15:41:58,458 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:42:00,459 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:42:00,495 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:42:01,005 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:42:01,005 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:42:02,459 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:42:04,460 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:42:05,603 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:42:06,461 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:42:08,461 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:42:10,462 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:42:10,887 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:42:12,077 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-20 15:42:12,078 DEBUG   SenderThread:1347284 [sender.py:send():378] send: history
+2024-06-20 15:42:12,078 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: summary_record
+2024-06-20 15:42:12,078 INFO    SenderThread:1347284 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-20 15:42:12,462 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:42:12,462 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/wandb-summary.json
+2024-06-20 15:42:14,463 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:42:16,005 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:42:16,005 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:42:16,259 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:42:21,260 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:42:26,260 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:42:27,623 DEBUG   SenderThread:1347284 [sender.py:send():378] send: stats
+2024-06-20 15:42:31,005 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:42:31,005 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:42:31,273 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:42:36,274 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:42:41,274 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:42:46,005 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:42:46,005 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:42:47,236 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:42:52,236 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:42:57,237 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:42:57,638 DEBUG   SenderThread:1347284 [sender.py:send():378] send: stats
+2024-06-20 15:43:01,005 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:43:01,005 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:43:02,240 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:43:07,240 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:43:08,233 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-20 15:43:08,233 DEBUG   SenderThread:1347284 [sender.py:send():378] send: history
+2024-06-20 15:43:08,233 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: summary_record
+2024-06-20 15:43:08,234 INFO    SenderThread:1347284 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-20 15:43:08,477 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/wandb-summary.json
+2024-06-20 15:43:10,477 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:43:12,281 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:43:12,478 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:43:14,478 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:43:16,005 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:43:16,006 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:43:16,479 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:43:17,521 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:43:18,479 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:43:20,480 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:43:22,480 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:43:22,829 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:43:24,481 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:43:26,481 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:43:27,624 DEBUG   SenderThread:1347284 [sender.py:send():378] send: stats
+2024-06-20 15:43:28,126 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:43:28,482 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:43:30,482 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:43:31,005 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:43:31,006 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:43:32,483 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:43:33,419 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:43:34,484 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:43:36,484 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:43:38,485 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:43:38,662 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:43:40,485 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:43:42,486 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:43:43,971 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:43:44,486 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:43:46,005 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:43:46,006 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:43:46,487 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:43:48,487 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:43:49,062 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:43:50,488 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:43:52,488 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:43:54,288 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:43:54,489 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:43:56,489 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:43:57,625 DEBUG   SenderThread:1347284 [sender.py:send():378] send: stats
+2024-06-20 15:43:58,490 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:43:59,406 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:44:00,491 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:01,026 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:44:01,026 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:44:02,491 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:04,492 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:04,583 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:44:06,492 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:08,493 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:09,591 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:44:10,493 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:12,494 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:14,494 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:14,613 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:44:16,026 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:44:16,026 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:44:16,495 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:18,495 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:19,652 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:44:20,496 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:22,496 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:24,497 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:24,918 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:44:26,497 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:27,625 DEBUG   SenderThread:1347284 [sender.py:send():378] send: stats
+2024-06-20 15:44:28,498 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:30,236 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:44:30,498 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:31,026 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:44:31,026 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:44:32,499 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:34,500 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:35,510 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:44:36,500 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:38,501 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:40,501 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:40,812 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:44:42,502 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:44,502 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:46,026 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:44:46,026 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:44:46,246 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:44:46,504 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:48,504 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:50,505 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:51,448 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:44:52,505 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:54,506 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:56,457 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:44:56,506 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:44:57,626 DEBUG   SenderThread:1347284 [sender.py:send():378] send: stats
+2024-06-20 15:44:58,507 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:45:00,508 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:45:01,026 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:45:01,026 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:45:01,675 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:45:02,508 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:45:04,508 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:45:06,509 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:45:06,926 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:45:08,510 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:45:10,510 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:45:11,993 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:45:12,511 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:45:14,511 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:45:16,026 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:45:16,026 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:45:16,512 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:45:17,099 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:45:18,512 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:45:20,513 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:45:22,364 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:45:22,513 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:45:24,514 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:45:25,038 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-20 15:45:25,039 DEBUG   SenderThread:1347284 [sender.py:send():378] send: history
+2024-06-20 15:45:25,039 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: summary_record
+2024-06-20 15:45:25,039 INFO    SenderThread:1347284 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-20 15:45:25,514 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/wandb-summary.json
+2024-06-20 15:45:26,514 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:45:27,626 DEBUG   SenderThread:1347284 [sender.py:send():378] send: stats
+2024-06-20 15:45:27,627 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:45:31,026 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:45:31,026 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:45:33,253 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:45:38,254 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:45:43,254 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:45:46,026 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:45:46,026 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:45:48,265 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:45:53,266 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:45:57,627 DEBUG   SenderThread:1347284 [sender.py:send():378] send: stats
+2024-06-20 15:45:58,628 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:46:01,026 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:46:01,026 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:46:04,311 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:46:09,312 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:46:14,313 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:46:16,026 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:46:16,027 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:46:20,152 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-20 15:46:20,152 DEBUG   SenderThread:1347284 [sender.py:send():378] send: history
+2024-06-20 15:46:20,152 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: summary_record
+2024-06-20 15:46:20,153 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:46:20,153 INFO    SenderThread:1347284 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-20 15:46:20,527 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:46:20,528 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/wandb-summary.json
+2024-06-20 15:46:22,528 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:46:22,810 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: pause
+2024-06-20 15:46:22,810 INFO    HandlerThread:1347284 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-20 15:46:22,810 INFO    HandlerThread:1347284 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-20 15:46:22,810 DEBUG   SystemMonitor:1347284 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-20 15:46:22,810 DEBUG   SystemMonitor:1347284 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-20 15:46:22,811 INFO    HandlerThread:1347284 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-20 15:46:22,811 INFO    HandlerThread:1347284 [interfaces.py:finish():200] Joined disk monitor
+2024-06-20 15:46:22,859 INFO    HandlerThread:1347284 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-20 15:46:22,859 INFO    HandlerThread:1347284 [interfaces.py:finish():200] Joined memory monitor
+2024-06-20 15:46:22,859 INFO    HandlerThread:1347284 [interfaces.py:finish():200] Joined network monitor
+2024-06-20 15:46:22,859 DEBUG   SenderThread:1347284 [sender.py:send():378] send: stats
+2024-06-20 15:46:24,529 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:46:25,279 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: resume
+2024-06-20 15:46:25,288 INFO    HandlerThread:1347284 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-20 15:46:25,288 INFO    HandlerThread:1347284 [system_monitor.py:start():194] Starting system monitor
+2024-06-20 15:46:25,288 INFO    SystemMonitor:1347284 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-20 15:46:25,288 INFO    SystemMonitor:1347284 [interfaces.py:start():188] Started cpu monitoring
+2024-06-20 15:46:25,289 INFO    SystemMonitor:1347284 [interfaces.py:start():188] Started disk monitoring
+2024-06-20 15:46:25,289 INFO    SystemMonitor:1347284 [interfaces.py:start():188] Started gpu monitoring
+2024-06-20 15:46:25,289 INFO    SystemMonitor:1347284 [interfaces.py:start():188] Started memory monitoring
+2024-06-20 15:46:25,290 INFO    SystemMonitor:1347284 [interfaces.py:start():188] Started network monitoring
+2024-06-20 15:46:25,505 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:46:25,506 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: pause
+2024-06-20 15:46:25,506 INFO    HandlerThread:1347284 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-20 15:46:25,506 INFO    HandlerThread:1347284 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-20 15:46:25,506 DEBUG   SystemMonitor:1347284 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-20 15:46:25,506 DEBUG   SystemMonitor:1347284 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-20 15:46:25,507 DEBUG   SystemMonitor:1347284 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-20 15:46:25,506 INFO    HandlerThread:1347284 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-20 15:46:25,507 INFO    HandlerThread:1347284 [interfaces.py:finish():200] Joined disk monitor
+2024-06-20 15:46:25,554 INFO    HandlerThread:1347284 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-20 15:46:25,554 INFO    HandlerThread:1347284 [interfaces.py:finish():200] Joined memory monitor
+2024-06-20 15:46:25,554 INFO    HandlerThread:1347284 [interfaces.py:finish():200] Joined network monitor
+2024-06-20 15:46:25,554 DEBUG   SenderThread:1347284 [sender.py:send():378] send: stats
+2024-06-20 15:46:26,529 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:46:30,555 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:46:31,026 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:46:31,027 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:46:36,290 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:46:41,291 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:46:46,026 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:46:46,027 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:46:47,251 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:46:52,252 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:46:57,253 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:47:01,027 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:47:01,027 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:47:02,278 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:47:07,279 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:47:12,280 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:47:16,027 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:47:16,027 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:47:18,267 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:47:23,268 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:47:28,269 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:47:31,027 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:47:31,027 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:47:33,277 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:47:38,278 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:47:43,279 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:47:46,027 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:47:46,027 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:47:49,272 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:47:54,272 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:47:59,273 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:48:01,027 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:48:01,028 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:48:05,240 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:48:10,241 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:48:15,241 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:48:16,027 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:48:16,028 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:48:20,302 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:48:25,303 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:48:30,304 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:48:31,027 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:48:31,028 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:48:36,244 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:48:41,245 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:48:46,027 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:48:46,028 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:48:46,291 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:48:51,291 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:48:56,292 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:49:01,028 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:49:01,028 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:49:01,329 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:49:06,330 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:49:11,331 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:49:16,028 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:49:16,028 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:49:17,255 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:49:22,256 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:49:27,256 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:49:31,028 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:49:31,028 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:49:32,303 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:49:37,304 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:49:42,305 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:49:46,028 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:49:46,029 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:49:47,322 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:49:52,323 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:49:57,323 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:50:01,028 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:50:01,029 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:50:03,310 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:50:08,311 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:50:13,311 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:50:16,029 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-20 15:50:16,029 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: stop_status
+2024-06-20 15:50:16,890 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: resume
+2024-06-20 15:50:16,890 INFO    HandlerThread:1347284 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-20 15:50:16,891 INFO    HandlerThread:1347284 [system_monitor.py:start():194] Starting system monitor
+2024-06-20 15:50:16,891 INFO    SystemMonitor:1347284 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-20 15:50:16,891 INFO    SystemMonitor:1347284 [interfaces.py:start():188] Started cpu monitoring
+2024-06-20 15:50:16,892 INFO    SystemMonitor:1347284 [interfaces.py:start():188] Started disk monitoring
+2024-06-20 15:50:16,892 INFO    SystemMonitor:1347284 [interfaces.py:start():188] Started gpu monitoring
+2024-06-20 15:50:16,892 INFO    SystemMonitor:1347284 [interfaces.py:start():188] Started memory monitoring
+2024-06-20 15:50:16,892 INFO    SystemMonitor:1347284 [interfaces.py:start():188] Started network monitoring
+2024-06-20 15:50:16,902 DEBUG   SenderThread:1347284 [sender.py:send():378] send: telemetry
+2024-06-20 15:50:16,903 DEBUG   SenderThread:1347284 [sender.py:send():378] send: exit
+2024-06-20 15:50:16,903 INFO    SenderThread:1347284 [sender.py:send_exit():585] handling exit code: 0
+2024-06-20 15:50:16,903 INFO    SenderThread:1347284 [sender.py:send_exit():587] handling runtime: 775
+2024-06-20 15:50:16,905 INFO    SenderThread:1347284 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-20 15:50:16,905 INFO    SenderThread:1347284 [sender.py:send_exit():593] send defer
+2024-06-20 15:50:16,905 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: defer
+2024-06-20 15:50:16,905 INFO    HandlerThread:1347284 [handler.py:handle_request_defer():184] handle defer: 0
+2024-06-20 15:50:16,905 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: defer
+2024-06-20 15:50:16,905 INFO    SenderThread:1347284 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-06-20 15:50:16,905 INFO    SenderThread:1347284 [sender.py:transition_state():613] send defer: 1
+2024-06-20 15:50:16,905 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: defer
+2024-06-20 15:50:16,905 INFO    HandlerThread:1347284 [handler.py:handle_request_defer():184] handle defer: 1
+2024-06-20 15:50:16,905 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: defer
+2024-06-20 15:50:16,905 INFO    SenderThread:1347284 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-06-20 15:50:16,905 INFO    SenderThread:1347284 [sender.py:transition_state():613] send defer: 2
+2024-06-20 15:50:16,906 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: defer
+2024-06-20 15:50:16,906 INFO    HandlerThread:1347284 [handler.py:handle_request_defer():184] handle defer: 2
+2024-06-20 15:50:16,906 INFO    HandlerThread:1347284 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-20 15:50:16,906 DEBUG   SystemMonitor:1347284 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-20 15:50:16,906 DEBUG   SystemMonitor:1347284 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-20 15:50:16,906 DEBUG   SystemMonitor:1347284 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-20 15:50:16,906 INFO    HandlerThread:1347284 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-20 15:50:16,906 INFO    HandlerThread:1347284 [interfaces.py:finish():200] Joined disk monitor
+2024-06-20 15:50:16,954 INFO    HandlerThread:1347284 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-20 15:50:16,954 INFO    HandlerThread:1347284 [interfaces.py:finish():200] Joined memory monitor
+2024-06-20 15:50:16,955 INFO    HandlerThread:1347284 [interfaces.py:finish():200] Joined network monitor
+2024-06-20 15:50:16,955 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: defer
+2024-06-20 15:50:16,955 INFO    SenderThread:1347284 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-06-20 15:50:16,955 INFO    SenderThread:1347284 [sender.py:transition_state():613] send defer: 3
+2024-06-20 15:50:16,955 DEBUG   SenderThread:1347284 [sender.py:send():378] send: stats
+2024-06-20 15:50:16,955 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: defer
+2024-06-20 15:50:16,955 INFO    HandlerThread:1347284 [handler.py:handle_request_defer():184] handle defer: 3
+2024-06-20 15:50:16,955 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: defer
+2024-06-20 15:50:16,955 INFO    SenderThread:1347284 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-06-20 15:50:16,955 INFO    SenderThread:1347284 [sender.py:transition_state():613] send defer: 4
+2024-06-20 15:50:16,955 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: defer
+2024-06-20 15:50:16,955 INFO    HandlerThread:1347284 [handler.py:handle_request_defer():184] handle defer: 4
+2024-06-20 15:50:16,956 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: defer
+2024-06-20 15:50:16,956 INFO    SenderThread:1347284 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-06-20 15:50:16,956 INFO    SenderThread:1347284 [sender.py:transition_state():613] send defer: 5
+2024-06-20 15:50:16,956 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: defer
+2024-06-20 15:50:16,956 INFO    HandlerThread:1347284 [handler.py:handle_request_defer():184] handle defer: 5
+2024-06-20 15:50:16,956 DEBUG   SenderThread:1347284 [sender.py:send():378] send: summary
+2024-06-20 15:50:16,956 INFO    SenderThread:1347284 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-20 15:50:16,956 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: defer
+2024-06-20 15:50:16,956 INFO    SenderThread:1347284 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-06-20 15:50:16,956 INFO    SenderThread:1347284 [sender.py:transition_state():613] send defer: 6
+2024-06-20 15:50:16,957 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: defer
+2024-06-20 15:50:16,957 INFO    HandlerThread:1347284 [handler.py:handle_request_defer():184] handle defer: 6
+2024-06-20 15:50:16,957 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: defer
+2024-06-20 15:50:16,957 INFO    SenderThread:1347284 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-06-20 15:50:16,959 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: status_report
+2024-06-20 15:50:17,178 INFO    SenderThread:1347284 [sender.py:transition_state():613] send defer: 7
+2024-06-20 15:50:17,178 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: defer
+2024-06-20 15:50:17,178 INFO    HandlerThread:1347284 [handler.py:handle_request_defer():184] handle defer: 7
+2024-06-20 15:50:17,178 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: defer
+2024-06-20 15:50:17,178 INFO    SenderThread:1347284 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-06-20 15:50:17,586 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/config.yaml
+2024-06-20 15:50:17,586 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/wandb-summary.json
+2024-06-20 15:50:17,903 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-20 15:50:18,747 INFO    SenderThread:1347284 [sender.py:transition_state():613] send defer: 8
+2024-06-20 15:50:18,747 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: poll_exit
+2024-06-20 15:50:18,748 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: defer
+2024-06-20 15:50:18,748 INFO    HandlerThread:1347284 [handler.py:handle_request_defer():184] handle defer: 8
+2024-06-20 15:50:18,748 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: defer
+2024-06-20 15:50:18,748 INFO    SenderThread:1347284 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-06-20 15:50:18,748 INFO    SenderThread:1347284 [job_builder.py:build():432] Attempting to build job artifact
+2024-06-20 15:50:18,757 INFO    SenderThread:1347284 [job_builder.py:_get_source_type():576] no source found
+2024-06-20 15:50:18,757 INFO    SenderThread:1347284 [sender.py:transition_state():613] send defer: 9
+2024-06-20 15:50:18,757 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: defer
+2024-06-20 15:50:18,757 INFO    HandlerThread:1347284 [handler.py:handle_request_defer():184] handle defer: 9
+2024-06-20 15:50:18,758 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: defer
+2024-06-20 15:50:18,758 INFO    SenderThread:1347284 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-06-20 15:50:18,758 INFO    SenderThread:1347284 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-06-20 15:50:18,904 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-20 15:50:19,586 INFO    Thread-36 :1347284 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:50:19,587 INFO    SenderThread:1347284 [dir_watcher.py:finish():388] scan: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files
+2024-06-20 15:50:19,587 INFO    SenderThread:1347284 [dir_watcher.py:finish():402] scan save: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/requirements.txt requirements.txt
+2024-06-20 15:50:19,587 INFO    SenderThread:1347284 [dir_watcher.py:finish():402] scan save: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/wandb-metadata.json wandb-metadata.json
+2024-06-20 15:50:19,587 INFO    SenderThread:1347284 [dir_watcher.py:finish():402] scan save: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/config.yaml config.yaml
+2024-06-20 15:50:19,587 INFO    SenderThread:1347284 [dir_watcher.py:finish():402] scan save: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/wandb-summary.json wandb-summary.json
+2024-06-20 15:50:19,587 INFO    SenderThread:1347284 [dir_watcher.py:finish():402] scan save: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/conda-environment.yaml conda-environment.yaml
+2024-06-20 15:50:19,588 INFO    SenderThread:1347284 [dir_watcher.py:finish():402] scan save: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log output.log
+2024-06-20 15:50:19,588 INFO    SenderThread:1347284 [sender.py:transition_state():613] send defer: 10
+2024-06-20 15:50:19,588 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: poll_exit
+2024-06-20 15:50:19,592 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: defer
+2024-06-20 15:50:19,593 INFO    HandlerThread:1347284 [handler.py:handle_request_defer():184] handle defer: 10
+2024-06-20 15:50:19,594 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: defer
+2024-06-20 15:50:19,594 INFO    SenderThread:1347284 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-06-20 15:50:19,595 INFO    SenderThread:1347284 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-20 15:50:19,906 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-20 15:50:19,906 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: poll_exit
+2024-06-20 15:50:20,157 INFO    wandb-upload_0:1347284 [upload_job.py:push():130] Uploaded file /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/wandb-summary.json
+2024-06-20 15:50:20,172 INFO    wandb-upload_4:1347284 [upload_job.py:push():130] Uploaded file /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/output.log
+2024-06-20 15:50:20,172 INFO    wandb-upload_2:1347284 [upload_job.py:push():130] Uploaded file /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/config.yaml
+2024-06-20 15:50:20,174 INFO    wandb-upload_1:1347284 [upload_job.py:push():130] Uploaded file /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/requirements.txt
+2024-06-20 15:50:20,190 INFO    wandb-upload_3:1347284 [upload_job.py:push():130] Uploaded file /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/files/conda-environment.yaml
+2024-06-20 15:50:20,390 INFO    Thread-35 :1347284 [sender.py:transition_state():613] send defer: 11
+2024-06-20 15:50:20,390 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: defer
+2024-06-20 15:50:20,390 INFO    HandlerThread:1347284 [handler.py:handle_request_defer():184] handle defer: 11
+2024-06-20 15:50:20,391 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: defer
+2024-06-20 15:50:20,391 INFO    SenderThread:1347284 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-06-20 15:50:20,391 INFO    SenderThread:1347284 [file_pusher.py:join():175] waiting for file pusher
+2024-06-20 15:50:20,391 INFO    SenderThread:1347284 [sender.py:transition_state():613] send defer: 12
+2024-06-20 15:50:20,391 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: defer
+2024-06-20 15:50:20,391 INFO    HandlerThread:1347284 [handler.py:handle_request_defer():184] handle defer: 12
+2024-06-20 15:50:20,391 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: defer
+2024-06-20 15:50:20,391 INFO    SenderThread:1347284 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-06-20 15:50:20,391 INFO    SenderThread:1347284 [file_stream.py:finish():601] file stream finish called
+2024-06-20 15:50:20,906 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-20 15:50:21,036 INFO    SenderThread:1347284 [file_stream.py:finish():605] file stream finish is done
+2024-06-20 15:50:21,037 INFO    SenderThread:1347284 [sender.py:transition_state():613] send defer: 13
+2024-06-20 15:50:21,037 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: poll_exit
+2024-06-20 15:50:21,037 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: defer
+2024-06-20 15:50:21,037 INFO    HandlerThread:1347284 [handler.py:handle_request_defer():184] handle defer: 13
+2024-06-20 15:50:21,037 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: defer
+2024-06-20 15:50:21,037 INFO    SenderThread:1347284 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-06-20 15:50:21,037 INFO    SenderThread:1347284 [sender.py:transition_state():613] send defer: 14
+2024-06-20 15:50:21,038 DEBUG   SenderThread:1347284 [sender.py:send():378] send: final
+2024-06-20 15:50:21,038 DEBUG   SenderThread:1347284 [sender.py:send():378] send: footer
+2024-06-20 15:50:21,038 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: defer
+2024-06-20 15:50:21,038 INFO    HandlerThread:1347284 [handler.py:handle_request_defer():184] handle defer: 14
+2024-06-20 15:50:21,038 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: defer
+2024-06-20 15:50:21,038 INFO    SenderThread:1347284 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-06-20 15:50:21,039 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-20 15:50:21,039 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: poll_exit
+2024-06-20 15:50:21,040 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-20 15:50:21,041 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: server_info
+2024-06-20 15:50:21,041 DEBUG   SenderThread:1347284 [sender.py:send_request():405] send_request: server_info
+2024-06-20 15:50:21,081 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: get_summary
+2024-06-20 15:50:21,081 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: sampled_history
+2024-06-20 15:50:21,226 DEBUG   HandlerThread:1347284 [handler.py:handle_request():158] handle_request: shutdown
+2024-06-20 15:50:21,227 INFO    HandlerThread:1347284 [handler.py:finish():882] shutting down handler
+2024-06-20 15:50:22,041 INFO    WriterThread:1347284 [datastore.py:close():296] close: /home/yunkwan/project/radarclip/wandb/run-20240620_153320-8ogeye8f/run-8ogeye8f.wandb
+2024-06-20 15:50:22,226 INFO    SenderThread:1347284 [sender.py:finish():1545] shutting down sender
+2024-06-20 15:50:22,226 INFO    SenderThread:1347284 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-20 15:50:22,226 INFO    SenderThread:1347284 [file_pusher.py:join():175] waiting for file pusher

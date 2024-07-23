@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 284, in <module>
+    main(args.train_1024, args.train_768, args.epochs, args.batch_size)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 245, in main
+    retrieval_model, feature_extractor_retrieval = clip.load("RN50x64", device=device)  #1024 size 448
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/clip/clip.py", line 120, in load
+    model_path = _download(_MODELS[name], download_root or os.path.expanduser("~/.cache/clip"))
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/clip/clip.py", line 54, in _download
+    if hashlib.sha256(open(download_target, "rb").read()).hexdigest() == expected_sha256:
+KeyboardInterrupt

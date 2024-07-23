@@ -1,0 +1,17 @@
+{"time":"2024-07-16T14:13:49.063689306+09:00","level":"INFO","msg":"using version","core version":"0.17.3"}
+{"time":"2024-07-16T14:13:49.063701225+09:00","level":"INFO","msg":"created symlink","path":"/home/yunkwan/project/radarclip/wandb/run-20240716_141349-90823jbd/logs/debug-core.log"}
+{"time":"2024-07-16T14:13:49.071384241+09:00","level":"INFO","msg":"created new stream","id":"90823jbd"}
+{"time":"2024-07-16T14:13:49.071452222+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"90823jbd"}}
+{"time":"2024-07-16T14:13:49.071453571+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"90823jbd"}}
+{"time":"2024-07-16T14:13:49.071492864+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"90823jbd"}}
+{"time":"2024-07-16T14:13:49.370170638+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-07-16T14:13:49.411230171+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-07-16T14:14:02.366670396+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-07-16T14:14:02.367462029+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-07-16T14:14:02.567133878+09:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-07-16T14:14:02.567150485+09:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-07-16T14:14:02.5671537+09:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-07-16T14:14:03.398690507+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"90823jbd"}}
+{"time":"2024-07-16T14:14:03.398691337+09:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"90823jbd"}}
+{"time":"2024-07-16T14:14:03.398926546+09:00","level":"INFO","msg":"closed stream","id":"90823jbd"}
+{"time":"2024-07-16T14:14:03.398959051+09:00","level":"ERROR","msg":"context done, not handling record","record":{"RecordType":{"Request":{"RequestType":{"InternalMessages":{}}}},"control":{"local":true,"mailbox_slot":"kyoz61kxv1xp","connection_id":"127.0.0.1:57328"},"_info":{"stream_id":"90823jbd"}}}

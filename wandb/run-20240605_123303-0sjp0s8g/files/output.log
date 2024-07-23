@@ -1,0 +1,56 @@
+
+
+
+
+
+
+Epoch 1/10: 100%|██████████| 5/5 [00:21<00:00,  4.23s/it, loss=0.21]
+Collecting sklearn
+  Downloading sklearn-0.0.post12.tar.gz (2.6 kB)
+  Preparing metadata (setup.py) ... [?25lerror
+  [1merror[22m: [1msubprocess-exited-with-error
+  [31m×[39m [32mpython setup.py egg_info[39m did not run successfully.
+  [31m│[39m exit code: [1m1
+  [31m╰─>[39m [31m[15 lines of output]
+  [31m   [39m The 'sklearn' PyPI package is deprecated, use 'scikit-learn'
+  [31m   [39m rather than 'sklearn' for pip commands.
+  [31m   
+  [31m   [39m Here is how to fix this error in the main use cases:
+  [31m   [39m - use 'pip install scikit-learn' rather than 'pip install sklearn'
+  [31m   [39m - replace 'sklearn' by 'scikit-learn' in your pip requirements files
+  [31m   [39m   (requirements.txt, setup.py, setup.cfg, Pipfile, etc ...)
+  [31m   [39m - if the 'sklearn' package is used by one of your dependencies,
+  [31m   [39m   it would be great if you take some time to track which package uses
+  [31m   [39m   'sklearn' instead of 'scikit-learn' and report it to their issue tracker
+  [31m   [39m - as a last resort, set the environment variable
+  [31m   [39m   SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True to avoid this error
+  [31m   
+  [31m   [39m More information is available at
+  [31m   [39m https://github.com/scikit-learn/sklearn-pypi-package
+  [31m   [39m [31m[end of output]
+  [1mnote[22m: This error originates from a subprocess, and is likely not a problem with pip.
+[?25h[1merror[22m: [1mmetadata-generation-failed
+[31m×[39m Encountered error while generating package metadata.
+[31m╰─>[39m See above for output.
+[1mnote[22m: This is an issue with the package mentioned above, not pip.
+[1mhint[22m: See above for details.
+Collecting scikit-learn
+  Downloading scikit_learn-1.5.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+Requirement already satisfied: numpy>=1.19.5 in /home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages (from scikit-learn) (1.26.4)
+Collecting scipy>=1.6.0 (from scikit-learn)
+  Downloading scipy-1.13.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (60 kB)
+     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[39m [32m60.6/60.6 kB[39m [31m2.5 MB/s[39m eta [36m0:00:00
+[?25hCollecting joblib>=1.2.0 (from scikit-learn)
+  Downloading joblib-1.4.2-py3-none-any.whl.metadata (5.4 kB)
+Collecting threadpoolctl>=3.1.0 (from scikit-learn)
+  Downloading threadpoolctl-3.5.0-py3-none-any.whl.metadata (13 kB)
+Downloading scikit_learn-1.5.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.4 MB)
+   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[39m [32m13.4/13.4 MB[39m [31m11.2 MB/s[39m eta [36m0:00:00
+[?25hDownloading joblib-1.4.2-py3-none-any.whl (301 kB)
+   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[39m [32m301.8/301.8 kB[39m [31m7.7 MB/s[39m eta [36m0:00:00
+[?25hDownloading scipy-1.13.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (38.6 MB)
+
+   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[39m [32m38.6/38.6 MB[39m [31m11.0 MB/s[39m eta [36m0:00:00
+[?25hDownloading threadpoolctl-3.5.0-py3-none-any.whl (18 kB)
+Installing collected packages: threadpoolctl, scipy, joblib, scikit-learn
+Successfully installed joblib-1.4.2 scikit-learn-1.5.0 scipy-1.13.1 threadpoolctl-3.5.0

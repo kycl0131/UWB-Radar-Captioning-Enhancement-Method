@@ -1,0 +1,44 @@
+Traceback (most recent call last):
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 341, in <module>
+    main(args.train_1024, args.train_768, args.epochs, args.batch_size)
+  File "/home/yunkwan/project/radarclip/Radarcap_main.py", line 316, in main
+    model = AutoModel.from_pretrained("Yova/SmallCap7M")
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py", line 446, in from_pretrained
+    return model_class.from_pretrained(pretrained_model_name_or_path, *model_args, config=config, **kwargs)
+  File "/home/yunkwan/project/radarclip/smallcap/src/vision_encoder_decoder.py", line 269, in from_pretrained
+    return super().from_pretrained(*args, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/transformers/modeling_utils.py", line 1933, in from_pretrained
+    resolved_archive_file = cached_path(
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/transformers/utils/hub.py", line 284, in cached_path
+    output_path = get_from_cache(
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/transformers/utils/hub.py", line 501, in get_from_cache
+    r = requests.head(url, headers=headers, allow_redirects=False, proxies=proxies, timeout=etag_timeout)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/requests/api.py", line 100, in head
+    return request("head", url, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/requests/adapters.py", line 589, in send
+    resp = conn.urlopen(
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/urllib3/connectionpool.py", line 537, in _make_request
+    response = conn.getresponse()
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/site-packages/urllib3/connection.py", line 466, in getresponse
+    httplib_response = super().getresponse()
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/ssl.py", line 1275, in recv_into
+    return self.read(nbytes, buffer)
+  File "/home/yunkwan/anaconda3/envs/smallcap/lib/python3.9/ssl.py", line 1133, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt
