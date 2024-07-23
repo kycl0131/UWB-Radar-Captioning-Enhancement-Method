@@ -1,6 +1,6 @@
 # UWB-Radar-Captioning-Enhancement-Method
 Enhancing UWB Radar Captioning through Image Data: Integrating Distillation and Cross-Attention Techniques
-![alt text](image.png)
+![alt text](image-2.png)
 
 
 ![alt text](image-1.png)
